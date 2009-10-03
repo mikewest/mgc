@@ -1,0 +1,14 @@
+---
+created_at: Wed Apr 08 11:13:40 +0000 2009
+favorited: false
+geo: null
+id: '1475875242'
+in_reply_to_screen_name: NeilCrosby
+in_reply_to_status_id: 1475741512
+in_reply_to_user_id: 13529
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: '@NeilCrosby: You said "run as pre-commit hook" in your presentation.  Would
+  you really block a commit based on validation?  Seems draconian.'
+truncated: false
+user: null
+...

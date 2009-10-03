@@ -1,0 +1,14 @@
+---
+created_at: Sat Dec 06 20:46:58 +0000 2008
+favorited: false
+geo: null
+id: '1042450004'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Python needs to give lists a `length` property.  This is the third time now
+  I've wasted 15 minutes or so tracking down `a.length` errors.
+truncated: false
+user: null
+...

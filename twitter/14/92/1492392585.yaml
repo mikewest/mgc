@@ -1,0 +1,14 @@
+---
+created_at: Fri Apr 10 19:09:13 +0000 2009
+favorited: false
+geo: null
+id: '1492392585'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Why does Python do regex-based string splitting backwards?  It's almost as bad
+  as `join`.  Split should be a string object that accepts a re
+truncated: false
+user: null
+...

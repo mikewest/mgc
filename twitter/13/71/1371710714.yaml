@@ -1,0 +1,14 @@
+---
+created_at: Sun Mar 22 19:41:08 +0000 2009
+favorited: false
+geo: null
+id: '1371710714'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Is there a VMWare API I could query against to determine which IP address it
+  assigned to a given VM?  I'd love to automate hostname mappings
+truncated: false
+user: null
+...

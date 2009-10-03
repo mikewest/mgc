@@ -1,0 +1,14 @@
+---
+created_at: Sun Oct 05 14:00:06 +0000 2008
+favorited: false
+geo: null
+id: '947130388'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: I've got debug output running from a Rack-based app through Thin though Nginx!  Debug
+  output!  Hooray!  Now, to start building...
+truncated: false
+user: null
+...

@@ -1,0 +1,14 @@
+---
+created_at: Tue May 05 19:00:33 +0000 2009
+favorited: false
+geo: null
+id: '1708859074'
+in_reply_to_screen_name: intranation
+in_reply_to_status_id: 1708037468
+in_reply_to_user_id: 79773
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: '@intranation, @garethr: And override in middleware outside your application
+  so that your code isn''t polluted with junk you shouldn''t need.'
+truncated: false
+user: null
+...

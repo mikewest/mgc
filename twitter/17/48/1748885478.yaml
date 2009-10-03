@@ -1,0 +1,13 @@
+---
+created_at: Sat May 09 20:13:40 +0000 2009
+favorited: false
+geo: null
+id: '1748885478'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: Playing with Varnish; getting exciting 503 errors instead of cached pages.  :/
+truncated: false
+user: null
+...

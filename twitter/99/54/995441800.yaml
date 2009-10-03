@@ -1,0 +1,14 @@
+---
+created_at: Fri Nov 07 20:12:30 +0000 2008
+favorited: false
+geo: null
+id: '995441800'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: 'I have a working Nginx module! It does nothing but insert `Etag: this-is-an-etag`
+  into the headers, but that''s a start!  http://is.gd/6DtW'
+truncated: false
+user: null
+...

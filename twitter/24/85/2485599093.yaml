@@ -1,0 +1,14 @@
+---
+created_at: Sun Jul 05 18:59:51 +0000 2009
+favorited: false
+geo: null
+id: '2485599093'
+in_reply_to_screen_name: garethr
+in_reply_to_status_id: 2483454382
+in_reply_to_user_id: 80703
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: '@garethr: When throwing state info into a task queue, do you just Pickle objects,
+  or do you do lots of string parsing/juggling on both ends?'
+truncated: false
+user: null
+...

@@ -1,0 +1,14 @@
+---
+created_at: Mon Jun 15 20:14:47 +0000 2009
+favorited: false
+geo: null
+id: '2182495173'
+in_reply_to_screen_name: intranation
+in_reply_to_status_id: 2182387370
+in_reply_to_user_id: 79773
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: '@intranation: 1. Use `{}` instead of do/end.  2. They work as closures that
+  can be passed around/yielded.  Interesting stuff.'
+truncated: false
+user: null
+...

@@ -1,0 +1,14 @@
+---
+created_at: Sat Mar 28 14:56:43 +0000 2009
+favorited: false
+geo: null
+id: '1407133459'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: I've written one test in the last 45 minutes.  Stuck trying to mock a POST request's
+  `wsgi.input`.  :(
+truncated: false
+user: null
+...

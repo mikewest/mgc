@@ -1,0 +1,14 @@
+---
+created_at: Sun May 24 09:17:31 +0000 2009
+favorited: false
+geo: null
+id: '1901378227'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: Why do Python's split and join methods work in stupidly different ways? `"&lt;delimiter&gt;".join(&lt;array&gt;)`
+  and `&lt;string&gt;.split("&lt;delimeter&gt;")`
+truncated: false
+user: null
+...

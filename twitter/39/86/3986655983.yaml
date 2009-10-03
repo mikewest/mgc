@@ -1,0 +1,14 @@
+---
+created_at: Mon Sep 14 19:29:00 +0000 2009
+favorited: false
+geo: null
+id: '3986655983'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: 'Found and fixed a (tiny) bug in `todo.txt`.  I''ll submit a patch as soon as
+  GitHub catches up with my latest push... #github #slow'
+truncated: false
+user: null
+...

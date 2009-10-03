@@ -1,0 +1,14 @@
+---
+created_at: Mon Oct 27 19:44:14 +0000 2008
+favorited: false
+geo: null
+id: '977869428'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Why is nginx (or thin, I guess) not accepting the Content-Type header I'm writing
+  out?  Grrr.
+truncated: false
+user: null
+...

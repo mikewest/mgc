@@ -1,0 +1,14 @@
+---
+created_at: Sun Oct 26 08:58:12 +0000 2008
+favorited: false
+geo: null
+id: '975939169'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: '`git bisect` just saved my ass.  _Such_ a clever way to track down bugs, and
+  reinforces the idea of commit _everything_ in small chunks.'
+truncated: false
+user: null
+...

@@ -1,0 +1,14 @@
+---
+created_at: Fri Mar 20 10:03:59 +0000 2009
+favorited: false
+geo: null
+id: '1359504737'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: I _love_ that the preprocessing DSL we use to generate PHP has almost the _exact_
+  same syntax as PHP, making it impossible to distinguish.
+truncated: false
+user: null
+...

@@ -1,0 +1,14 @@
+---
+created_at: Sat Mar 21 22:35:17 +0000 2009
+favorited: false
+geo: null
+id: '1367846129'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: When dynamically styling dynamic content, is it "better" to inline styles or
+  to generate those same styles after the fact in JavaScript?
+truncated: false
+user: null
+...

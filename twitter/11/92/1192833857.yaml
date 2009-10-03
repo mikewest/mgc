@@ -1,0 +1,14 @@
+---
+created_at: Mon Feb 09 19:14:33 +0000 2009
+favorited: false
+geo: null
+id: '1192833857'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: 'Experiencing odd behavior in TextMate: clicking anywhere on a line moves the
+  cursor to that point, even if it''s past the actual EOL char.'
+truncated: false
+user: null
+...

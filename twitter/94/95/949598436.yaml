@@ -1,0 +1,14 @@
+---
+created_at: Tue Oct 07 13:23:50 +0000 2008
+favorited: false
+geo: null
+id: '949598436'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Learning the hard way about the actual binding order of ternary `if` in PHP.
+  http://bugs.php.net/bug.php?id=30248
+truncated: false
+user: null
+...

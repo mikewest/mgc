@@ -1,0 +1,14 @@
+---
+created_at: Fri Apr 17 14:25:10 +0000 2009
+favorited: false
+geo: null
+id: '1542334501'
+in_reply_to_screen_name: shinyloz
+in_reply_to_status_id: 1542291893
+in_reply_to_user_id: 14234119
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: '@shinyloz: "window.open", which is in `env.js` as `// TODO`.  Also "Image()".  Which
+  isn''t in `env.js` at all.  :)'
+truncated: false
+user: null
+...

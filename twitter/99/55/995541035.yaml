@@ -1,0 +1,14 @@
+---
+created_at: Fri Nov 07 21:27:32 +0000 2008
+favorited: false
+geo: null
+id: '995541035'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: The Flickr API simply doesn't give me the data I need without doing an extra
+  DB request + HTTP request + XML parse for each item. Fail.
+truncated: false
+user: null
+...

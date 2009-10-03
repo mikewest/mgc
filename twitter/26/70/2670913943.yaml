@@ -1,0 +1,15 @@
+---
+created_at: Thu Jul 16 15:18:52 +0000 2009
+favorited: false
+geo: null
+id: '2670913943'
+in_reply_to_screen_name: kerri9494
+in_reply_to_status_id: 2670719194
+in_reply_to_user_id: 1516611
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: '@kerri9494: Can she tell me why SimpleXML throws away CDATA nodes? Rather,
+  why `&lt;x&gt;&lt;![CDATA[omg]]&gt;&lt;y&gt;&lt;/y&gt;&lt;![CDATA[wtf]]&gt;&lt;/x&gt;`
+  has one child?'
+truncated: false
+user: null
+...

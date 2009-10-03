@@ -1,0 +1,14 @@
+---
+created_at: Thu Feb 26 16:04:58 +0000 2009
+favorited: false
+geo: null
+id: '1254093538'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Wondering if, for the sake of consistency, it's better to stick with the module
+  pattern (css) even when it's overkill.  Code bloat?
+truncated: false
+user: null
+...

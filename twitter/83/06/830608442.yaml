@@ -1,0 +1,14 @@
+---
+created_at: Mon Jun 09 16:44:47 +0000 2008
+favorited: false
+geo: null
+id: '830608442'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: web
+text: notes with amusement that twitter's down to 10 API requests per hour.  I wonder
+  if it will crash _before_ the keynote, or _during_.
+truncated: false
+user: null
+...

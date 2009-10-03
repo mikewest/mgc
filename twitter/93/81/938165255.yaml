@@ -1,0 +1,14 @@
+---
+created_at: Sun Sep 28 15:16:59 +0000 2008
+favorited: false
+geo: null
+id: '938165255'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: So, after a few hours of fiddling, I have nginx up and running, proxying requests
+  to mongrel.  Shockingly, email does not work.
+truncated: false
+user: null
+...

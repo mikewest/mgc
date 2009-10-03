@@ -1,0 +1,14 @@
+---
+created_at: Sat Sep 20 22:20:11 +0000 2008
+favorited: false
+geo: null
+id: '928781432'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Reading about YAML. I like the idea, but am not terribly keen on the syntax.
+  But it's straightforward, and a parser's built into ruby.
+truncated: false
+user: null
+...

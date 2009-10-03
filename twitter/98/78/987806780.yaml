@@ -1,0 +1,14 @@
+---
+created_at: Mon Nov 03 16:13:02 +0000 2008
+favorited: false
+geo: null
+id: '987806780'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
+text: Hey @intranation, what kind of latency do you get with your Slicehost setup
+  when accessing static files through nginx?
+truncated: false
+user: null
+...

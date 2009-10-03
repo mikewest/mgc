@@ -1,0 +1,14 @@
+---
+created_at: Sun May 03 09:03:31 +0000 2009
+favorited: false
+geo: null
+id: '1685783504'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: Finally getting around to installing the HTML validator on a VM.  Would be simpler
+  if the `w3c-markup-validator` package was up to date...
+truncated: false
+user: null
+...
