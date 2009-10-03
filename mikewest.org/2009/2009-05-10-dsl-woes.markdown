@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "DSL Woes"
+slug:       "dsl-woes"
+aliases:
+    - http://blog.mikewest.org/post/105825161
+    - http://blog.mikewest.org/post/105825161/dsl-woes
+tags: 
+    - dsl
+    - alice
+    - hansanet
+    - frustration
+---
+My DSL connection is really quite fast; I'm apparently only ~800m away from the nearest DSLAM, and so I should in theory be capable of maxing out the connection.  This holds up pretty well in speed tests: I get great downstream, and passable upstream scores when connecting to pretty much anything in Europe.  
+
+All told, I should be thrilled with my service, but I'm not, because it only seems to actually _work_ about 80% of the time.  Every 10 minutes or so, my DSL modem gets confused about exactly what's going on and drops the connection, picking it up again about a minute later, and continuing on it's merry way with a new IP.  This wreaks havok with any sort of persistant-connection driven tool, be it SSH or IRC or Adium... drives me a bit nuts, actually.  It's gotten bad enough over the last few weeks that even Elisabeth notices the problem... :)
+
+I've been on the phone with [Alice][] pretty regularly for a few weeks now, and it's the same every time: I call in, explain the problem to the first-line tech, who checks the logs, asks me what kind of modem I have, and passes me on to the second-line tech, who checks the logs, asks me what kind of modem I have, and runs a line test.  The line test is pretty much ok, but they pass it on to the third-line tech anyway.  The third-line tech does whatever it is that they do, and calls up a few hours later to tell me that they don't see any problem, but that they'll replace something anyway.  Last week it was the splitter.  The time before that it was something in-between my apartment and the DSLAM.  I'm curious to see what it'll be this time.  Maybe the modem?
+
+[Alice]: http://www.hansenet.de/index.html
+
+I'm actually not as frustrated about this as I could be.  The customer service has been more or less all that I could ask for (short of actually solving the problem, of course).  The reps are friendly, seem relatively knowledgeable, and don't treat me as though I'm the problem.  I'd love for them to actually track down the bugs and get them worked out so that I don't drop out of chat rooms every few minutes, but I'm willing to give them the benefit of the doubt so far.  This is a marked contrast to our previous dealings with [T-Online][] and Telekom in general, with whom I now simply refuse to do business based on the absurdity of the customer experience.
+
+[T-Online]: http://www.t-online.de/
+
+In any event, they're working on my DSL again, and I'm hoping the days of `mikewest_`, `mikewest__`, and `mikewest___` will soon be behind me.

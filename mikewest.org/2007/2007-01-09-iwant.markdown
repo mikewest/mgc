@@ -1,0 +1,14 @@
+---
+Alias:
+- http://mikewest.org/blog/id/46
+Modified: '2007-01-09T20:19:45Z'
+Teaser: I want an iPhone.  Just like everyone else.
+layout: post
+title: iWant.
+---
+Holger, Bernhard, and I sat at the office from 6 till 8, actually delaying a planned network maintenance so that we could get every last drop of information out of today's keynote.  The [iPhone][] looks simply unbelievable, and I can't wait to find out how it performs in reality.  I had my wallet at the ready, and I'm a little disappointed to find out that I'll have to wait till Q4 to give Steve some (vaguely large amount) of my money.
+
+It seems like a few other people agree with that sentiment: Yahoo! Finance has [the story][compare].  
+
+[iPhone]: http://apple.com/iphone/ "Apple: iPhone"
+[compare]: http://finance.yahoo.com/charts#symbol=AAPL;range=1d;compare=PALM+RIMM "AAPL up 8%, RIMM and PALM down about 8%."

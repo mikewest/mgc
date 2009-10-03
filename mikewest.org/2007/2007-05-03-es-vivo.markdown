@@ -1,0 +1,17 @@
+---
+Alias:
+- http://mikewest.org/blog/id/63
+Modified: '2007-05-06T15:59:12Z'
+Teaser: We launched the Yahoo! News site in Spain today.  Finally!
+layout: post
+tags:
+- Yahoo
+- Personal
+title: "\xA1Es vivo!"
+---
+The [Spanish Yahoo! News site][es] is live.  This was a slightly less messy launch than last month's [launch][] in the UK, and we're looking ahead to the launches in Italy, Germany, and France in the coming weeks.
+
+Lots of work done, lots of work left to do.  Fun stuff.  :)
+
+[es]: http://es.noticias.yahoo.com/ "Yahoo! News: Spain"
+[launch]: http://mikewest.org/archive/its-live "Mike West: It's Live"
