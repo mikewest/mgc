@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
 text: 'Updating Nginx on a few servers.  There''s apparently a relatively bad exploit
-  floating around: http://www.kb.cert.org/vuls/id/180065'
+  floating around: [http://www.kb.cert.org/vuls&hellip;0065](http://www.kb.cert.org/vuls/id/180065)'
 truncated: false
 user: null
 ...

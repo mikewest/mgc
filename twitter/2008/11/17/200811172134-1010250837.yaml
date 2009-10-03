@@ -7,7 +7,7 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
-text: Oh noes!  Guido in disagreeing with @cackhanded about whitespace stunner!  http://www.python.org/dev/peps/pep-0008/
+text: Oh noes!  Guido in disagreeing with @cackhanded about whitespace stunner!  [http://www.python.org/dev/&hellip;008/](http://www.python.org/dev/peps/pep-0008/)
 truncated: false
 user: null
 ...

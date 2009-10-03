@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: 'NYT has a very cool comparison between various interpretations of the polls:
-  http://elections.nytimes.com/2008/results/president/votes.html'
+  http://elections.nytimes.com/2008/results/president/voteshtml'
 truncated: false
 user: null
 ...

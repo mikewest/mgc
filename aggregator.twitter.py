@@ -17,6 +17,7 @@ import os, sys, re
 import json, yaml, urllib2
 import errno, rfc822, calendar
 
+
 def write_tweet( obj ):
     def mkdir_p(path):
         try:
@@ -25,6 +26,32 @@ def write_tweet( obj ):
             if exc.errno == errno.EEXIST:
                 pass
             else: raise
+
+    def shorten_url( url ):
+        mo      = re.match( r'(http[s]?://.+?)(/.+)', url )
+        if mo:
+            host    = mo.group( 1 )
+            path    = mo.group( 2 )
+            if len( path ) > 10:
+                path = '%s&hellip;%s' % ( path[:5], path[-4:] )
+            return "%s%s" % ( host, path )
+
+    def normalize_matched_url( matchobj ):
+        try:
+            print "Looking up %s" % matchobj.group(1)
+            x = urllib2.urlopen( matchobj.group(1), timeout=5 )
+            print "    Resolved to %s" % x.geturl()
+            return "[%s](%s)" % ( shorten_url( x.geturl() ), x.geturl() )
+        except urllib2.HTTPError, urllib2.URLError:
+            print "    Is normalized (or error!)"
+            return matchobj.group(1)
+
+    obj['text'] = re.sub(
+                    r'(http[s]?://[a-zA-Z0-9]+(?:[-.]{1}[a-z0-9]+)*\.[a-z]{2,5}/\S+?)(?:[\)\]\.\s]|$)',
+                    normalize_matched_url, 
+                    obj['text']
+                  )
+
     obj['user'] = None
     parsedtime  = rfc822.parsedate(obj['created_at'])
     created     = calendar.timegm(parsedtime)
@@ -61,6 +88,14 @@ def get_tweets_since( id ):
     tweets = json.load( t )
     return tweets
 
+def reparse_tweet_pages():
+    for i in range(1, 17):
+        page = './_twitterpages/page%s.json' % i
+        with open(page, 'r') as inputFile:
+            tweets = json.load(inputFile)
+        for tweet in tweets:
+            write_tweet( tweet )
+
 def main():
     id = get_latest_tweet_id()
     print "Last local tweet is #%s, asking Twitter for newer tweets." % id
@@ -72,4 +107,7 @@ def main():
     return True
 
 if __name__ == '__main__':
-    main()
+    if sys.argv[ 1 ] == 'reparse':
+        reparse_tweet_pages()
+    else:
+        main()

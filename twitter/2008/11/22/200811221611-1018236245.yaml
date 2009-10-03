@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: 'Dear Python-based lazyweb: I assume there''s a better way to do what I''m doing
-  here: http://tinyurl.com/6rx25j Help?  :)'
+  here: [http://github.com/mike&hellip;s.py](http://github.com/mikewest/topdown/blob/master/tokenexceptions.py)Help?  :)'
 truncated: false
 user: null
 ...

@@ -8,7 +8,7 @@ in_reply_to_status_id: 888335016
 in_reply_to_user_id: 63893
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: '@Carlo: MultiMarkdown and PHP Markdown Extra support a [^1] syntax for footnotes.
-  http://tinyurl.com/553jqs'
+  [http://michelf.com/proj&hellip;otes](http://michelf.com/projects/php-markdown/extra/#footnotes)'
 truncated: false
 user: null
 ...

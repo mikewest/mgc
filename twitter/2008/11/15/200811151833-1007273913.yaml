@@ -8,7 +8,7 @@ in_reply_to_status_id: 1007256997
 in_reply_to_user_id: 9171132
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: '@isofarro: You''ve looked at the universal feed parser''s test suite, I trust?
-  http://www.feedparser.org/tests/'
+  [http://www.feedparser.org/tests/](http://www.feedparser.org/tests/)'
 truncated: false
 user: null
 ...

@@ -7,7 +7,7 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: web
-text: 'Apple has surprisingly well written Obj-C documentation here: http://developer.apple.com/documentation/Cocoa/Conceptual/ObjectiveC/ObjC.pdf'
+text: 'Apple has surprisingly well written Obj-C documentation here: [http://developer.apple.com/mac/&hellip;ObjC](http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/ObjectiveC/ObjC)pdf'
 truncated: false
 user: null
 ...

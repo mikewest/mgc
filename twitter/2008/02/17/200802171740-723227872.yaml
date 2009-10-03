@@ -7,7 +7,7 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: web
-text: just watched http://www.ted.com/index.php/talks/view/id/66 , which was brilliant.
+text: just watched http://www.ted.com/indexphp/talks/view/id/66 , which was brilliant.
 truncated: false
 user: null
 ...

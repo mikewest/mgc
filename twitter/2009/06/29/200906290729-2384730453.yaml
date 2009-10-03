@@ -8,7 +8,8 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
 text: Compiling vim 7.2 with (hopefully) ruby support so I can use FuzzyFinderTextMate
-  ( http://is.gd/1hM4d )... let's see if it works.  :)
+  ( [http://github.com/jami&hellip;mate](http://github.com/jamis/fuzzyfinder_textmate))...
+  let's see if it works.  :)
 truncated: false
 user: null
 ...

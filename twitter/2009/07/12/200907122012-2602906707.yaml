@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
 text: 'Added quick and dirty memcache dump of rendered ThingsYouShouldRead HTML, which
-  took about 15 minutes. #appengine rocks!  http://is.gd/1wg7c'
+  took about 15 minutes. #appengine rocks!  [None](http://thingsyoushouldread.mikewest.org/)'
 truncated: false
 user: null
 ...

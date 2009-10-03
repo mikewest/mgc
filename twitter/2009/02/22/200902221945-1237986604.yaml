@@ -7,8 +7,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
-text: 'Because I knew you _really_ wanted to know how YUI tokenizes: http://is.gd/ksBX  Hooray
-  for Appengine!'
+text: 'Because I knew you _really_ wanted to know how YUI tokenizes: [http://mikewestorg-tokenizr.appspot.com/toke&hellip;16c3](http://mikewestorg-tokenizr.appspot.com/token/63fdb863233fdcf07eab261e890416c3)
+  Hooray for Appengine!'
 truncated: false
 user: null
 ...

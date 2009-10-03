@@ -7,8 +7,8 @@ in_reply_to_screen_name: kmpstr
 in_reply_to_status_id: null
 in_reply_to_user_id: 14899077
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-text: '@kmpstr: I''ve thrown the compiled versions up on GitHub: http://github.com/mikewest/mcw_ma_gnolia  I
-  probably have src somewhere if needed.'
+text: '@kmpstr: I''ve thrown the compiled versions up on GitHub: [http://github.com/mike&hellip;olia](http://github.com/mikewest/mcw_ma_gnolia)
+  I probably have src somewhere if needed.'
 truncated: false
 user: null
 ...

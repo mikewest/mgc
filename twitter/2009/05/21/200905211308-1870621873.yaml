@@ -7,8 +7,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
-text: 'Placemaker is quite cool, and _really_ easy to use: http://is.gd/C0PH  And
-  it seems to actually return _all_ the data I want in one request!'
+text: 'Placemaker is quite cool, and _really_ easy to use: [http://blog.mikewest.org/post&hellip;aker](http://blog.mikewest.org/post/110959538/playing-with-placemaker)
+  And it seems to actually return _all_ the data I want in one request!'
 truncated: false
 user: null
 ...

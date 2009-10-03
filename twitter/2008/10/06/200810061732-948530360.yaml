@@ -7,7 +7,7 @@ in_reply_to_screen_name: adrianocastro
 in_reply_to_status_id: 948526234
 in_reply_to_user_id: 14234210
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
-text: '@adrianocastro: Thin.  It''s a Ruby-based webserver, like Mongrel: http://code.macournoyer.com/thin/'
+text: '@adrianocastro: Thin.  It''s a Ruby-based webserver, like Mongrel: [http://code.macournoyer.com/thin/](http://code.macournoyer.com/thin/)'
 truncated: false
 user: null
 ...

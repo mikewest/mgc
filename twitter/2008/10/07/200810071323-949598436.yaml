@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: Learning the hard way about the actual binding order of ternary `if` in PHP.
-  http://bugs.php.net/bug.php?id=30248
+  [None](http://bugs.php.net/)php?id=30248
 truncated: false
 user: null
 ...

@@ -7,8 +7,8 @@ in_reply_to_screen_name: twinkleking
 in_reply_to_status_id: 788364564
 in_reply_to_user_id: 14175339
 source: web
-text: '@TwinkleKing: Twinkle is nicely done indeed; any chance it will support http://is.gd/6b3
-  instead of locking up location data locally?'
+text: '@TwinkleKing: Twinkle is nicely done indeed; any chance it will support [None](http://fireeagle.yahoo.net/)instead
+  of locking up location data locally?'
 truncated: false
 user: null
 ...

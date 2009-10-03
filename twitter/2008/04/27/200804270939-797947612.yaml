@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: 'has discovered what might be the most pointlessly hilarious invention ever:
-  http://leavemealonebox.com/welcome.html'
+  [http://leavemealonebox.com/welcome](http://leavemealonebox.com/welcome)html'
 truncated: false
 user: null
 ...

@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
 text: 'Finally got the validator installed after fighting with dependencies: documented
-  in case I ever have to do it again: http://is.gd/wkrb'
+  in case I ever have to do it again: [http://blog.mikewest.org/post&hellip;jeos](http://blog.mikewest.org/post/102905143/installing-the-w3c-html-validator-on-jeos)'
 truncated: false
 user: null
 ...

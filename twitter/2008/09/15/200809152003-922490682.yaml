@@ -7,8 +7,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
-text: That said, http://github.com/uggedal/reprise/tree/master/reprise.rb is interesting
-  to sift through for ideas.
+text: That said, [http://github.com/ugge&hellip;rise](http://github.com/uggedal/reprise)rb
+  is interesting to sift through for ideas.
 truncated: false
 user: null
 ...

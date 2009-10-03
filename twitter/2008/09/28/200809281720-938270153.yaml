@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: 'Love Mongrel''s FAQ: "Why does Mongrel keep dying?" "There are three known
-  causes to this, and all of them are your fault." http://is.gd/3fcn'
+  causes to this, and all of them are your fault." [http://mongrel.rubyforge.org/wiki/FAQ](http://mongrel.rubyforge.org/wiki/FAQ)'
 truncated: false
 user: null
 ...

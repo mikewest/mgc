@@ -8,7 +8,7 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 source: web
 text: Installing MacGPG after @intranation's recommendation earlier this morning...
-  http://sourceforge.net/projects/macgpg2/
+  [http://sourceforge.net/proj&hellip;pg2/](http://sourceforge.net/projects/macgpg2/)
 truncated: false
 user: null
 ...
