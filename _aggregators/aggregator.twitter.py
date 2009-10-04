@@ -6,7 +6,7 @@
 #
 
 TWITTER_USERNAME    =   'mikewest'
-TWEET_ROOT          =   './twitter'
+TWEET_ROOT          =   '/home/mikewest/Repositories/mgc/twitter'
 
 ###############################################################################
 #

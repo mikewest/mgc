@@ -6,7 +6,7 @@
 #
 
 STARRED_FEED    =   'http://www.instapaper.com/starred/rss/203164/fvc7FjLu4aIN5wsniOahrlWgbLw'
-INSTAPAPER_ROOT =   './instapaper'
+INSTAPAPER_ROOT =   '/home/mikewest/Repositories/mgc/instapaper'
 
 ###############################################################################
 #
