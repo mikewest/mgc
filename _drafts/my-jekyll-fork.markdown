@@ -12,7 +12,9 @@ Jekyll tightly couples content and layout by assuming that both will exist toget
 
 For the same reasons that we eventually started building websites without inline style information, separating the concerns of the site's semantics from it's layout and behavior, I don't believe that these bits belong in the same repository.  At a minimum, I'd like to be able to deploy a version of my website's look and feel without worrying about whether or not I tagged the release before or after adding a post.  The one activity has nothing to do with the other, and both ought be able to proceed in parallel.  Jekyll's current implementation encourages mixing the two, which I don't appreciate.  Instead, I prefer to run two distinct repositories: one containing [pure content][mgc], the other containing [site-specific layout and configuration][org].  This feels cleaner to me.
 
+Here's my stab at a solution: [contentpath][].
 
+[contentpath]: http://github.com/mikewest/jekyll/tree/contentpath
 
 
 
