@@ -8,7 +8,7 @@ Teaser: '`mcw_templates` is a TextPattern admin plugin, enabling the trivial exp
 layout: post
 tags:
 - TextPattern
-title: "mcw_templates \u2014 v.0.2"
+title: "mcw_templates - v.0.2"
 ---
 `mcw_templates` is a TextPattern admin plugin, enabling the trivial export of pages, forms, and CSS rules to a specified folder for convenient editing, and the subsequent import of new and updated files.
 

@@ -7,7 +7,7 @@ Teaser: mcw_templates is a TextPattern plugin allowing the export/import of page
 layout: post
 tags:
 - TextPattern
-title: "mcw_templates \u2014 Import/Export Textpattern Templates"
+title: "mcw_templates - Import/Export Textpattern Templates"
 ---
 `mcw_templates` is a TextPattern admin plugin that enables the trivial export of pages, forms, and CSS rules to files in a specified folder for convenient editing, and the subsequent import of new and updated files.  This means that you're no longer bound to the `textarea` inside TextPattern when you work on your site's structure and design.
 

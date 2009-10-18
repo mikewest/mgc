@@ -7,7 +7,7 @@ layout: post
 tags:
 - Yahoo
 - Personal
-title: "It\u2019s live."
+title: "It's live."
 ---
 Yahoo! News has [relaunched in the UK][yahoo].  Finally.  This is the first project I've worked on at Yahoo!, and we're proud to be "done."  Still some kinks to work out of the system, and some CSS bugs we're (of course) only seeing now, but we'll get those worked out.
 

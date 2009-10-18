@@ -8,7 +8,7 @@ Teaser: Brad Choate has a great summary of what looks like a _wonderful_ present
 layout: post
 tags:
 - Subversion
-title: "I wish I was at OSCON: \u201CSubversion Best Practices\u201D"
+title: "I wish I was at OSCON: 'Subversion Best Practices'"
 ---
 In the same spirit as this week's [revision control article][article], I ran across a [great summary][bestpractices] of an [OSCON presentation entitled "Subversion Best Practices"][oscon] (via: [Brad Choate][brad]).  Normally, I'd just stuff this into my linkroll and leave it at that, but this is really interesting material that's worth talking about.  Ben Collins-Sussman & Brian W. Fitzpatrick's (Subversion developers, and co-authors of ["Version Control with Subversion"][svnbook]) presentation deals with the way Subversion is _actually used_ on large software projects.  Two ideas that jumped out at me:
 

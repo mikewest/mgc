@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Fallow fields, revisited"
-teaser:     |
+Teaser:     |
     I'm currently in the process of gutting my website, and rebuilding it piece by
     piece.  I suspect I'm doing this to distract myself from the fact that I don't
     seem to have anything interesting floating around my head to write about.
