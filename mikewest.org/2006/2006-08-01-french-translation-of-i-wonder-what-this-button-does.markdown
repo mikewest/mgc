@@ -2,12 +2,11 @@
 Alias:
 - http://mikewest.org/blog/id/28
 Modified: '2006-08-01T17:12:22Z'
-Teaser: John Garner has translated the revision control article I wrote for A List
-    Apart into French!  Exciting!
+Teaser: "John Garner has translated the revision control article I wrote for A List Apart into French!  Exciting!"
 layout: post
 tags:
 - Subversion
-title: "French Translation of \u2018I Wonder What This Button Does\u2019"
+title: "French Translation of 'I Wonder What This Button Does'"
 ---
 Parlez-vous français?  If so, you'll be interested in [John Garner's][john] [translation into French][translation] of last week's [introduction to revision control systems][article].
 

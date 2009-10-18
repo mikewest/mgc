@@ -8,7 +8,7 @@ layout: post
 tags:
 - DataRequestor
 - JavaScript
-title: "DataRequestor \u2014 Version 1.6"
+title: "DataRequestor - Version 1.6"
 ---
 I took some time tonight to fix some long-outstanding bugs in the [DataRequestor Ajax library][datarequestor].  No new features have been added since 1.5, but some significant bugs have been taken care of in [this 1.6 release][download].
 

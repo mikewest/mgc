@@ -10,7 +10,7 @@ layout: post
 tags:
 - DataRequestor
 - JavaScript
-title: "DataRequestor 1.6.1 \u2014 Ajax without the confusing API"
+title: "DataRequestor 1.6.1 - Ajax without the confusing API"
 ---
 DataRequestor is a JavaScript wrapper for the `XMLHttpRequest` object that enables the trivial implementation of dynamic interfaces without the painful necessity for a complete page-refresh to talk to the server. In other words: Ajax without the confusing API.
 
