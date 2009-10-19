@@ -7,7 +7,7 @@ layout: post
 tags:
 - Yahoo
 - Personal
-title: "\xA1Es vivo!"
+title: "¡Es vivo!"
 ---
 The [Spanish Yahoo! News site][es] is live.  This was a slightly less messy launch than last month's [launch][] in the UK, and we're looking ahead to the launches in Italy, Germany, and France in the coming weeks.
 
