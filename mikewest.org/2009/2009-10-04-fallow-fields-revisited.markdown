@@ -1,13 +1,7 @@
 ---
 layout:     post
 title:      "Fallow fields, revisited"
-Teaser:     |
-    I'm currently in the process of gutting my website, and rebuilding it piece by
-    piece.  I suspect I'm doing this to distract myself from the fact that I don't
-    seem to have anything interesting floating around my head to write about.
-    Rather that catalog the failings of the system I'm replacing (for they are
-    legion), in this article I'd like to touch on the carefully considered bits
-    I'm keeping around.
+Teaser:     "I'm currently in the process of gutting my website, and rebuilding it piece by piece.  I suspect I'm doing this to distract myself from the fact that I don't seem to have anything interesting floating around my head to write about. Rather that catalog the failings of the system I'm replacing (for they are legion), in this article I'd like to touch on the carefully considered bits I'm keeping around."
 tags:
     -   mikewest.org
     -   jekyll

@@ -10,13 +10,7 @@ tags:
     - alice
     - hansanet
     - frustration
-Teaser:    |
-    My DSL connection is really quite fast; I'm apparently only ~800m away 
-    from the nearest DSLAM, and so I should in theory be capable of maxing out 
-    the connection.  This holds up pretty well in speed tests: I get great 
-    downstream, and passable upstream scores when connecting to pretty much 
-    anything in Europe.  All told, I should be thrilled with my service, but 
-    I'm not, because it only seems to actually _work_ about 80% of the time.	
+Teaser:    "My DSL connection is really quite fast; I'm apparently only ~800m away from the nearest DSLAM, and so I should in theory be capable of maxing out the connection.  This holds up pretty well in speed tests: I get great downstream, and passable upstream scores when connecting to pretty much anything in Europe.  All told, I should be thrilled with my service, but I'm not, because it only seems to actually _work_ about 80% of the time."
 ---
 My DSL connection is really quite fast; I'm apparently only ~800m away from the nearest DSLAM, and so I should in theory be capable of maxing out the connection.  This holds up pretty well in speed tests: I get great downstream, and passable upstream scores when connecting to pretty much anything in Europe.  
 

@@ -14,11 +14,7 @@ tags:
     - cli
     - webdev
     - caching
-Teaser:    |
-    Varnish is an excellent-looking "HTTP accelerator", designed specifically 
-    as a high-performance caching reverse-proxy to sit in front of your 
-    hard-working application servers, and relieve them of load.  It's a bit of 
-    a pain in the ass to install from source on JeOS, though.
+Teaser:    "Varnish is an excellent-looking 'HTTP accelerator', designed specifically as a high-performance caching reverse-proxy to sit in front of your hard-working application servers, and relieve them of load.  It's a bit of a pain in the ass to install from source on JeOS, though."
 ---
 Varnish is an excellent-looking "HTTP accelerator", designed specifically as a high-performance caching reverse-proxy to sit in front of your hard-working application servers, and relieve them of load.  It's a bit of a pain in the ass to install from source on JeOS, though.  Here's what I ended up doing:
 

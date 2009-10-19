@@ -11,10 +11,7 @@ tags:
     - policy
     - vimeo
     - marcoarment
-Teaser:     |
-    Vimeo's asked Marco Armet to take down his Instapaper Pro demo 
-    video.  His response is frustrated and understandable.  I don't,
-    however, think it's completely justified.    
+Teaser:     "Vimeo's asked Marco Armet to take down his Instapaper Pro demo    video.  His response is frustrated and understandable.  I don't, however, think it's completely justified."
 ---
 Vimeo's asked [Marco Armet][marco] to take down his Instapaper Pro demo video.  [His response][response]:
 
