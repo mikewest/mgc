@@ -15,6 +15,10 @@ tags:
     - http
     - headers
     - github
+Teaser:		|
+	Mark Nottingham has put together a really useful tool that aids in the
+	analysis of the behavior of HTTP resources.  I've started putting together
+	a command line version based on the web version he's released on GitHub.
 ---
 [Mark Nottingham][mnot] has put together a really useful tool that aids in the analysis of the behavior of HTTP resources.  Visit [http://redbot.org/][redbot], type in a web address, and Redbot will report the resource's cachability based on the returned headers, and provide a helpful list of recommendations for improvement.
 

@@ -12,6 +12,11 @@ tags:
     - code
     - webdev
     - süddeutsche
+Teaser:    |
+    I spent more time than I care to admit this afternoon tracking down a bug 
+    in some relatively straightforward jQuery code.  As it turned out, I was
+    overlooking my error because I was thinking about my code in absolutely 
+    the wrong way.
 ---
 I spent more time than I care to admit this afternoon tracking down a bug in
 some relatively straightforward jQuery code.  As it turned out, I was

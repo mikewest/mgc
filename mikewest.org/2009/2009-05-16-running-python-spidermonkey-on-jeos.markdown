@@ -14,6 +14,7 @@ tags:
     - webdev
     - testing
     - pauldavis
+Teaser:    "Paul Davis' `python-spidermonkey` project looks brilliant."
 ---
 Paul Davis' [`python-spidermonkey`][ps] project looks brilliant.
 

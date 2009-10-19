@@ -9,6 +9,7 @@ tags:
     - googleanalytics
     - google
     - javascript
+Teaser:     "Google Analytics' embed JavaScript isn't at all pretty.  A few changes can make it a bit cleaner to implement."
 ---
 Celebrity that I am, I use Google Analytics to figure out exactly how many
 times I've visited my own website in a given day.  The interface is

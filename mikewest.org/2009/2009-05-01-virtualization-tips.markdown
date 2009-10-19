@@ -15,6 +15,7 @@ tags:
     - tinyxp
     - jeos
     - ubuntu
+Teaser:    "In the last three weeks, I've set up something like 6 virtual machines to play with a variety of bits and pieces of things that I come across.  Here are a few lessons learned."
 ---
 In the last three weeks, I've set up something like 6 virtual machines to play with a variety of bits and pieces of things that I come across.  Virtual machines are a perfect fit for, say, setting up [CouchDB][] to see how it works, or for giving [Varnish][] a try.  They have the distinct advantage of being more or less throw-away sandboxes, where I simply don't have to worry about accidentally screwing things up.  If I break PHP or PHPUnit on my development laptop, then I've got real problems; if I break it in a VM, I make a new one.
 

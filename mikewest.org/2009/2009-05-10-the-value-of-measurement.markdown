@@ -13,6 +13,13 @@ tags:
     - lukasmathis
     - mathis
     - ignorethecode
+Teaser:    |
+    While I agree fully with many of the conclusions Lukas Mathis draws in an
+    excellent essay on the recent Google/Douglas Bowman split, a few bits
+    deserve further study.  In general, engineers understand and can relate 
+    well to automated A/B testing, and designers understand and can relate 
+    well to more personal usability testing.  The two are, however, not the 
+    same, don't provide the same data, and ought not be conflated.
 ---
 While I agree fully with many of the conclusions Lukas Mathis draws in an [excellent essay on the recent Google/Douglas Bowman split][mtui], a few bits deserve further study.  Lukas hits the central problem squarely on the head in his [footnoted claim][fn] that measurement isn't Google's problem, rather the lack of a design team capable of _balancing_ those measurements against other concerns.  I'd elaborate on this claim, and argue that the _kind_ of testing being discussed matters.  In general, engineers understand and can relate well to automated A/B testing, and designers understand and can relate well to more personal usability testing.  The two are, however, not the same, don't provide the same data, and ought not be conflated.
 

@@ -11,6 +11,7 @@ tags:
     - firmware
     - beta
     - iphone3
+Teaser:  "I tried to install the latest iPhone 3.0 beta firmware on my decidedly-not-3G iPhone last night, and failed miserably."
 ---
 I tried to install the latest iPhone 3.0 beta firmware on my decidedly-not-3G iPhone last night, and failed miserably.
 

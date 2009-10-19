@@ -11,6 +11,7 @@ tags:
     - networking
     - staticip
     - dhcp
+Teaser:     "Setting VMWare Fusion up to assign the same IP to a particular guest OS every time is a trivial process, and makes configuring your development environment a simpler process."
 ---
 Generally speaking, your guests will pick up the same IP from VMWare every time.  You write some scripts assuming that those IPs will remain stable, and everything's good.  Then, for whatever reason, VMWare's DHCP server decides that your VM really ought to sit on 192.168.65.131 instead of 192.168.65.135, where it had been happy and comfortable for _weeks_.  Annoying.
 

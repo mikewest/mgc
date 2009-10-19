@@ -9,6 +9,7 @@ tags:
     - spidermonkey
     - python
     - jslint
+Teaser:	"Getting JSLint running inside Spidermonkey was much simpler than I expected it to be."
 ---
 Getting [JSLint running inside Spidermonkey][that] was much simpler than I expected it to be:
 

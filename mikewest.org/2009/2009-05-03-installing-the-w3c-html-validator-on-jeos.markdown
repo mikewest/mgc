@@ -12,6 +12,11 @@ tags:
     - w3c
     - webdev
     - development
+Teaser:    |
+    So.  W3C has quite decent [installation instructions][install] for the 
+    HTML validator, but it makes a few assumptions about a typical linux 
+    environment that don't actually hold true if you're running a stripped 
+    down JeOS distro in a virtual machine.
 ---
 So.  W3C has quite decent [installation instructions][install] for the HTML
 validator, but it makes a few assumptions about a typical linux environment
