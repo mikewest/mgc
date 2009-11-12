@@ -1,3 +1,22 @@
+---
+title:  "My Jekyll Fork"
+layout: post
+Teaser: "[Jekyll](http://jekyllrb.com/) is a well-architected throwback to a time before Wordpress, when men were men, and HTML was static.  I like the ideas it espouses, and have made a few improvements to it's core.  Here, I'll point out some highlights of my fork in the hopes that they see usage beyond this site."
+tags:
+    -   mikewest.org
+    -   jekyll
+    -   git
+    -   github
+    -   fork
+    -   webdev
+    -   blog
+    -   architecture
+    -   design
+    -   tags
+    -   archive
+    -   programming
+    -   ruby
+---
 [Jekyll][] is an interesting project, a well-architected throwback to a time before unnecessary dynamism reigned supreme.  In contrast to blog engines like Wordpress or Textile, Jekyll doesn't attempt to do anything other than push raw content through a few simple filters out into the world in the form of static HTML files.  Jekyll's [publication philosophy][blh] is very much in line with my own, and I appreciate the work that's gone into it.  It's relatively widely used, and therefore much more stable and well-tested than anything I'd write on my own.  Given my [recent experience][yesterday], I want something that will Just Work™, and this looks like it.  I finished moving this site to Jekyll yesterday, and I'm quite happy with how it's working...
 
 It doesn't fit me perfectly, though.  Here, I'll point to a few features that I think are missing, and a few design decisions that I think are worth reconsideration.  Happily, it's an open source project, so I'll also be able to point to my fork of the project where I'm busy addressing these shortcomings.
