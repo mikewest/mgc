@@ -1,7 +1,7 @@
 ---
 title:  "My Jekyll Fork"
 layout: post
-Teaser: "[Jekyll](http://jekyllrb.com/) is a well-architected throwback to a time before Wordpress, when men were men, and HTML was static.  I like the ideas it espouses, and have made a few improvements to it's core.  Here, I'll point out some highlights of my fork in the hopes that they see usage beyond this site."
+Teaser: "Jekyll is a well-architected throwback to a time before Wordpress, when men were men, and HTML was static.  I like the ideas it espouses, and have made a few improvements to it's core.  Here, I'll point out some highlights of my fork in the hopes that they see usage beyond this site."
 tags:
     -   mikewest.org
     -   jekyll
