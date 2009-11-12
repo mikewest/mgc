@@ -17,7 +17,7 @@ tags:
     -   programming
     -   ruby
 ---
-[Jekyll][] is an interesting project, a well-architected throwback to a time before unnecessary dynamism reigned supreme.  In contrast to blog engines like Wordpress or Textile, Jekyll doesn't attempt to do anything other than push raw content through a few simple filters out into the world in the form of static HTML files.  Jekyll's [publication philosophy][blh] is very much in line with my own, and I appreciate the work that's gone into it.  It's relatively widely used, and therefore much more stable and well-tested than anything I'd write on my own.  Given my [recent experience][yesterday], I want something that will Just Work™, and this looks like it.  I finished moving this site to Jekyll yesterday, and I'm quite happy with how it's working...
+[Jekyll](http://jekyllrb.com/) is an interesting project, a well-architected throwback to a time before unnecessary dynamism reigned supreme.  In contrast to blog engines like Wordpress or Textile, Jekyll doesn't attempt to do anything other than push raw content through a few simple filters out into the world in the form of static HTML files.  Jekyll's [publication philosophy][blh] is very much in line with my own, and I appreciate the work that's gone into it.  It's relatively widely used, and therefore much more stable and well-tested than anything I'd write on my own.  Given my [recent experience][yesterday], I want something that will Just Work™, and this looks like it.  I finished moving this site to Jekyll yesterday, and I'm quite happy with how it's working...
 
 It doesn't fit me perfectly, though.  Here, I'll point to a few features that I think are missing, and a few design decisions that I think are worth reconsideration.  Happily, it's an open source project, so I'll also be able to point to my fork of the project where I'm busy addressing these shortcomings.
 
@@ -38,12 +38,12 @@ My solution (based heavily on [Matt Flores][]' [fork][mffork]) is available in t
 
 **Archive pages** listing out content written during a certain period are another nice way of dividing up posts on a site.  Especially useful for sites with more than a few posts, it's a mechanism for showing users posts that fit together temporally.  It's nice to be able to see [all of 2007's posts][a2007], for instance.  Or [all posts from November of 2008][a200811].  
 
-Again, I borrowed a bit of code from Matt Flores, brought it up to date with the latest Jekyll tag (0.5.4 at the time I'm writing this), and check it into the [archive branch][archive] of my fork.  Similarly to the tagging system above, archives depend on adding a few extra layouts.  `archive_yearly.html`, `archive_monthly.html`, and `archive_daily.html` are supported, and offer `page.year`, `page.month`, and `page.day`, which can be used to reference posts in `site.collated_posts`.  My `[archive_monthly.html][am]` is indicative of how this can work.
+Again, I borrowed a bit of code from Matt Flores, brought it up to date with the latest Jekyll tag (0.5.4 at the time I'm writing this), and check it into the [archive branch][archive] of my fork.  Similarly to the tagging system above, archives depend on adding a few extra layouts.  `archive_yearly.html`, `archive_monthly.html`, and `archive_daily.html` are supported, and offer `page.year`, `page.month`, and `page.day`, which can be used to reference posts in `site.collated_posts`.  My [`archive_monthly.html`][am] is indicative of how this can work.
 
 Generated pages are written to `/[YEAR]/index.html`, `/[YEAR]/[MONTH]/index.html`, and `/[YEAR]/[MONTH]/[DAY]/index.html` if posts exist over the specified time period.
 
 [a2007]:    /2007
-[s200811]:  /2008/11
+[a200811]:  /2008/11
 [archive]:  http://github.com/mikewest/jekyll/tree/archive
 [am]:       http://github.com/mikewest/mikewest.org/blob/master/_layouts/archive_monthly.html
 
@@ -67,10 +67,11 @@ I really like the way that Jekyll expects posts to be formatted.  Each post live
 
 As [Issue #25][i25] points out, it'd be nice if layout in particular could be specified at the site level as a default value.  Posts that need different layouts are (generally) few and far between, and a global configuration would make the most common case a bit simpler.
 
-Henrik [took a stab at a solution][hcommit] to the problem, which I ran off with and improved upon in the [post_defaults branch][postdefauts] of my fork.  I'm waiting on someone to take a look at this work now, but I'm not holding my breath for it to be merged into the official release.
+Henrik [took a stab at a solution][hcommit] to the problem, which I ran off with and improved upon in the [post_defaults branch][postdefaults] of my fork.  I'm waiting on someone to take a look at this work now, but I'm not holding my breath for it to be merged into the official release.
 
 [hcommit]:      http://github.com/henrik/jekyll/commit/77bf31c42c25c2f87c215348a816b730104fe820
 [postdefaults]: http://github.com/mikewest/jekyll/tree/post_defaults
+[i25]:          http://github.com/mojombo/jekyll/issues#issue/19
 
 Problematic Design
 ------------------
