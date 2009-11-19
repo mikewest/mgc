@@ -2,7 +2,7 @@
 layout: post
 title:  "MacSpeech Dictate: First Impressions"
 Teaser: "I suspect that the first thing any developer does when they get their hands on MacSpeech Dictate is to begin writing a review of MacSpeech Dictate _in_ MacSpeech Dictate. I am no exception."
-Tags:
+tags:
     -   speechrecognition
     -   dictate
     -   macspeech
