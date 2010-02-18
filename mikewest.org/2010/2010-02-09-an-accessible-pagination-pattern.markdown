@@ -37,7 +37,7 @@ I see a few advantages to this markup:
 1.  **Clear signposting**
     
     The widget uses the [`aria-labelledby` attribute][labelledby] to instruct
-    capable browsers to use the contents of the preceeding paragraph as a
+    capable browsers to use the contents of the preceding paragraph as a
     label, and the [`role` attribute][role] to demarcate the `ul` as a
     navigation landmark on the page.
     
