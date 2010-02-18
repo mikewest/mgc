@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Accessible Pagination Pattern"
-teaser: "Pagination is a basic building block of the web, but it's often implemented with markup that makes it less accessible than it ought to be.  Here, I've outlined my preferred solution to the problem."
+Teaser: "Pagination is a basic building block of the web, but it's often implemented with markup that makes it less accessible than it ought to be.  Here, I've outlined my preferred solution to the problem."
 tags:
     -   html
     -   accessibility
@@ -15,8 +15,6 @@ tags:
     -   cnn
 
 ---
-An Accessible Pagination Pattern
-
 Pagination is a basic building block of the web, appearing practically everywhere content is displayed.  From a UI perspective, a pagination widget generally ends up being presented in a very straightforward manner as a horizontal list of links, framed by "previous" and "next" links to give the user clear calls to action.  Flickr and CNN provide good examples of this general pattern:
 
 ![Pagination widgets on Flickr and CNN](http://mikewest.org/static_content/2010-02-pagination-pattern.png)
