@@ -79,6 +79,25 @@ I see a few advantages to this markup:
     `span`s absolutely.  This requires approximate knowledge of the text's
     size, and can usually be accommodated even in multi-language environments.
 
+4.  **Sound over Semantics**
+    
+    For pagination, it seems like it would make perfect sense to use an ordered
+    list rather than the unordered list I've chosen here.  It's almost
+    certainly semantically correct, as the list of pages is indeed ordered, and
+    that order is indeed meaningful.
+    
+    In this case, however, I think it's the wrong choice.  [NVDA][] (which is
+    the only screen reader I have access to at the moment) reads ordered lists
+    as "One.  [List item content]  Two.  [List item content] ..."  An unordered
+    list, on the other hand, doesn't number the items as they're read. Since I'm
+    explicitly including the page number in the link, an `ol` simply sounds
+    strange and repetitive: "One.  Example Page one. Link.  Two. Example page
+    two. Link. ..."  Assuming other readers like [Jaws][] and [WindowEyes][]
+    behave similarly, an unordered list simply _sounds_ better.
+    
+    _(Thanks to [Gareth][] for the good [question][] that I'd neglected to
+    address.)_
+
 I've put together a [quick example of this markup at work][example].  I hope you
 reach for it next time you need a pagination widget.
 
@@ -87,3 +106,8 @@ reach for it next time you need a pagination widget.
 [role]: http://www.paciellogroup.com/blog/?p=106
 [offscreen]: http://accessibilitytips.com/2008/03/05/avoiding-visibility-hidden/
 [example]: http://mikewest.org/static_content/2010-02-pagination-pattern.html
+[NVDA]: http://www.nvda-project.org/
+[Jaws]: http://www.freedomscientific.com/products/fs/jaws-product-page.asp
+[WindowEyes]: http://www.gwmicro.com/Window-Eyes/
+[Gareth]: http://morethanseven.net/
+[question]: http://twitter.com/garethr/status/9292593418
