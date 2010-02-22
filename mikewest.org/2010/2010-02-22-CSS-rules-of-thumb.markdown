@@ -161,7 +161,7 @@ right way.  Here's how and why:
         tree in your head while reading code.
 
         To make this point more clearly, I'll cherry-pick a horrid example
-        out of [Nicole's OOCSS][horrid] (Hi, Nicole!  Sorry I'm picking on
+        out of [Nicole's OOCSS][horrid] (Hi, [Nicole][]!  Sorry I'm picking on
         you! :) ):
 
             /* This is unreadable */
@@ -266,6 +266,7 @@ right way.  Here's how and why:
     you decide to stop supporting broken browsers.
 
 [horrid]: http://github.com/stubbornella/oocss/blob/master/core/grid/grids.css
+[nicole]: http://www.stubbornella.org/content/
 
 ## Write code for human consumption ##
 
