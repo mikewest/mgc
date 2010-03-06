@@ -1,9 +1,8 @@
 An Accessible Tab Pattern
 
-Tabs are as ubiquitous on the web as they are on the desktop (as they are in the Real World™ for that matter...), and they serve as a useful mechanism for organizing and displaying information to a site's visitors.  Ubiquity, however, is not consistency; tabs on the web suffer the fate of most non-native widgets.  Their core implementation varies wildly from one page to the next, as do their behaviors and interactions.  Successful manipulation of a tab widget on one page gives only a vague guarantee of success in the future, and I think we can do better.
+Tabs are as ubiquitous on the web as they are on the desktop (as they are in the Real World™ for that matter...), and they serve as a useful mechanism for organizing and displaying information to a site's visitors.  Ubiquity, however, is not consistency; tabs on the web suffer the fate of most non-native widgets.  Their core implementation varies wildly from one page to the next, as do their behaviors and interactions.  Successful manipulation of a tab widget on one page gives only a vague promise of success in the future, and I think we can do better.
 
 Here, I'll outline what I consider to be best practice when building a tab widget, with a particular focus on ensuring that it's as accessible as possible to anyone who runs across it.  
-
 
 First things first: Progressive Enhancement
 -------------------------------------------
@@ -27,10 +26,6 @@ This, I believe, confuses the core semantics of the unenhanced tab widget by att
 
 [ Discussion + Code ]
 
-Progressively enhancing this module by starting with a non-interactive version and layering behaviors on top has one drawback that we need to consider.  If we render a basic version of the module, and then rework it with JavaScript, it's possible that visitors would be briefly exposed to the unenhanced module, only to see it morph into something new before their eyes.  To avoid this distraction, I'd suggest putting the following code directly after opening your page's `body` element:
 
-    <script>document.documentElement.className += " js";</script>
-
-If a visitor comes to the site with JavaScript enabled, this snippet will add a `js` class to the document's root node (in most cases, the `html` element).  This allows us to generate CSS rules that only take effect when JavaScript is present by prefixing them with `.js`.  It's not a perfect system (JavaScript could error out somewhere in the middle of the page, for instance), but I find it to be a reasonable compromise that avoids distracting flashes of incompletely styled content.
 
 

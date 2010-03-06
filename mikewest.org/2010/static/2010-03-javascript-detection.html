@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>JavaScript Detection Pattern: Example</title>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.8.0r4/build/reset-fonts/reset-fonts.css">
+        <style type="text/css">
+            /* Page CSS */
+            body, html {
+                background: #333;
+            }
+                body {
+                    padding:    1em;
+                }
+            h1 {
+                color:      #DDD;
+                font-size:  2em;
+            }
+            .back {
+                color:      #DDF;
+                display:    block;
+                margin:     0 auto;
+                padding:    0.5em;
+            }
+            #wrapper {
+                border:     1px solid #999;
+                background: #FFF;
+                padding:    1em;
+                text-align: center;
+                width:      500px;
+            }
+
+            /**
+             *  Example CSS
+             *
+             *  This is the basic login form, without any JavaScript
+             *  enhancement.  The functionality is presented to the user
+             *  just like any other content on the page, and if she
+             *  doesn't have JavaScript enabled she still has a solid
+             *  experience.
+             */
+            .loginwidget {
+                margin:     0 auto;
+                text-align: left;
+                width:      250px;
+            }
+                .loginwidget h2 {
+                    color:      #666;
+                    font-size:  1.5em;
+                }
+                .loginwidget form {
+                    background: #EEE;
+                    border:     1px solid #BBB;
+                    overflow:   hidden;
+                    padding:    5px;
+                }
+                    .loginwidget form input {
+                        margin:     0 0 5px;
+                        width:      150px;
+                    }
+                    .loginwidget form label {
+                        display:    block;
+                        float:      left;
+                        width:      75px;
+                    }
+
+            /**
+             *  Enhanced CSS
+             *
+             *  If the user has JavaScript enabled, a `js` class will
+             *  have been added to the document's root.  This makes it
+             *  possible to make changes to the module's presentation,
+             *  even before we've executed JavaScript to do real
+             *  transformations.
+             *
+             *  Here, we'll hide the login form, and change the
+             *  presentation of the "login" header to prepare for some
+             *  exciting interaction once JavaScript has loaded.
+             */
+            .js .loginwidget {
+                position:   relative; 
+                width:      162px;
+            }
+                .js .loginwidget h2 {
+                    color:      #333;
+                    font-size:  1em;
+                }
+                    .js .loginwidget h2:after {
+                        content: " »";
+                    }
+                .js .loginwidget form {
+                    left:       -999em;
+                    position:   absolute;
+                    width:      154px; 
+                }
+                    .js .loginwidget form label {
+                        color:      #999;
+                        font-style: italic;
+                        position:   absolute;
+                    }
+        </style>
+    </head>
+    <body>
+        <script>document.documentElement.className += " js";</script>
+
+        <h1>JavaScript Detection Pattern: Example</h1>
+        <div id="wrapper">
+            <div class="loginwidget">
+                <h2>Login</h2>
+                <form action="#DEMO">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+        <a href="http://mikewest.org/2010/03/javascript-detection-pattern" class="back">Back to the article</a>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            ( function () {
+                var header      =   $( '.loginwidget h2' ),
+                    form        =   $( '.loginwidget form' ),
+                    labels      =   $( 'label' ),
+                    username    =   $( '#username' ),
+                    password    =   $( '#password' ),
+                    init        =   function ( el, index ) {
+                                        var label = labels.eq( index );
+                                        label.css( {
+                                            'left': el.position().left+4,
+                                            'top':  el.position().top+2
+                                        } );
+                                        el.focus(
+                                                function () {
+                                                    label.hide();
+                                                } )
+                                            .blur(
+                                                function () {
+                                                    if ( !this.value ) {
+                                                        label.show();
+                                                    }
+                                                } );
+                                        
+                                    };
+                header.toggle(
+                    function() {
+                        form.fadeIn();
+                    },
+                    function() {
+                        form.fadeOut();
+                    }
+                );
+
+                init( username, 0 );
+                init( password, 1 );
+
+                form.css( {
+                    'left':     0,
+                    'display':  'none'
+                } ); 
+            }() );
+        </script>
+        <script type="text/javascript" src="http://static.mikewest.org/20100222/ga.js"></script>
+    </body>
+</html>

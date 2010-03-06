@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+ 
+<head> 
+  <script type="text/javascript"> 
+//<![CDATA[
+var matches,url,path,domain;url=document.location.toString();try{domain=url.match(/https?:\/\/[^\/]+/);if(matches=url.match(/(.+?)#(.+)/)){url=matches[1];path=matches[2];if(path){var arr=path.split(/\?/);path=arr[0];var params=arr[1];path=path.replace(/^\//,"");var redirect_url=[domain,path].join("/");if(params){redirect_url=[redirect_url,params].join("?")}document.location=redirect_url}}}catch(err){};
+//]]>
+</script> 
+  <script type="text/javascript"> 
+//<![CDATA[
+var page={};var onCondition=function(D,C,A,B){D=D;A=A?Math.min(A,5):5;B=B||100;if(D()){C()}else{if(A>1){setTimeout(function(){onCondition(D,C,A-1,B)},B)}}};
+//]]>
+</script> 
+  
+ 
+ 
+ 
+ 
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+<meta content="en-us" http-equiv="Content-Language" /> 
+<meta content="Twitter is without a doubt the best way to share and discover what is happening right now." name="description" /> 
+<meta content="no" http-equiv="imagetoolbar" /> 
+<meta content="width = 780" name="viewport" /> 
+<meta content="4FTTxY4uvo0RZTMQqIyhh18HsepyJOctQ+XTOu1zsfE=" name="verify-v1" /> 
+<meta content="1" name="page" /> 
+<meta content="NOODP" name="robots" /> 
+<meta content="n" name="session-loggedin" /> 
+  <title>Twitter</title> 
+  <link href="http://a1.twimg.com/a/1267816830/images/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+<link href="http://a1.twimg.com/a/1267816830/images/twitter_57.png" rel="apple-touch-icon" /> 
+  
+  <link href="http://a3.twimg.com/a/1267816830/stylesheets/front.css?1267819681" media="screen, projection" rel="stylesheet" type="text/css" /> 
+</head> 
+ 
+<body class="timeline firefox front" id="front"> 
+
+<!--
+  - DEMO:  Step 1: Add the JavaScript detection snippet.
+  -->
+    <script type="text/javascript">document.documentElement.className += " js";</script>
+
+  <script type="text/javascript"> 
+//<![CDATA[
+if (window.top !== window.self) {document.write = "";window.top.location = window.self.location; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}
+//]]>
+</script> 
+  <ul id="accessibility" class="offscreen"> 
+  <li><a href="#content" accesskey="0">Skip past navigation</a></li> 
+  <li>On a mobile phone? Check out <a href="http://m.twitter.com/">m.twitter.com</a>!</li> 
+  <li><a href="#footer" accesskey="2">Skip to navigation</a></li> 
+    <li><a href="#signin">Skip to sign in form</a></li> 
+</ul> 
+ 
+ 
+  <div id="container"> 
+ 
+    <div id="topnav"> 
+      <div id="small_signup"> 
+        <span>New to Twitter?</span> 
+        <a href="http://twitter.com/signup" class="signup-button">Sign up now</a> 
+      </div> 
+      Have an account? <a href="http://twitter.com/login" class="signin" tabindex="3"><span>Sign in</span></a> 
+    </div> 
+
+<!--
+  - DEMO:   Remove the signin form from it's current location in the document
+  -         and render it somewhere appropriate.  I've chosen the end of the
+  -         page, but a closer analysis of the interaction would be advisable.
+  -->
+ 
+    <div id="header"> 
+      <div id="header2"> 
+        <h1 id="tagline">Share and discover what&rsquo;s happening right now, anywhere in the world.</h1> 
+        <a href="http://twitter.com/" class="logo"><img alt="Twitter" border="0" height="55" id="logo" src="http://a1.twimg.com/a/1267816830/images/logo.png" width="224" /></a> 
+ 
+        <img alt="Tweet, tweet!" height="55" id="bird" src="http://a2.twimg.com/a/1267816830/images/frontpage-bird.png" width="80" /> 
+        <form action="/search" class="search" id="home_search" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="11988d6bfd446318b9ac94746293defcc6412886" /></div> 
+          <div> 
+            <div id="big_signup"> 
+              <label>Join the conversation</label> 
+              <a href="http://twitter.com/signup" class="signup-button" id="signup_submit" tabindex="8">Sign up now</a> 
+            </div> 
+            
+              <label for="home_search_q">See what people are saying about&#8230;</label> 
+              <input id="home_search_q" type="text" size="40" name="q" accesskey="/" tabindex="1"/> 
+              <a href="#" id="home_search_submit" class="submit" tabindex="2">Search</a> 
+            
+          </div> 
+        </form> 
+      </div> 
+    </div> 
+ 
+    <div id="trend_info"> 
+      <span>POPULAR TOPICS BY THE MINUTE, DAY, AND WEEK</span> <img alt="Trend info" height="16" src="http://a1.twimg.com/a/1267816830/images/icon-what.png" title="Twitter looks at every incoming tweet, then ranks the popularity of certain words or phrases in real time. Click any of the popular topics below to see what people are saying about them right now." width="16" /> 
+    </div> 
+ 
+    <div id="trend_description"> 
+      <span></span><img alt="Trend Info" height="16" src="http://a1.twimg.com/a/1267816830/images/icon-what.png" title="Twitter looks at every incoming tweet, then ranks the popularity of certain words or phrases in real time. Click any of the popular topics below to see what people are saying about them right now. Some topic descriptions are sourced from WhatTheTrend.com." width="16" /><p></p> 
+    </div> 
+ 
+    <div id="trends"> 
+      
+        
+  <div class="current" title="Popular topics right now"> 
+    <ul> 
+                
+            <li><a href="/search?q=%22Justin+Bieber%22" class="search_link" name="&quot;Justin Bieber&quot;" rel="nofollow" title="&quot;Justin Bieber&quot;">Justin Bieber</a><em>The young Canadian R&amp;B/pop singer has a lot of fans who like to tweet about him! A new song of his, Eenie Meenie, debuted on Ryan Seacrest's radio show this morning (March 4).</em></li> 
+          
+            <li><a href="/search?q=%22sctv+now%22" class="search_link" name="&quot;sctv now&quot;" rel="nofollow" title="&quot;sctv now&quot;">sctv now</a></li> 
+          
+            <li><a href="/search?q=JJF+OR+%23JJF" class="search_link" name="JJF OR #JJF" rel="nofollow" title="JJF OR #JJF">JJF</a></li> 
+          
+            <li><a href="/search?q=%22Alice+In+Wonderland%22+OR+Wonderland" class="search_link" name="&quot;Alice In Wonderland&quot; OR Wonderland" rel="nofollow" title="&quot;Alice In Wonderland&quot; OR Wonderland">Alice In Wonderland</a><em>Tim Burton's new movie starring Mia Wasikowska, Johnny Depp, Helena Bonham Carter, and Anne Hathaway is out in theaters today (March 5).</em></li> 
+          
+            <li><a href="/search?q=%22PROMOTE+PART+5%22" class="search_link" name="&quot;PROMOTE PART 5&quot;" rel="nofollow" title="&quot;PROMOTE PART 5&quot;">PROMOTE PART 5</a></li> 
+          
+            <li><a href="/search?q=%23mewithoutyouislike" class="search_link" name="#mewithoutyouislike" rel="nofollow" title="#mewithoutyouislike">#mewithoutyouislike</a></li> 
+          
+            <li><a href="/search?q=%23FF" class="search_link" name="#FF" rel="nofollow" title="#FF">#FF</a><em>Follow Friday. People tweet suggested users to follow on Fridays.</em></li> 
+          
+            <li><a href="/search?q=%23FollowSaturday" class="search_link" name="#FollowSaturday" rel="nofollow" title="#FollowSaturday">#FollowSaturday</a></li> 
+          
+            <li><a href="/search?q=%23Ibelieve" class="search_link" name="#Ibelieve" rel="nofollow" title="#Ibelieve">#Ibelieve</a></li> 
+          
+            <li><a href="/search?q=%23hbu" class="search_link" name="#hbu" rel="nofollow" title="#hbu">#hbu</a></li> 
+          
+      
+    </ul> 
+  </div> 
+ 
+        
+        
+  <div class="daily" title="Popular topics today"> 
+    <ul> 
+                
+            <li><a href="/search?q=%22Justin+Bieber%22+OR+Bieber" class="search_link" name="&quot;Justin Bieber&quot; OR Bieber" rel="nofollow" title="&quot;Justin Bieber&quot; OR Bieber">Justin Bieber</a><em>The young Canadian R&amp;B/pop singer has a lot of fans who like to tweet about him! A new song of his, Eenie Meenie, debuted on Ryan Seacrest's radio show this morning (March 4).</em></li> 
+          
+            <li><a href="/search?q=Alice" class="search_link" name="Alice" rel="nofollow" title="Alice">Alice</a><em>Tim Burton's Alice in Wonderland releases to US theaters March 5.</em></li> 
+          
+            <li><a href="/search?q=TGIF+OR+%23Tgif" class="search_link" name="TGIF OR #Tgif" rel="nofollow" title="TGIF OR #Tgif">TGIF</a><em>Thanks God/Goodness It's Friday. People are happy the weekend is so close. </em></li> 
+          
+            <li><a href="/search?q=Chile" class="search_link" name="Chile" rel="nofollow" title="Chile">Chile</a><em>There was a 8.8 magnitude earthquake (Feb. 27) with an epicenter 70 miles from Concepcion, the country's second largest city.</em></li> 
+          
+            <li><a href="/search?q=Kobe" class="search_link" name="Kobe" rel="nofollow" title="Kobe">Kobe</a></li> 
+          
+            <li><a href="/search?q=%22Fuck+Everything+And%22" class="search_link" name="&quot;Fuck Everything And&quot;" rel="nofollow" title="&quot;Fuck Everything And&quot;">Fuck Everything And</a></li> 
+          
+            <li><a href="/search?q=%22Follow+Friday%22" class="search_link" name="&quot;Follow Friday&quot;" rel="nofollow" title="&quot;Follow Friday&quot;">Follow Friday</a><em>People tweet suggested users to follow on Fridays.</em></li> 
+          
+            <li><a href="/search?q=ABDC+OR+%23abdc" class="search_link" name="ABDC OR #abdc" rel="nofollow" title="ABDC OR #abdc">ABDC</a></li> 
+          
+            <li><a href="/search?q=Lakers+OR+%23Lakers" class="search_link" name="Lakers OR #Lakers" rel="nofollow" title="Lakers OR #Lakers">Lakers</a></li> 
+          
+            <li><a href="/search?q=%22Alice+In+Wonderland%22+OR+Wonderland" class="search_link" name="&quot;Alice In Wonderland&quot; OR Wonderland" rel="nofollow" title="&quot;Alice In Wonderland&quot; OR Wonderland">Alice In Wonderland</a><em>Tim Burton's new movie starring Mia Wasikowska, Johnny Depp, Helena Bonham Carter, and Anne Hathaway is out in theaters today (March 5).</em></li> 
+          
+            <li><a href="/search?q=Sumatra" class="search_link" name="Sumatra" rel="nofollow" title="Sumatra">Sumatra</a></li> 
+          
+            <li><a href="/search?q=Drake" class="search_link" name="Drake" rel="nofollow" title="Drake">Drake</a></li> 
+          
+      
+    </ul> 
+  </div> 
+ 
+        
+  <div class="weekly" title="Popular topics this week"> 
+    <ul> 
+                
+            <li><a href="/search?q=%22Justin+Bieber%22" class="search_link" name="&quot;Justin Bieber&quot;" rel="nofollow" title="&quot;Justin Bieber&quot;">Justin Bieber</a><em>The young Canadian R&amp;B/pop singer has a lot of fans who like to tweet about him! A new song of his, Eenie Meenie, debuted on Ryan Seacrest's radio show this morning (March 4).</em></li> 
+          
+            <li><a href="/search?q=Chile+OR+%23Chile" class="search_link" name="Chile OR #Chile" rel="nofollow" title="Chile OR #Chile">Chile</a><em>There was a 8.8 magnitude earthquake (Feb. 27) with an epicenter 70 miles from Concepcion, the country's second largest city.</em></li> 
+          
+            <li><a href="/search?q=Hawaii" class="search_link" name="Hawaii" rel="nofollow" title="Hawaii">Hawaii</a><em>People are tweeting about the tsunami headed in that direction, as well as sharing links to live news feeds (Feb. 27).</em></li> 
+          
+            <li><a href="/search?q=Haiti" class="search_link" name="Haiti" rel="nofollow" title="Haiti">Haiti</a><em>The area was hit by a 7.0 magnitude earthquake Jan. 12. People are tweeting to organize relief efforts or relay news.</em></li> 
+          
+            <li><a href="/search?q=Taiwan" class="search_link" name="Taiwan" rel="nofollow" title="Taiwan">Taiwan</a><em>A magnitude 6.4 earthquake struck southern Taiwan (March 3).</em></li> 
+          
+            <li><a href="/search?q=Canada+OR+%23Canada" class="search_link" name="Canada OR #Canada" rel="nofollow" title="Canada OR #Canada">Canada</a><em>They play Team USA today in the men's hockey gold medal game at the Winter Olympics (Feb. 28).</em></li> 
+          
+            <li><a href="/search?q=Guru" class="search_link" name="Guru" rel="nofollow" title="Guru">Guru</a></li> 
+          
+            <li><a href="/search?q=Alice" class="search_link" name="Alice" rel="nofollow" title="Alice">Alice</a><em>Tim Burton's Alice in Wonderland releases to US theaters March 5.</em></li> 
+          
+            <li><a href="/search?q=BBC" class="search_link" name="BBC" rel="nofollow" title="BBC">BBC</a><em>They confirmed that they are shutting down the 6 Music and Asian Network radio stations (March 2). </em></li> 
+          
+            <li><a href="/search?q=%23amitheonlyone" class="search_link" name="#amitheonlyone" rel="nofollow" title="#amitheonlyone">#amitheonlyone</a><em>People are tweeting to wonder if they are alone in doing certain things.</em></li> 
+          
+            <li><a href="/search?q=%23UNotFromTheHoodIf" class="search_link" name="#UNotFromTheHoodIf" rel="nofollow" title="#UNotFromTheHoodIf">#UNotFromTheHoodIf</a></li> 
+          
+            <li><a href="/search?q=%23Irefuseto" class="search_link" name="#Irefuseto" rel="nofollow" title="#Irefuseto">#Irefuseto</a><em>People are tweeting things they will not do.</em></li> 
+          
+      
+    </ul> 
+  </div> 
+ 
+        <span class="fade"> </span> 
+      
+    </div> 
+    <div class="wrapper"> 
+      <div id="sidebar"> 
+        
+          
+            <h2><strong>Trending</strong> topics</h2> 
+            <div id="trends_list"> 
+              <ul> 
+                
+                  
+                    <li><a href="/search?q=%23mewithoutyouislike" name="#mewithoutyouislike" title="" rel="nofollow">#mewithoutyouislike</a></li> 
+                  
+                    <li><a href="/search?q=%23FF" name="#FF" title="Follow Friday. People tweet suggested users to follow on Fridays." rel="nofollow">#FF</a></li> 
+                  
+                    <li><a href="/search?q=%22Justin+Bieber%22" name="&quot;Justin Bieber&quot;" title="The young Canadian R&amp;B/pop singer has a lot of fans who like to tweet about him! A new song of his, Eenie Meenie, debuted on Ryan Seacrest's radio show this morning (March 4)." rel="nofollow">Justin Bieber</a></li> 
+                  
+                    <li><a href="/search?q=%22sctv+now%22" name="&quot;sctv now&quot;" title="" rel="nofollow">sctv now</a></li> 
+                  
+                    <li><a href="/search?q=%23FollowSaturday" name="#FollowSaturday" title="" rel="nofollow">#FollowSaturday</a></li> 
+                  
+                    <li><a href="/search?q=%23Ibelieve" name="#Ibelieve" title="" rel="nofollow">#Ibelieve</a></li> 
+                  
+                    <li><a href="/search?q=JJF" name="JJF" title="" rel="nofollow">JJF</a></li> 
+                  
+                    <li><a href="/search?q=%22Alice+In+Wonderland%22+OR+Wonderland" name="&quot;Alice In Wonderland&quot; OR Wonderland" title="Tim Burton's new movie starring Mia Wasikowska, Johnny Depp, Helena Bonham Carter, and Anne Hathaway is out in theaters today (March 5)." rel="nofollow">Alice In Wonderland</a></li> 
+                  
+                    <li><a href="/search?q=%23hbu" name="#hbu" title="" rel="nofollow">#hbu</a></li> 
+                  
+                    <li><a href="/search?q=%22PROMOTE+PART+5%22" name="&quot;PROMOTE PART 5&quot;" title="" rel="nofollow">PROMOTE PART 5</a></li> 
+                  
+                
+              </ul> 
+            </div> 
+          
+        
+        <div class="search-tip"> 
+          <h3>Search tip</h3> 
+          <div>Use <em>OR</em> between search terms to find either term or both. Example: <a href="/search?q=love+OR+hate">love OR hate</a> will find tweets containing either "love" or "hate" (or both).</div> 
+        </div> 
+        <div class="signup-tip"> 
+          <h2><strong>Join</strong> the conversation</h2> 
+          <a href="/signup">Sign up now</a> to contribute what's going on in your world and to filter your view of Twitter down to the people and topics that interest you most.
+        </div> 
+      </div> 
+      <div id="content" class="homepage"> 
+        <h2 id="timeline_heading"></h2> 
+                  <div data="{&quot;search&quot;:{&quot;delay&quot;:20,&quot;decay&quot;:1.25,&quot;max_delay&quot;:180},&quot;timeline&quot;:{&quot;max_refresh_size&quot;:40,&quot;delay&quot;:30,&quot;decay&quot;:1.5,&quot;max_delay&quot;:300}}" id="new_results_notification"><a accesskey="n" class="minor-notification" id="results_update" style="display:none;"></a></div> 
+        
+        <ol id="timeline" class="statuses"></ol> 
+        <div id="pagination"></div> 
+      </div> 
+      <div class="clear"></div> 
+    </div> 
+    
+ 
+    <!--
+      - DEMO:   I've moved the form code here, between the content wrapper
+      -         and the page footer.  I'll add some styles to make it 
+      -         halfway presentable.  It's still ugly, of course, but the
+      -         concept is sound.  :)
+      -->
+    <style type="text/css">
+        /* Default Styles */
+        #signin_menu {
+            background:     #023;
+            display:        block;
+            position:       relative;
+            width:          auto;
+            margin-left:    0;
+        }
+            #signin_menu p {
+                float:  left;
+                margin: 0 1em 0 3em;
+            }
+            #signin_menu p.remember {
+                padding:    18px 0;
+            }
+            #signin_menu p.forgot,
+            #signin_menu p.forgot-username,
+            #signin_menu p.complete {
+                clear:      none;
+                margin:     0 3em;
+            }
+            #signin_menu p a {
+                color:      #CCC !important; /* Don't do this at home, kids... */
+            }
+
+        /* JavaScript Styles */
+        .js #signin_menu {
+            background:     #DDEEF6;
+            display:        none;
+            margin-left:    -8px;
+            position:       absolute;
+            width:          210px;
+        }
+            .js #signin_menu p {
+                float:  none;
+                margin: 0;
+            }
+                .js #signin_menu p.remember {
+                    padding:    10px 0;
+                }
+                .js #signin_menu p.forgot,
+                .js #signin_menu p.forgot-username,
+                .js #signin_menu p.complete {
+                    clear:      both;
+                    margin:     5px 0;
+                }
+                .js #signin_menu p a {
+                    color:      #27B !important; /* Don't do this at home, kids... */
+                }
+    </style>
+ 
+    <fieldset id="signin_menu" class="common-form standard-form"> 
+    
+      <form method="post" id="signin" action="https://twitter.com/sessions"> 
+    
+      <input id="authenticity_token" name="authenticity_token" type="hidden" value="11988d6bfd446318b9ac94746293defcc6412886" />        <p> 
+          <label for="username">Username or email</label> 
+          <input type="text" id="username" name="session[username_or_email]" value="" title="username"  tabindex="4"/> 
+        </p> 
+        <p> 
+          <label for="password">Password</label> 
+          <input type="password" id="password" name="session[password]" value="" title="password" tabindex="5" /> 
+        </p> 
+        <p class="remember"> 
+            <input type="submit" id="signin_submit" value="Sign in" tabindex="7"/> 
+            <input type="checkbox" id="remember" name="remember_me" value="1" tabindex="6"/> 
+            <label for="remember">Remember me</label> 
+        </p> 
+        <p class="forgot"> 
+          <a href="/account/resend_password" id="resend_password_link">Forgot your password?</a> 
+        </p> 
+        <p class="forgot-username"> 
+          <a href="" id="forgot_username_link" title="If you remember your password, try logging in with your email">Forgot your username?</a> 
+        </p> 
+        <p class="complete"> 
+          <a href="/account/complete" id="account_complete_link">Already using Twitter on your phone?</a> 
+        </p> 
+        <input type="hidden" name="q" id="signin_q" value=""/> 
+      </form> 
+    </fieldset> 
+    
+    <!--
+      - DEMO:   And that's it.  There's really nothing more to do.
+      --> 
+    
+    
+  <div id="footer" class="round wide"> 
+      <h3 class="offscreen">Footer</h3> 
+      
+      
+      <form action="/sessions/change_locale" id="lf" method="post" style="display:none;"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="11988d6bfd446318b9ac94746293defcc6412886" /></div> 
+  <input type="hidden" name="lang"  id="lang" value="en"/> 
+</form> 
+<ul class="language-select"><li>Language:</li><li><span>English</span>&nbsp;<small>&#9660;</small></li></ul> 
+<ol class="language-menu round"> 
+  <li id="it">Italian - Italiano</li> 
+  <li id="es">Spanish - Español</li> 
+  <li id="en">English</li> 
+  <li id="fr">French - français</li> 
+  <li id="de">German - Deutsch</li> 
+  <li id="ja">Japanese - 日本語</li> 
+</ol> 
+    
+      <ul> 
+          <li class="first">&copy; 2010 Twitter</li> 
+          <li><a href="/about">About Us</a></li> 
+          <li><a href="/about/contact">Contact</a></li> 
+          <li><a href="http://blog.twitter.com">Blog</a></li> 
+          <li><a href="http://status.twitter.com">Status</a></li> 
+                      <li><a href="/goodies">Goodies</a></li> 
+                    <li><a href="http://apiwiki.twitter.com/">API</a></li> 
+                      <li><a href="http://business.twitter.com/twitter101">Business</a></li> 
+                    <li><a href="/help/start">Help</a></li> 
+          <li><a href="/jobs">Jobs</a></li> 
+          <li><a href="/tos">Terms</a></li> 
+          <li><a href="/privacy">Privacy</a></li> 
+      </ul> 
+  </div> 
+ 
+ 
+  </div> 
+ 
+  
+  <script type="text/javascript"> 
+      page.summizeSearchUrl = 'http://integratedsearch.twitter.com/search.html';
+  page.query = '';
+  page.locale = 'en';
+  
+    window.twttr = window.twttr || {};
+    twttr.form_authenticity_token = '11988d6bfd446318b9ac94746293defcc6412886';
+  
+  </script> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js" type="text/javascript"></script> 
+<script src="http://a1.twimg.com/a/1267816830/javascripts/front.js?1267819681" type="text/javascript"></script> 
+  
+ 
+  
+  <div id="notifications"></div> 
+ 
+
+    <script type="text/javascript" src="http://static.mikewest.org/20100222/ga.js"></script>
+</body> 
+</html> 
+
