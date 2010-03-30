@@ -274,7 +274,8 @@ Your code should first and foremost be human-readable.  Of course you want to
 deliver a single [combined][] and [minified][] CSS file to the browser, and of
 course that means that you'll have to do some work to transform the nicely
 readable code you've written into something lean and mean for performance and
-efficiency.  
+efficiency (a good place to start would be [Tim Huegdon's][tim] article
+"[Website Builds Using Make][make]").  
 
 So don't worry about the performance penalties to writing long comments,
 detailing every tricky piece of your CSS.  And don't worry about the
@@ -287,3 +288,5 @@ of that code, not the browser's.
 
 [combined]: http://developer.yahoo.com/performance/rules.html#num_http
 [minified]: http://developer.yahoo.com/performance/rules.html#minify
+[tim]:      http://timhuegdon.com/
+[make]:     http://nefariousdesigns.co.uk/archive/2010/02/website-builds-using-make/
