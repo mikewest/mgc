@@ -37,8 +37,13 @@ With this in your toolkit, I don't think there's any excuse for mandating a hard
 
 __Update__: [Tim Huegdon][tim] mentioned, rightly, that `class` isn't actually a valid attribute on the `html` element, and that it might be better to set the `js` class on the document's `body` element instead.  It's a valid point, one which ought not be ignored out of hand.  I'm sticking with `document.documentElement` for a simple reason: I know it works stably in every browser I've tested (IE6+, FF2+, Safari 2+, Opera 9.5+).  I've heard anecdotal evidence of problems in IE caused by manipulating the document's `body` while it's loading ("Operation Aborted", and the like), which I've never experienced with this technique, and which I'd like to avoid.
 
+__Update to the Update__:   [Martijn van der Ven][martijn] notes, also rightly, that HTML5 allows `class` attributes (as well as all other [global attributes][global]) on the `html` element.  One more reason to switch over to the [HTML5 doctype][doctype], if you ask me.
+
 [performance]:  http://developer.yahoo.com/performance/rules.html#js_bottom
 [twitter]:      http://twitter.com/
 [demo]:         http://mikewest.org/static_content/2010-03-javascript-detection.html
 [twitterdemo]:  http://mikewest.org/static_content/2010-03-javascript-detection-twitter.html
 [tim]:          http://timhuegdon.com/
+[martijn]:      http://vanderven.se/
+[global]:       http://dev.w3.org/html5/spec/dom.html#global-attributes
+[doctype]:      http://diveintohtml5.org/semantics.html#the-doctype
