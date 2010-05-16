@@ -102,6 +102,6 @@ _my_ arbitration of "reasonable" might hurt your feelings too).
 [8]:    http://github.com/mikewest/jslint/tree/mirror
 [9]:    http://github.com/mikewest/jslint/
 [10]:   http://github.com/mikewest/jslint/tree/rebased
-[11]:   http://github.com/mikewest/jslint/raw/master/CHANGELOG
+[11]:   http://github.com/mikewest/jslint/raw/master/CHANGELOG.markdown
 
 [jslint-utils]: http://github.com/mikewest/jslint-utils
