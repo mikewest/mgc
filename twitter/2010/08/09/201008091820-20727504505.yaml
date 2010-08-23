@@ -1,0 +1,33 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.67909131
+  - 48.11444994
+  type: Point
+created_at: Mon Aug 09 18:20:42 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.11444994
+  - 11.67909131
+  type: Point
+id: '20727504505'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box: null
+  country: Germany
+  country_code: DE
+  full_name: Munich, Bavaria
+  id: b694c6c2f0f05db2
+  name: Munich
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/b694c6c2f0f05db2.json
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Biergarten after work.  Me, a weißbier, and my Kindle.  I love Munich.  :)  [http://yfrog.com/muxoapj](http://yfrog.com/muxoapj)
+truncated: false
+user: null
+...

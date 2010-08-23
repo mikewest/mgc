@@ -1,0 +1,43 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.59162718
+  - 48.112808399999999
+  type: Point
+created_at: Thu Aug 12 19:31:16 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.112808399999999
+  - 11.59162718
+  type: Point
+id: '20999991840'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.576259
+        - 48.097861020000003
+      - - 11.599896960000001
+        - 48.097861020000003
+      - - 11.599896960000001
+        - 48.122992979999999
+      - - 11.576259
+        - 48.122992979999999
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Obergiesing, Munich
+  id: 7fc7bf720a08d56f
+  name: Obergiesing
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/7fc7bf720a08d56f.json
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Nice night out with@kbingman.  Looking forward to tomorrow.  :)
+truncated: false
+user: null
+...

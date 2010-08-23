@@ -1,0 +1,17 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Apr 06 17:37:57 +0000 2010
+favorited: false
+geo: null
+id: '11709632562'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place: null
+source: <a href="http://www.atebits.com/" rel="nofollow">Tweetie</a>
+text: Apparently `)` is a valid character in CSS URLs.  This makes sense, but I think
+  it makes it impossible to tokenize without backtracking. :(
+truncated: false
+user: null
+...
