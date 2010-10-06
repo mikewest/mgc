@@ -1,0 +1,46 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -104.98327066
+  - 39.744299040000001
+  type: Point
+created_at: Wed Sep 08 03:05:22 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 39.744299040000001
+  - -104.98327066
+  type: Point
+id: '23878687161'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -104.987736
+        - 39.739885999999998
+      - - -104.973536
+        - 39.739885999999998
+      - - -104.973536
+        - 39.747686000000002
+      - - -104.987736
+        - 39.747686000000002
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Uptown, Denver
+  id: 8958ed00679a3087
+  name: Uptown
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/8958ed00679a3087.json
+retweet_count: null
+retweeted: false
+source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
+  for iPad</a>
+text: Lufthansa's customer service is driving me batshit insane.
+truncated: false
+user: null
+...

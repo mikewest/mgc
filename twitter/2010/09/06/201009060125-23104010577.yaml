@@ -1,0 +1,45 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -105.54347448999999
+  - 37.692347640000001
+  type: Point
+created_at: Mon Sep 06 01:25:56 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 37.692347640000001
+  - -105.54347448999999
+  type: Point
+id: '23104010577'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -106.039299
+        - 37.517677999999997
+      - - -105.452727
+        - 37.517677999999997
+      - - -105.452727
+        - 37.752305999999997
+      - - -106.039299
+        - 37.752305999999997
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Mosca-Hooper, CO
+  id: 923e2d773b6e59bc
+  name: Mosca-Hooper
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/923e2d773b6e59bc.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: The view from our porch at sunset is stunning. [http://yfrog.com/nd3s1qj](http://yfrog.com/nd3s1qj)
+truncated: false
+user: null
+...

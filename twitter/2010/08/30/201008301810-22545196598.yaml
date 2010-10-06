@@ -1,0 +1,45 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -106.03174859000001
+  - 39.470856130000001
+  type: Point
+created_at: Mon Aug 30 18:10:57 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 39.470856130000001
+  - -106.03174859000001
+  type: Point
+id: '22545196598'
+in_reply_to_screen_name: Carlo
+in_reply_to_status_id: 22542575487
+in_reply_to_user_id: 63893
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -106.07202599999999
+        - 39.468271000000001
+      - - -106.01440100000001
+        - 39.468271000000001
+      - - -106.01440100000001
+        - 39.540453999999997
+      - - -106.07202599999999
+        - 39.540453999999997
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Breckenridge, CO
+  id: 94785821e63a0d4f
+  name: Breckenridge
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/94785821e63a0d4f.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@Carlo: looking forward to seeing it... The default theme is miserable.'
+truncated: false
+user: null
+...

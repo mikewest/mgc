@@ -1,0 +1,27 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -104.6720025
+  - 39.859011520000003
+  type: Point
+created_at: Thu Sep 09 19:34:26 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 39.859011520000003
+  - -104.6720025
+  type: Point
+id: '24037675975'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Hopping on a flight from Denver to Chicago... Still not so sure about the Chicago
+  to Munich leg.  I love Lufthansa.
+truncated: false
+user: null
+...

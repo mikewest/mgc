@@ -1,0 +1,19 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Oct 02 08:21:19 +0000 2010
+favorited: false
+geo: null
+id: '26158056646'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: Fiddling with Spidermonkey and V8.  So much faster than Rhino, especially to
+  start up.  Spidermonkey's a pain in the ass to compile though.
+truncated: false
+user: null
+...

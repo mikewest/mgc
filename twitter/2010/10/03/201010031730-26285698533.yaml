@@ -1,0 +1,19 @@
+---
+contributors: null
+coordinates: null
+created_at: Sun Oct 03 17:30:42 +0000 2010
+favorited: false
+geo: null
+id: '26285698533'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: Fixing bugs in JSLint's CSS parser. Getting kind of sick of it... is there a
+  CSS linter that isn't annoying to work with? [http://github.com/mike&hellip;down](http://github.com/mikewest/jslint/blob/master/CHANGELOG.markdown)
+truncated: false
+user: null
+...

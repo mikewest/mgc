@@ -1,0 +1,26 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.605117440000001
+  - 48.127105049999997
+  type: Point
+created_at: Thu Sep 16 16:33:28 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.127105049999997
+  - 11.605117440000001
+  type: Point
+id: '24678855449'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: 'On my way to #tub2.  Beer!  Fun!'
+truncated: false
+user: null
+...

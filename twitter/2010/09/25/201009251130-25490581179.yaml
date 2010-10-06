@@ -1,0 +1,46 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.78544855
+  - 48.353725910000001
+  type: Point
+created_at: Sat Sep 25 11:30:27 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.353725910000001
+  - 11.78544855
+  type: Point
+id: '25490581179'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.764119000000001
+        - 48.289802000000002
+      - - 11.893297
+        - 48.289802000000002
+      - - 11.893297
+        - 48.385796999999997
+      - - 11.764119000000001
+        - 48.385796999999997
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Oberding, Erding
+  id: ad2f50942562790b
+  name: Oberding
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/ad2f50942562790b.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: 'At the airport, Elisabeth has landed, and is probably in an incredibly long
+  line at customs.  #waiting'
+truncated: false
+user: null
+...

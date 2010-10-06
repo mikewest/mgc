@@ -1,0 +1,47 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -105.54385471000001
+  - 37.692304190000002
+  type: Point
+created_at: Sun Sep 05 23:23:25 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 37.692304190000002
+  - -105.54385471000001
+  type: Point
+id: '23096580167'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -106.039299
+        - 37.517677999999997
+      - - -105.452727
+        - 37.517677999999997
+      - - -105.452727
+        - 37.752305999999997
+      - - -106.039299
+        - 37.752305999999997
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Mosca-Hooper, CO
+  id: 923e2d773b6e59bc
+  name: Mosca-Hooper
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/923e2d773b6e59bc.json
+retweet_count: null
+retweeted: false
+source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
+  for iPad</a>
+text: Just arrived at a tiny lodge with a stunning view of the Great Sand Dunes from
+  our porch.  Amazing.
+truncated: false
+user: null
+...

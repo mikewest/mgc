@@ -1,0 +1,19 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Oct 05 21:26:12 +0000 2010
+favorited: false
+geo: null
+id: '26491654796'
+in_reply_to_screen_name: Carlo
+in_reply_to_status_id: 26491417957
+in_reply_to_user_id: 63893
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: '@Carlo: Sorry, I meant a _handler_ for the `exit` _event_.  `process.on( ''exit'',
+  function () { /* logging */ } );`'
+truncated: false
+user: null
+...

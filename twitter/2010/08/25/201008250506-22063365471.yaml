@@ -1,0 +1,46 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.662525649999999
+  - 48.126357489999997
+  type: Point
+created_at: Wed Aug 25 05:06:39 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.126357489999997
+  - 11.662525649999999
+  type: Point
+id: '22063365471'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.653016040000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.160976040000001
+      - - 11.653016040000001
+        - 48.160976040000001
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Trudering - Riem, Munich
+  id: c4a78f1f9a5e81ab
+  name: Trudering - Riem
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/c4a78f1f9a5e81ab.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Up at an ungodly hour for today's Special Event, and I'm already on an S-Bahn
+  heading into the city.  Ugh.
+truncated: false
+user: null
+...

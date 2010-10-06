@@ -1,0 +1,46 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.60637062
+  - 48.128028389999997
+  type: Point
+created_at: Sat Sep 25 10:48:30 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.128028389999997
+  - 11.60637062
+  type: Point
+id: '25488560381'
+in_reply_to_screen_name: SteveMarshall
+in_reply_to_status_id: 25487384500
+in_reply_to_user_id: 12504
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.599405920000001
+        - 48.115034999999999
+      - - 11.65601412
+        - 48.115034999999999
+      - - 11.65601412
+        - 48.139347960000002
+      - - 11.599405920000001
+        - 48.139347960000002
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Berg am Laim, Munich
+  id: 556d837f3b48e28f
+  name: Berg am Laim
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/556d837f3b48e28f.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@SteveMarshall/@intranation: I use a sleeve from Hard Graft. If I was doing
+  it again, I''d buy something that props up the iPad; I miss that.'
+truncated: false
+user: null
+...

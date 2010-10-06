@@ -1,0 +1,19 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Oct 05 21:11:56 +0000 2010
+favorited: false
+geo: null
+id: '26490685769'
+in_reply_to_screen_name: Carlo
+in_reply_to_status_id: 26482968194
+in_reply_to_user_id: 63893
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: '@Carlo: `sys.debug` is what you''re looking for.  `sys.debug( sys.inspect(
+  object ) );` is something you''ll start typing in your sleep.'
+truncated: false
+user: null
+...

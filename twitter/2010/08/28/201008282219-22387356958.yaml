@@ -1,0 +1,46 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -106.03121474
+  - 39.470698740000003
+  type: Point
+created_at: Sat Aug 28 22:19:09 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 39.470698740000003
+  - -106.03121474
+  type: Point
+id: '22387356958'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_user_id: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -106.07202599999999
+        - 39.468271000000001
+      - - -106.01440100000001
+        - 39.468271000000001
+      - - -106.01440100000001
+        - 39.540453999999997
+      - - -106.07202599999999
+        - 39.540453999999997
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Breckenridge, CO
+  id: 94785821e63a0d4f
+  name: Breckenridge
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/94785821e63a0d4f.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: In a _huge_ house in Colorado, enjoying some family time after way too long
+  apart.  Vacation!
+truncated: false
+user: null
+...
