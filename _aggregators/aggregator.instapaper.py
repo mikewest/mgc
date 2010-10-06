@@ -13,7 +13,7 @@ INSTAPAPER_ROOT =   '/home/mikewest/Repositories/mgc/instapaper'
 #   CODE
 #
 
-import os, sys, re
+import os, sys, re, hashlib
 from xml.etree.cElementTree import parse
 from aggregator.aggregator import Aggregator
 
@@ -36,7 +36,7 @@ class AggregateInstapaper( Aggregator ):
         xml = parse( rss )
         for element in xml.findall( 'channel/item' ):
             link    =   {
-                            'guid':             element.find('guid').text,
+                            # 'guid':             element.find('guid').text,
                             'title':            element.find('title').text,
                             'url':              element.find('link').text,
                             'description':      element.find('description').text,
@@ -44,8 +44,7 @@ class AggregateInstapaper( Aggregator ):
                             'starred':          True,
                             'tags':             ['instapapered','starred','ireadthis']
                         }
-            m = re.search( r'(\d+)$', link['guid'] )
-            link['id'] = m.group( 1 )
+            link['id'] = hashlib.sha1( link['url'] ).hexdigest()[0:8]
             self.articles.append( link )
 
     def write_article( self, obj ):
