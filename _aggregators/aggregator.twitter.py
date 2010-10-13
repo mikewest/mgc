@@ -45,6 +45,7 @@ class AggregateTwitter( Aggregator ):
 
     def get_new_tweets( self ):
         endpoint = 'http://twitter.com/statuses/user_timeline/%s.json?count=200&since_id=%s'
+	endpoint = 'http://api.twitter.com/1/statuses/user_timeline.json?screen_name=%s&since_id=%s'
         t = self.fetch( endpoint % ( TWITTER_USERNAME, self.latest_id ) )
         self.tweets = json.load( t )
 
