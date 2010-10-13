@@ -29,9 +29,9 @@ place:
       - - 11.66419404
         - 48.122079030000002
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Waldtrudering, Munich
+  full_name: Waldtrudering, München
   id: 7ea1f734693fdb5e
   name: Waldtrudering
   place_type: neighborhood

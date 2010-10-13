@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: Google says 24 people are using my Instapaper Chrome extension; since I've only
   noted it here, I assume you're all following me.  Hi!  Bugs?

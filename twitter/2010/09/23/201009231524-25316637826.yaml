@@ -9,7 +9,7 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: web
 text: And we're back.  After ~3 hours.  Ugh.

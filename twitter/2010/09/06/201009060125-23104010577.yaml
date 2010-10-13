@@ -36,7 +36,7 @@ place:
   name: Mosca-Hooper
   place_type: city
   url: http://api.twitter.com/1/geo/id/923e2d773b6e59bc.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: The view from our porch at sunset is stunning. [http://yfrog.com/nd3s1qj](http://yfrog.com/nd3s1qj)

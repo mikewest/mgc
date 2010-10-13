@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: So, Starcraft 2 crashes constantly on startup. Stack traces always end up in
   graphics drivers.  *sigh*  I think I need a new iMac.

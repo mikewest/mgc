@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: web
 text: My hacktivated, jailbroken, unlocked iPhone 3GS is working!  Actual 3G is sweet,
   sweet contrast to pitifully slow EDGE.  :)

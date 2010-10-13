@@ -36,7 +36,7 @@ place:
   name: Uptown
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/8958ed00679a3087.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
   for iPad</a>

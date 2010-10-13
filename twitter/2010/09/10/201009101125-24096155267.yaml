@@ -29,14 +29,14 @@ place:
       - - 11.764119000000001
         - 48.385796999999997
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
   full_name: Oberding, Erding
   id: ad2f50942562790b
   name: Oberding
   place_type: city
   url: http://api.twitter.com/1/geo/id/ad2f50942562790b.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Landed safely in Munich.  Now we're sitting in the S-Bahn, waiting impatiently

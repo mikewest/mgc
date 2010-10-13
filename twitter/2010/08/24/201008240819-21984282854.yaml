@@ -13,7 +13,7 @@ geo:
   - 11.63464581
   type: Point
 id: '21984282854'
-in_reply_to_screen_name: aptmunich
+in_reply_to_screen_name: adrianthomas
 in_reply_to_status_id: 21984086981
 in_reply_to_user_id: 12464072
 place:
@@ -29,14 +29,14 @@ place:
       - - 11.61810288
         - 48.164210009999998
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Englschalking, Munich
+  full_name: Englschalking, München
   id: ea1990f2a6d057ec
   name: Englschalking
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/ea1990f2a6d057ec.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: '@aptmunich: How do those work?  Magic?  Foam?'

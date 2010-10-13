@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: It's been a month since our last release, and we're still spinning our wheels.  This
   is a bit absurd.

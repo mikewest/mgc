@@ -36,7 +36,7 @@ place:
   name: Breckenridge
   place_type: city
   url: http://api.twitter.com/1/geo/id/94785821e63a0d4f.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Starbucks in Breckenridge.  Ah, Americana. [http://yfrog.com/0eajttj](http://yfrog.com/0eajttj)

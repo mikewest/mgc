@@ -9,7 +9,7 @@ in_reply_to_screen_name: codepo8
 in_reply_to_status_id: 21916821715
 in_reply_to_user_id: 13567
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: web
 text: '@codepo8: Small world.  :)'

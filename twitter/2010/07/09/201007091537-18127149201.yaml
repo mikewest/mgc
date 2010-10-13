@@ -9,6 +9,8 @@ in_reply_to_screen_name: shinyloz
 in_reply_to_status_id: 18126902932
 in_reply_to_user_id: 14234119
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: '@shinyloz: And aspirin.  I have a feeling I''ll need it.  :)'
 truncated: false

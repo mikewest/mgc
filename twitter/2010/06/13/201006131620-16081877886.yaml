@@ -9,6 +9,8 @@ in_reply_to_screen_name: jcfischer
 in_reply_to_status_id: 16077146861
 in_reply_to_user_id: 1085411
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: '@jcfischer: simplenote'
 truncated: false

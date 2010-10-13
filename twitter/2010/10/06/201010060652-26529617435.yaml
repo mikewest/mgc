@@ -29,9 +29,9 @@ place:
       - - 11.630401920000001
         - 48.118358970000003
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Neuperlach, Munich
+  full_name: Neuperlach, München
   id: 73e7e52a8a6b97f4
   name: Neuperlach
   place_type: neighborhood

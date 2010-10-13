@@ -29,13 +29,15 @@ place:
       - - 11.576259
         - 48.122992979999999
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Obergiesing, Munich
+  full_name: Obergiesing, München
   id: 7fc7bf720a08d56f
   name: Obergiesing
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/7fc7bf720a08d56f.json
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Nice night out with@kbingman.  Looking forward to tomorrow.  :)
 truncated: false

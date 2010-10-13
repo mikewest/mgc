@@ -18,14 +18,26 @@ in_reply_to_status_id: null
 in_reply_to_user_id: null
 place:
   attributes: {}
-  bounding_box: null
-  country: Germany
+  bounding_box:
+    coordinates:
+    - - - 11.360692
+        - 48.061636
+      - - 11.722918
+        - 48.061636
+      - - 11.722918
+        - 48.248083999999999
+      - - 11.360692
+        - 48.248083999999999
+    type: Polygon
+  country: Deutschland
   country_code: DE
-  full_name: Munich, Bavaria
+  full_name: München, München
   id: b694c6c2f0f05db2
-  name: Munich
+  name: München
   place_type: city
   url: http://api.twitter.com/1/geo/id/b694c6c2f0f05db2.json
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Every time I have to open Eclipse, I die a little inside.
 truncated: false

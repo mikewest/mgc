@@ -29,14 +29,14 @@ place:
       - - 11.653016040000001
         - 48.160976040000001
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Trudering - Riem, Munich
+  full_name: Trudering - Riem, München
   id: c4a78f1f9a5e81ab
   name: Trudering - Riem
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/c4a78f1f9a5e81ab.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Up at an ungodly hour for today's Special Event, and I'm already on an S-Bahn

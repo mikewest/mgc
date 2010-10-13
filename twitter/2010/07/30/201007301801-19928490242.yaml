@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: It took two hours longer than usual to reach Freiburg...  Ugh.  At least the
   weather's nice!

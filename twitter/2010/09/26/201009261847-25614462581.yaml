@@ -9,7 +9,7 @@ in_reply_to_screen_name: isofarro_
 in_reply_to_status_id: 25614083736
 in_reply_to_user_id: 9171132
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@isofarro_: WriteRoom is actually quite nice.  Fullscreen MacVim works pretty

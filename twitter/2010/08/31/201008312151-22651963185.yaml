@@ -9,7 +9,7 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitterrific.com" rel="nofollow">Twitterrific</a>
 text: 'iSSH is so close to being good enough to get actual work done on my iPad: If

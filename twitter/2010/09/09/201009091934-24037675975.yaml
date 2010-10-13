@@ -16,8 +16,27 @@ id: '24037675975'
 in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
-place: null
-retweet_count: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -104.79132799999999
+        - 39.798323000000003
+      - - -104.600296
+        - 39.798323000000003
+      - - -104.600296
+        - 39.914247000000003
+      - - -104.79132799999999
+        - 39.914247000000003
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Denver International Airport, Denver
+  id: f1acb6e9771b33a5
+  name: Denver International Airport
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/f1acb6e9771b33a5.json
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Hopping on a flight from Denver to Chicago... Still not so sure about the Chicago

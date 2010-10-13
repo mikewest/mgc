@@ -9,7 +9,7 @@ in_reply_to_screen_name: intranation
 in_reply_to_status_id: 21939933955
 in_reply_to_user_id: 79773
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@intranation: It''s been more than 10 minutes since I''ve applied.  TEN MINUTES.'

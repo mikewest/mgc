@@ -9,6 +9,8 @@ in_reply_to_screen_name: paulfreeman
 in_reply_to_status_id: 17359358906
 in_reply_to_user_id: 70193
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: '@paulfreeman: I''ll add Alt-p as an option for poor, poor windows users like
   yourself. ;) Thanks!'

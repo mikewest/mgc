@@ -9,6 +9,8 @@ in_reply_to_screen_name: tfnico
 in_reply_to_status_id: 20580950766
 in_reply_to_user_id: 3711771
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@tfnico: Yeah.  Getting SC2 installed was a frustrating process.  It worked
   once I created a disk image into which to dump the installer.'

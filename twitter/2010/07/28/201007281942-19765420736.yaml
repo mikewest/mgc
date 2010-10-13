@@ -9,6 +9,8 @@ in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_user_id: null
 place: null
+retweet_count: 0
+retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: 'Starcraft 2 better be one fucking amazing game, as getting it running is taking
   forever.  #backup #bootcamp #xp #wtf'
