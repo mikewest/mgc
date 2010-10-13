@@ -6,7 +6,7 @@
 #
 
 STARRED_FEED    =   'http://www.instapaper.com/starred/rss/203164/fvc7FjLu4aIN5wsniOahrlWgbLw'
-INSTAPAPER_ROOT =   '/home/mikewest/Repositories/mgc/instapaper'
+INSTAPAPER_ROOT =   '/home/git/mirrored-repositories/mgc/instapaper'
 
 ###############################################################################
 #
@@ -57,7 +57,7 @@ class AggregateInstapaper( Aggregator ):
         filename = '%s/%04d%02d%02d%02d%02d-%s.yaml' % ( path, parsedtime[0], parsedtime[1], parsedtime[2], parsedtime[3], parsedtime[4], obj['id'] )
 
         if not os.path.exists( filename ):
-            obj['url'] = self.normalize_url( obj['url'] )
+            # obj['url'] = self.normalize_url( obj['url'] )
             print "Writing %s" % filename
             with open( filename, 'w' ) as outputFile:
                 outputFile.write( self.yaml( obj ) )
