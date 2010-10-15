@@ -9,7 +9,7 @@ in_reply_to_screen_name: nefarioustim
 in_reply_to_status_id: 26940575804
 in_reply_to_user_id: 12485
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@nefarioustim: Works now.  It was a permissions issue which popped up as soon

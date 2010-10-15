@@ -9,7 +9,7 @@ in_reply_to_screen_name: ginader
 in_reply_to_status_id: 27019266969
 in_reply_to_user_id: 756927
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@ginader: Good luck today!  You going to post the slides somewhere?  :)'
