@@ -5,9 +5,12 @@ created_at: Mon Oct 11 17:32:46 +0000 2010
 favorited: false
 geo: null
 id: '27054198269'
+id_str: '27054198269'
 in_reply_to_screen_name: null
 in_reply_to_status_id: null
+in_reply_to_status_id_str: null
 in_reply_to_user_id: null
+in_reply_to_user_id_str: null
 place: null
 retweet_count: null
 retweeted: false
