@@ -1,0 +1,48 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.672497379999999
+  - 48.121813830000001
+  type: Point
+created_at: Thu Oct 14 06:34:23 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.121813830000001
+  - 11.672497379999999
+  type: Point
+id: '27317482368'
+id_str: '27317482368'
+in_reply_to_screen_name: nefarioustim
+in_reply_to_status_id: 27316934729
+in_reply_to_status_id_str: '27316934729'
+in_reply_to_user_id: 12485
+in_reply_to_user_id_str: '12485'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.653016040000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.160976040000001
+      - - 11.653016040000001
+        - 48.160976040000001
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Trudering - Riem, München
+  id: c4a78f1f9a5e81ab
+  name: Trudering - Riem
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/c4a78f1f9a5e81ab.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@nefarioustim: &lt;input type="range" ...&gt; is a bit less than 30k.  :)'
+truncated: false
+user: null
+...

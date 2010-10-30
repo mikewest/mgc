@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.68218815
+  - 48.117465250000002
+  type: Point
+created_at: Mon Oct 18 06:30:31 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.117465250000002
+  - 11.68218815
+  type: Point
+id: '27710771128'
+id_str: '27710771128'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.66419404
+        - 48.093577019999998
+      - - 11.714727959999999
+        - 48.093577019999998
+      - - 11.714727959999999
+        - 48.122079030000002
+      - - 11.66419404
+        - 48.122079030000002
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Waldtrudering, München
+  id: 7ea1f734693fdb5e
+  name: Waldtrudering
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/7ea1f734693fdb5e.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: I'm actually looking forward to writing documentation today.  It'll give me
+  a chance to add some bits of functionality to Rocco. :)
+truncated: false
+user: null
+...

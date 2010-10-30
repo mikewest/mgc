@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sun Oct 17 18:53:37 +0000 2010
+favorited: false
+geo: null
+id: '27662549720'
+id_str: '27662549720'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: Ruby's a weird language, especially when it comes to handling UTF-8 in anything
+  resembling a reasonable way.
+truncated: false
+user: null
+...

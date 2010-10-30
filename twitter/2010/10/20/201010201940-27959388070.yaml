@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Wed Oct 20 19:40:36 +0000 2010
+favorited: false
+geo: null
+id: '27959388070'
+id_str: '27959388070'
+in_reply_to_screen_name: Carlo
+in_reply_to_status_id: 27954248116
+in_reply_to_status_id_str: '27954248116'
+in_reply_to_user_id: 63893
+in_reply_to_user_id_str: '63893'
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
+  for iPad</a>
+text: '@Carlo: My .vimrc assumes a 256 colour terminal.  Terminal.app doesn''t cut
+  it.  I give you some details tomorrow.  :)'
+truncated: false
+user: null
+...

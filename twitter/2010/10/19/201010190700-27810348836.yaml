@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.549683379999999
+  - 48.124911529999999
+  type: Point
+created_at: Tue Oct 19 07:00:57 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.124911529999999
+  - 11.549683379999999
+  type: Point
+id: '27810348836'
+id_str: '27810348836'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.548788119999999
+        - 48.120740009999999
+      - - 11.56184784
+        - 48.120740009999999
+      - - 11.56184784
+        - 48.128384969999999
+      - - 11.548788119999999
+        - 48.128384969999999
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Am Schalachthof, München
+  id: 6fba1f35cde1afbf
+  name: Am Schalachthof
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/6fba1f35cde1afbf.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: After an hour and a half trip to the Ausländeramt, they inform me that I need
+  to bring my wife.  Glad they didn't put that in the letter.
+truncated: false
+user: null
+...

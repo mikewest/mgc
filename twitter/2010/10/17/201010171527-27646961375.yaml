@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sun Oct 17 15:27:46 +0000 2010
+favorited: false
+geo: null
+id: '27646961375'
+id_str: '27646961375'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: Attempting to determine how ruby unit tests are supposed to look.  It's a mess.  TOO
+  MANY FRAMEWORKS.
+truncated: false
+user: null
+...

@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.587275379999999
+  - 48.13168108
+  type: Point
+created_at: Wed Oct 27 19:45:54 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.13168108
+  - 11.587275379999999
+  type: Point
+id: '28918981006'
+id_str: '28918981006'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.58556104
+        - 48.131871029999999
+      - - 11.600075159999999
+        - 48.131871029999999
+      - - 11.600075159999999
+        - 48.14184204
+      - - 11.58556104
+        - 48.14184204
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Maximilianeum, München
+  id: db91c96896ac90dc
+  name: Maximilianeum
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/db91c96896ac90dc.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Left Andi's birthday party early... Feeling a bit shit.  Thought I was done
+  with the flu... :(
+truncated: false
+user: null
+...

@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.564519280000001
+  - 48.138178519999997
+  type: Point
+created_at: Tue Oct 19 06:29:57 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.138178519999997
+  - 11.564519280000001
+  type: Point
+id: '27809035128'
+id_str: '27809035128'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.55543192
+        - 48.128384969999999
+      - - 11.566662839999999
+        - 48.128384969999999
+      - - 11.566662839999999
+        - 48.141981000000001
+      - - 11.55543192
+        - 48.141981000000001
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Ludwigsvorstadt - Driemühlen, München
+  id: d8b3531edce2edc2
+  name: Ludwigsvorstadt - Driemühlen
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/d8b3531edce2edc2.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: Also, next time I consider Sendlinger Tor as a reasonable transfer point, slap
+  me.
+truncated: false
+user: null
+...

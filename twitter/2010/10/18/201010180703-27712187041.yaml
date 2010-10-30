@@ -1,0 +1,48 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.63467586
+  - 48.13820844
+  type: Point
+created_at: Mon Oct 18 07:03:49 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.13820844
+  - 11.63467586
+  type: Point
+id: '27712187041'
+id_str: '27712187041'
+in_reply_to_screen_name: Carlo
+in_reply_to_status_id: 27711682168
+in_reply_to_status_id_str: '27711682168'
+in_reply_to_user_id: 63893
+in_reply_to_user_id_str: '63893'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.61810288
+        - 48.134395980000001
+      - - 11.651438880000001
+        - 48.134395980000001
+      - - 11.651438880000001
+        - 48.164210009999998
+      - - 11.61810288
+        - 48.164210009999998
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Englschalking, München
+  id: ea1990f2a6d057ec
+  name: Englschalking
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/ea1990f2a6d057ec.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@Carlo: Of course.  Nothing special, though.  Bug fixes.  Tiny feature additions...'
+truncated: false
+user: null
+...

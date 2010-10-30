@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.663623749999999
+  - 48.125575660000003
+  type: Point
+created_at: Tue Oct 19 06:08:38 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.125575660000003
+  - 11.663623749999999
+  type: Point
+id: '27808106247'
+id_str: '27808106247'
+in_reply_to_screen_name: BenWard
+in_reply_to_status_id: 27785792878
+in_reply_to_status_id_str: '27785792878'
+in_reply_to_user_id: 12249
+in_reply_to_user_id_str: '12249'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.653016040000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.118328009999999
+      - - 11.704132080000001
+        - 48.160976040000001
+      - - 11.653016040000001
+        - 48.160976040000001
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Trudering - Riem, Munich
+  id: c4a78f1f9a5e81ab
+  name: Trudering - Riem
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/c4a78f1f9a5e81ab.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@BenWard: Nice job, Ben!  Glad to hear you''ve found something that''ll make
+  good use of your amzingnesses. :)'
+truncated: false
+user: null
+...
