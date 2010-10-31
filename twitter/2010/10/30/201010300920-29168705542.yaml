@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Oct 30 09:20:48 +0000 2010
+favorited: false
+geo: null
+id: '29168705542'
+id_str: '29168705542'
+in_reply_to_screen_name: nefarioustim
+in_reply_to_status_id: 29168413494
+in_reply_to_status_id_str: '29168413494'
+in_reply_to_user_id: 12485
+in_reply_to_user_id_str: '12485'
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: '@nefarioustim: Regarding Paintbrush, it seems to me that this sort of thing
+  is exactly what `data-*` attributes are for.'
+truncated: false
+user: null
+...
