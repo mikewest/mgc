@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sun Oct 31 11:58:30 +0000 2010
+favorited: false
+geo: null
+id: '29270253861'
+id_str: '29270253861'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: 'Instead of working on an article, I wrote a vim plugin that''s TOTALLY going
+  to remove distractions while writing: [http://projects.mikewest.org/vimroom/](http://projects.mikewest.org/vimroom/)#ironic'
+truncated: false
+user: null
+...
