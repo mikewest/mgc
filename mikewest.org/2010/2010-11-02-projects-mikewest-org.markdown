@@ -1,3 +1,29 @@
+---
+layout: post
+title:  projects.mikewest.org
+tags:
+    - projects
+    - opensource
+    - webdevelopment
+    - webdev
+    - documentation
+    - bestpractice
+    - vimroom
+    - pyplaceholder
+    - staticgettext
+    - i18n
+    - l10n
+    - jslint
+    - hudson
+
+Teaser:
+    One question you're almost certainly not asking yourself is "What's Mike
+    West been up to?"  That's a shame, really, as I've got some projects
+    floating around that I'm proud of, and that I'd like to share with you.
+    Moreover, I'd like to point out the [project documentation pages][pmo]
+    that I've put together as a meta-project; I think it's worth your time
+    to take a look.
+---
 "What _has_ Mike West been up to recently?"  This is one question that you almost certainly haven't been asking yourself recently.  That's a shame, really, as I've got a few small projects floating around that I think you might be interested in paying attention to.
 
 If you'll indulge me, I'll run through them in no particular order:
