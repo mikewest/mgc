@@ -20,11 +20,9 @@ Teaser:
     One question you're almost certainly not asking yourself is "What's Mike
     West been up to?"  That's a shame, really, as I've got some projects
     floating around that I'm proud of, and that I'd like to share with you.
-    Moreover, I'd like to point out the [project documentation pages][pmo]
+    Moreover, I'd like to point out the [project documentation pages](http://projects.mikewest.org/)
     that I've put together as a meta-project; I think it's worth your time
     to take a look.
-
-    [pmo]:  http://projects.mikewest.org/
 ---
 "What _has_ Mike West been up to recently?"  This is one question that you almost certainly haven't been asking yourself recently.  That's a shame, really, as I've got a few small projects floating around that I think you might be interested in paying attention to.
 
