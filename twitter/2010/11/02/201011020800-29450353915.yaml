@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.64275847
+  - 48.131692719999997
+  type: Point
+created_at: Tue Nov 02 08:00:07 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.131692719999997
+  - 11.64275847
+  type: Point
+id: '29450353915'
+id_str: '29450353915'
+in_reply_to_screen_name: intranation
+in_reply_to_status_id: 29449841043
+in_reply_to_status_id_str: '29449841043'
+in_reply_to_user_id: 79773
+in_reply_to_user_id_str: '79773'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.599405920000001
+        - 48.115034999999999
+      - - 11.65601412
+        - 48.115034999999999
+      - - 11.65601412
+        - 48.139347960000002
+      - - 11.599405920000001
+        - 48.139347960000002
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Berg am Laim, Munich
+  id: 556d837f3b48e28f
+  name: Berg am Laim
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/556d837f3b48e28f.json
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@intranation: 30, huh?  Welcome to being old.  Your cane and rocking chair
+  will be delivered shortly.'
+truncated: false
+user: null
+...
