@@ -20,7 +20,7 @@ Teaser:
     One question you're almost certainly not asking yourself is "What's Mike
     West been up to?"  That's a shame, really, as I've got some projects
     floating around that I'm proud of, and that I'd like to share with you.
-    Moreover, I'd like to point out the [project documentation pages](http://projects.mikewest.org/)
+    Moreover, I'd like to point out the project documentation pages
     that I've put together as a meta-project; I think it's worth your time
     to take a look.
 ---
