@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Nov 16 08:41:30 +0000 2010
+favorited: false
+geo: null
+id: '4453998685855744'
+id_str: '4453998685855744'
+in_reply_to_screen_name: 1Password
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: 793926
+in_reply_to_user_id_str: '793926'
+place: null
+retweet_count: null
+retweeted: false
+source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
+text: '@1Password: I''m having similar extension issues under the latest dev-channel
+  Chrome (9.0.572.1 dev) and latest stable 1P (7.0.517.44)'
+truncated: false
+user: null
+...

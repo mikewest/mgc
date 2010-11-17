@@ -23,18 +23,18 @@ place:
   attributes: {}
   bounding_box:
     coordinates:
-    - - - 11.48114088
+    - - - 11.48141412
         - 48.143224979999999
       - - 11.522558160000001
         - 48.143224979999999
       - - 11.522558160000001
         - 48.169989000000001
-      - - 11.48114088
+      - - 11.48141412
         - 48.169989000000001
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Nymphenburg, Munich
+  full_name: Nymphenburg, München
   id: fd3f0b8e2d167cdc
   name: Nymphenburg
   place_type: neighborhood

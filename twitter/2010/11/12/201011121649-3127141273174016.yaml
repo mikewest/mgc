@@ -32,9 +32,9 @@ place:
       - - 11.599405920000001
         - 48.139347960000002
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Berg am Laim, Munich
+  full_name: Berg am Laim, München
   id: 556d837f3b48e28f
   name: Berg am Laim
   place_type: neighborhood
