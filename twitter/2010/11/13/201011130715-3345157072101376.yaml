@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: 'On the bus, heading to #wbfntdy [http://instagr.am/p/PEp4/](http://instagr.am/p/PEp4/)'
