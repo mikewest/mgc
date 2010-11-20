@@ -12,7 +12,7 @@ in_reply_to_status_id_str: '5187189986033664'
 in_reply_to_user_id: 27616877
 in_reply_to_user_id_str: '27616877'
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@RobLoBue: Obesity.'

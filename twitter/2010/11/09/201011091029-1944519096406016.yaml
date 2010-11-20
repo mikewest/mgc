@@ -12,7 +12,7 @@ in_reply_to_status_id_str: '1941338874449920'
 in_reply_to_user_id: 63893
 in_reply_to_user_id_str: '63893'
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@Carlo: Different language, much much much better sandbox.  It makes more sense
