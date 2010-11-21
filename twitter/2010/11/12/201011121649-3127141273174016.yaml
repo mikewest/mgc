@@ -39,7 +39,7 @@ place:
   name: Berg am Laim
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/556d837f3b48e28f.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: Sueddeutsche at Night  @ Bahnhof Berg am Laim [http://instagr.am/p/Op1j/](http://instagr.am/p/Op1j/)
