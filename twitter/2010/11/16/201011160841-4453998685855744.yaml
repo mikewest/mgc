@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: 793926
 in_reply_to_user_id_str: '793926'
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: '@1Password: I''m having similar extension issues under the latest dev-channel
