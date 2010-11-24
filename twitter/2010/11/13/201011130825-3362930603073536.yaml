@@ -39,7 +39,7 @@ place:
   name: Nymphenburg
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/fd3f0b8e2d167cdc.json
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: 'At #wbfntdy, ready for typographical goodness.  :)  @ Webfontday [http://instagr.am/p/PG8w/](http://instagr.am/p/PG8w/)'
