@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: I'm looking forward to seeing what the @devfort team puts together this week.  Have

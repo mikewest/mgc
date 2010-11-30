@@ -1,11 +1,11 @@
 ---
 contributors: null
 coordinates: null
-created_at: Tue Nov 23 17:48:33 +0000 2010
+created_at: Mon Nov 29 15:47:49 +0000 2010
 favorited: false
 geo: null
-id: '7128380633780224'
-id_str: '7128380633780224'
+id: '9272328034717697'
+id_str: '9272328034717697'
 in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_status_id_str: null
@@ -14,8 +14,8 @@ in_reply_to_user_id_str: null
 place: null
 retweet_count: null
 retweeted: false
-source: web
-text: And it's gone.  That was fast.  :)
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: On a bus.  A Google bus, with WiFi.  :)
 truncated: false
 user: null
 ...
