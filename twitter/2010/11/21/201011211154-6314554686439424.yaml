@@ -12,7 +12,7 @@ in_reply_to_status_id_str: '6299918243209216'
 in_reply_to_user_id: 27616877
 in_reply_to_user_id_str: '27616877'
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
   for iPad</a>

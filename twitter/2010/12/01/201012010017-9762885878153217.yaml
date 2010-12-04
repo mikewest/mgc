@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: web
 text: spacelog.org is lovely.  Brilliant work, @devfort!

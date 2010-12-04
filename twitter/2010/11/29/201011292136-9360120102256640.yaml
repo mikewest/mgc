@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: Jetlag's really kicking in.  Good thing there are only four more hours of presentations

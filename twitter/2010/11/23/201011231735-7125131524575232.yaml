@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com" rel="nofollow">Tweetie for Mac</a>
 text: Anyone want 1Password for Mac (@1Password is giving away a license as a holiday
