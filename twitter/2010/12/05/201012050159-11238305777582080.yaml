@@ -1,21 +1,22 @@
 ---
 contributors: null
 coordinates: null
-created_at: Mon Nov 29 15:47:49 +0000 2010
+created_at: Sun Dec 05 01:59:55 +0000 2010
 favorited: false
 geo: null
-id: '9272328034717697'
-id_str: '9272328034717697'
+id: '11238305777582080'
+id_str: '11238305777582080'
 in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
-text: On a bus.  A Google bus, with WiFi.  :)
+text: There was apparently a dress code for the holiday party tonight.  Feeling more
+  than slightly out of place.
 truncated: false
 user: null
 ...

@@ -12,7 +12,7 @@ in_reply_to_status_id_str: '10694463219306497'
 in_reply_to_user_id: 14354708
 in_reply_to_user_id_str: '14354708'
 place: null
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
 text: '@dsavints: good luck, Dmitri!'
