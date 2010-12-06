@@ -39,7 +39,7 @@ place:
   name: Golden Gate Park
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/289729f8475cc0fe.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: The holiday party comes complete with an enclosed rainforest...  @ California

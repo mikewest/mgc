@@ -32,14 +32,14 @@ place:
       - - 11.61810288
         - 48.164210009999998
     type: Polygon
-  country: Deutschland
+  country: Germany
   country_code: DE
-  full_name: Englschalking, München
+  full_name: Englschalking, Munich
   id: ea1990f2a6d057ec
   name: Englschalking
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/ea1990f2a6d057ec.json
-retweet_count: 0
+retweet_count: null
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: Last day at Sueddeutsche.  @ Süddeutscher Verlag [http://instagr.am/p/XiCt/](http://instagr.am/p/XiCt/)
