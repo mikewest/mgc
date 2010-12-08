@@ -1,11 +1,11 @@
 ---
 contributors: null
 coordinates: null
-created_at: Sun Dec 05 01:01:28 +0000 2010
+created_at: Wed Dec 08 00:23:11 +0000 2010
 favorited: false
 geo: null
-id: '11223595078389760'
-id_str: '11223595078389760'
+id: '12301125206147073'
+id_str: '12301125206147073'
 in_reply_to_screen_name: null
 in_reply_to_status_id: null
 in_reply_to_status_id_str: null
@@ -14,8 +14,9 @@ in_reply_to_user_id_str: null
 place: null
 retweet_count: 0
 retweeted: false
-source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
-text: It really is an absurd remote... [http://instagr.am/p/debL/](http://instagr.am/p/debL/)
+source: web
+text: Tweeting from the Google bus, somewhere between San Francisco and Mountain View.  Mobile
+  WiFi is rad.
 truncated: false
 user: null
 ...
