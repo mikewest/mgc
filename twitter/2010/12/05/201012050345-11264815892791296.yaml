@@ -23,13 +23,13 @@ place:
   attributes: {}
   bounding_box:
     coordinates:
-    - - - -122.51170584
-        - 37.763964000000001
+    - - - -122.51165904
+        - 37.764233009999998
       - - -122.45278211999999
-        - 37.763964000000001
+        - 37.764233009999998
       - - -122.45278211999999
         - 37.77472899
-      - - -122.51170584
+      - - -122.51165904
         - 37.77472899
     type: Polygon
   country: The United States of America
@@ -39,7 +39,7 @@ place:
   name: Golden Gate Park
   place_type: neighborhood
   url: http://api.twitter.com/1/geo/id/289729f8475cc0fe.json
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: Underwater passageway... Awesome!  @ California Academy of Sciences [http://instagr.am/p/dkvF/](http://instagr.am/p/dkvF/)

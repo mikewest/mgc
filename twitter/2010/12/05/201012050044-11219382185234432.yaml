@@ -12,7 +12,7 @@ in_reply_to_status_id_str: null
 in_reply_to_user_id: null
 in_reply_to_user_id_str: null
 place: null
-retweet_count: null
+retweet_count: 0
 retweeted: false
 source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
 text: Ball pit's smaller than expected [http://instagr.am/p/dd1J/](http://instagr.am/p/dd1J/)
