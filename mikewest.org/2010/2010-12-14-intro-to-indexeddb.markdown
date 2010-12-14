@@ -28,7 +28,7 @@ I believe someone was recording the session, so if that becomes available online
 Embedded Slides
 ---------------
 
-<div style="width:425px" id="__ss_6162787">
+<div style="width:606px;margin:0 auto;" id="__ss_6162787">
   <strong style="display:block;margin:12px 0 4px">
     <a
       href="http://www.slideshare.net/mikewest/intro-to-indexeddb-beta"
@@ -37,7 +37,7 @@ Embedded Slides
       Intro to IndexedDB (Beta)
     </a>
   </strong>
-  <object id="__sse6162787" width="425" height="355">
+  <object id="__sse6162787" width="606" height="506">
     <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=indexeddb-101214120833-phpapp01&rel=0&stripped_title=intro-to-indexeddb-beta&userName=mikewest" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse6162787" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=indexeddb-101214120833-phpapp01&rel=0&stripped_title=intro-to-indexeddb-beta&userName=mikewest" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed>
   </object>
 </div>
