@@ -2,23 +2,23 @@
 contributors: null
 coordinates:
   coordinates:
-  - 11.64275847
-  - 48.131692719999997
+  - 11.63306236
+  - 48.133816699999997
   type: Point
-created_at: Tue Nov 02 08:00:07 +0000 2010
+created_at: Fri Nov 12 16:49:03 +0000 2010
 favorited: false
 geo:
   coordinates:
-  - 48.131692719999997
-  - 11.64275847
+  - 48.133816699999997
+  - 11.63306236
   type: Point
-id: '29450353915'
-id_str: '29450353915'
-in_reply_to_screen_name: intranation
-in_reply_to_status_id: 29449841043
-in_reply_to_status_id_str: '29449841043'
-in_reply_to_user_id: 79773
-in_reply_to_user_id_str: '79773'
+id: '3127141273174016'
+id_str: '3127141273174016'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
 place:
   attributes: {}
   bounding_box:
@@ -41,9 +41,8 @@ place:
   url: http://api.twitter.com/1/geo/id/556d837f3b48e28f.json
 retweet_count: null
 retweeted: false
-source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
-text: '@intranation: 30, huh?  Welcome to being old.  Your cane and rocking chair
-  will be delivered shortly.'
+source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
+text: Sueddeutsche at Night  @ Bahnhof Berg am Laim [http://instagr.am/p/Op1j/](http://instagr.am/p/Op1j/)
 truncated: false
 user: null
 ...

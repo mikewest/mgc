@@ -32,9 +32,9 @@ place:
       - - 11.58556104
         - 48.14184204
     type: Polygon
-  country: Germany
+  country: Deutschland
   country_code: DE
-  full_name: Maximilianeum, Munich
+  full_name: Maximilianeum, München
   id: db91c96896ac90dc
   name: Maximilianeum
   place_type: neighborhood

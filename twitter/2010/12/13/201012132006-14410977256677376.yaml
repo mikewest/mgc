@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Mon Dec 13 20:06:59 +0000 2010
+favorited: false
+geo: null
+id: '14410977256677376'
+id_str: '14410977256677376'
+in_reply_to_screen_name: paul_irish
+in_reply_to_status_id: 14388122502569984
+in_reply_to_status_id_str: '14388122502569984'
+in_reply_to_user_id: 1671811
+in_reply_to_user_id_str: '1671811'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/" rel="nofollow">Twitter for iPhone</a>
+text: '@paul_irish: In FF4rc7, I get exceptions when I call ''addEventListener'' on
+  an IDBRequest object. *shrug* It''s buggy.'
+truncated: false
+user: null
+...

@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -122.46641278
+  - 37.770087160000003
+  type: Point
+created_at: Sun Dec 05 03:27:16 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 37.770087160000003
+  - -122.46641278
+  type: Point
+id: '11260287931912192'
+id_str: '11260287931912192'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -122.51165904
+        - 37.764233009999998
+      - - -122.45278211999999
+        - 37.764233009999998
+      - - -122.45278211999999
+        - 37.77472899
+      - - -122.51165904
+        - 37.77472899
+    type: Polygon
+  country: The United States of America
+  country_code: US
+  full_name: Golden Gate Park, San Francisco
+  id: 289729f8475cc0fe
+  name: Golden Gate Park
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/289729f8475cc0fe.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
+text: The holiday party comes complete with an enclosed rainforest...  @ California
+  Academy of Sciences [http://instagr.am/p/dkAS/](http://instagr.am/p/dkAS/)
+truncated: false
+user: null
+...

@@ -1,0 +1,48 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.635363999999999
+  - 48.137062999999998
+  type: Point
+created_at: Fri Nov 26 08:28:09 +0000 2010
+favorited: false
+geo:
+  coordinates:
+  - 48.137062999999998
+  - 11.635363999999999
+  type: Point
+id: '8074515422650368'
+id_str: '8074515422650368'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.61810288
+        - 48.134395980000001
+      - - 11.651438880000001
+        - 48.134395980000001
+      - - 11.651438880000001
+        - 48.164210009999998
+      - - 11.61810288
+        - 48.164210009999998
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Englschalking, Munich
+  id: ea1990f2a6d057ec
+  name: Englschalking
+  place_type: neighborhood
+  url: http://api.twitter.com/1/geo/id/ea1990f2a6d057ec.json
+retweet_count: null
+retweeted: false
+source: <a href="http://instagr.am" rel="nofollow">Instagram</a>
+text: Last day at Sueddeutsche.  @ Süddeutscher Verlag [http://instagr.am/p/XiCt/](http://instagr.am/p/XiCt/)
+truncated: false
+user: null
+...

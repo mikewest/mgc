@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Dec 11 06:09:09 +0000 2010
+favorited: false
+geo: null
+id: '13475352907087873'
+id_str: '13475352907087873'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: web
+text: The indexedDB spec is surprisingly readable, which is nice, since there's _no_
+  good documentation otherwise. [http://www.w3.org/TR/I&hellip;dDB/](http://www.w3.org/TR/IndexedDB/)
+truncated: false
+user: null
+...
