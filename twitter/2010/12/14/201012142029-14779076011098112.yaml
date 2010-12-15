@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Dec 14 20:29:40 +0000 2010
+favorited: false
+geo: null
+id: '14779076011098112'
+id_str: '14779076011098112'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 9
+retweeted: false
+source: web
+text: 'Slides and transcript of the IndexedDB introduction I presented last night:
+  [http://mikewest.org/2010&hellip;eddb](http://mikewest.org/2010/12/intro-to-indexeddb)
+  Go experiment!'
+truncated: false
+user: null
+...

@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Dec 14 21:57:50 +0000 2010
+favorited: false
+geo: null
+id: '14801261937299456'
+id_str: '14801261937299456'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 1
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: 'Webkit has an IndexedDB test suite, which is probably better than the spec
+  for practical usage tips: [http://trac.webkit.org/expo&hellip;ddb/](http://trac.webkit.org/export/70913/trunk/LayoutTests/storage/indexeddb/)/via
+  @paul_irish'
+truncated: false
+user: null
+...
