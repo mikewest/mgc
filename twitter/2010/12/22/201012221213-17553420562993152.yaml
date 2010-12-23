@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Wed Dec 22 12:13:56 +0000 2010
+favorited: false
+geo: null
+id: '17553420562993152'
+id_str: '17553420562993152'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: My poor laptop has been compiling Chrome for the last hour and a half.  Let's
+  move that repository outside of FileVault, shall we?  :)
+truncated: false
+user: null
+...
