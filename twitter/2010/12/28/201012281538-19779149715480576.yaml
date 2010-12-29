@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Dec 28 15:38:11 +0000 2010
+favorited: false
+geo: null
+id: '19779149715480576'
+id_str: '19779149715480576'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: 'Spent most of the day swearing at AppEngine: the bugs turns out (of course)
+  to have been combinations of poor architecture and typos.  Bah.'
+truncated: false
+user: null
+...

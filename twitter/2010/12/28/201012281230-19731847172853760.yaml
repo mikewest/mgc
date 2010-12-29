@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue Dec 28 12:30:13 +0000 2010
+favorited: false
+geo: null
+id: '19731847172853760'
+id_str: '19731847172853760'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: Oh, and `webapp.template.load` overwrites TEMPLATE_DIRS in an undocumented way.  How
+  exciting.
+truncated: false
+user: null
+...
