@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Thu Dec 30 15:41:15 +0000 2010
+favorited: false
+geo: null
+id: '20504697928417281'
+id_str: '20504697928417281'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: Jekyll implemented plugin support!  Months ago!  Very nice indeed.  Maybe I'll
+  be able to throw my fork away.  :)
+truncated: false
+user: null
+...
