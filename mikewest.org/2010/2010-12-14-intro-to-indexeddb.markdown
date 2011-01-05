@@ -23,7 +23,19 @@ Teaser:
 ---
 Yesterday at the Silicon Valley GTUG meetup, I gave a presentation introducing the IndexedDB API.  I've thrown the slides on Slideshare, but the transcription there is absolutely miserable.  I'll reproduce it here in a readable format, and add a few notes where appropriate.
 
-I believe someone was recording the session, so if that becomes available online somewhere, I'll post a link here.
+Video
+-----
+
+<iframe
+  title="'Intro to IndexedDB on YouTube"
+  class="youtube-player"
+  type="text/html"
+  width="606"
+  height="370"
+  style="margin:0 auto;"
+  src="http://www.youtube.com/embed/yRo2hVoHWdQ#t=6m22s"
+  frameborder="0"></iframe>
+
 
 Embedded Slides
 ---------------
