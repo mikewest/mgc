@@ -26,15 +26,17 @@ Yesterday at the Silicon Valley GTUG meetup, I gave a presentation introducing t
 Video
 -----
 
-<iframe
-  title="'Intro to IndexedDB on YouTube"
-  class="youtube-player"
-  type="text/html"
-  width="606"
-  height="370"
-  style="margin:0 auto;"
-  src="http://www.youtube.com/embed/yRo2hVoHWdQ#t=6m22s"
-  frameborder="0"></iframe>
+<object width="606" height="365" style="margin:0 auto;">
+  <param name="movie" value="http://www.youtube-nocookie.com/v/yRo2hVoHWdQ?fs=1&amp;hl=en_US#t=6m22s"></param>
+  <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
+  <embed
+    src="http://www.youtube-nocookie.com/v/yRo2hVoHWdQ?fs=1&amp;hl=en_US#t=6m22s"
+    type="application/x-shockwave-flash"
+    allowscriptaccess="always"
+    allowfullscreen="true"
+    width="606"
+    height="365"></embed>
+</object>
 
 
 Embedded Slides
