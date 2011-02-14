@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Sun Feb 13 16:21:07 +0000 2011
+favorited: false
+geo: null
+id: '36822185461039104'
+id_str: '36822185461039104'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+  for Mac</a>
+text: "`real\t17m18.356s`.  Oh, and what's that?  I typo'd in a JSON file that the\
+  \ compiler doesn't check until runtime?  *sigh*  Building again."
+truncated: false
+user: null
+...
