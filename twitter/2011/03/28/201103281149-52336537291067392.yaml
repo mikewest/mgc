@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - -122.08377083000001
+  - 37.388613810000003
+  type: Point
+created_at: Mon Mar 28 11:49:37 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 37.388613810000003
+  - -122.08377083000001
+  type: Point
+id: '52336537291067392'
+id_str: '52336537291067392'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - -122.117852
+        - 37.356760000000001
+      - - -122.044473
+        - 37.356760000000001
+      - - -122.044473
+        - 37.469887
+      - - -122.117852
+        - 37.469887
+    type: Polygon
+  country: United States
+  country_code: US
+  full_name: Mountain View, CA
+  id: b19a2cc5134b7e0a
+  name: Mountain View
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/b19a2cc5134b7e0a.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://itunes.apple.com/app/twitter/id333903271?mt=8" rel="nofollow">Twitter
+  for iPad</a>
+text: Slept from ~20:30 till 4:35.  Relatively awake now... Ah, jetlag.
+truncated: false
+user: null
+...
