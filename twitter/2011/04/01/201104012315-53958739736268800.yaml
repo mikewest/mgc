@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Fri Apr 01 23:15:40 +0000 2011
+favorited: false
+geo: null
+id: '53958739736268800'
+id_str: '53958739736268800'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 4
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: '`#el { width: 1in; }` =&gt; 96px, regardless of device DPI. It''s the cold,
+  hard truth of the web: [http://codesearch.google.com/code&hellip;t=rc](http://codesearch.google.com/codesearch/p?hl=en#OAMlx_jo-ck/src/third_party/WebKit/Source/WebCore/css/CSSHelper.h&q=cold%20hard%20truth&exact_package=chromium&sa=N&cd=1&ct=rc)'
+truncated: false
+user: null
+...

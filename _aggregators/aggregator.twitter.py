@@ -40,8 +40,9 @@ class AggregateTwitter( Aggregator ):
             for file in directory[2]:
                 if file > self.latest_id:
                     self.latest_id = file
-        m = re.search( '-(\d+).yaml', file ) 
-        self.latest_id = m.group( 1 )
+        if self.latest_id != '':
+            m = re.search( '-(\d+).yaml', self.latest_id ) 
+            self.latest_id = m.group( 1 )
 
     def get_new_tweets( self ):
         endpoint = 'http://twitter.com/statuses/user_timeline/%s.json?count=200&since_id=%s'

@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Wed Jan 12 09:26:14 +0000 2011
+favorited: false
+geo: null
+id: '25121362360143873'
+id_str: '25121362360143873'
+in_reply_to_screen_name: tfnico
+in_reply_to_status_id: 25119327854268417
+in_reply_to_status_id_str: '25119327854268417'
+in_reply_to_user_id: 3711771
+in_reply_to_user_id_str: '3711771'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: '@tfnico: I just noticed that the website was out of date.  :(  Please pull
+  down the v0.6 tarball to fix an insert mode navigation bug.'
+truncated: false
+user: null
+...

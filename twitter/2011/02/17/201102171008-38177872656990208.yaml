@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Thu Feb 17 10:08:08 +0000 2011
+favorited: false
+geo: null
+id: '38177872656990208'
+id_str: '38177872656990208'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: 'Landed a (tiny) patch to Chromium to fix a bug in the cookie extension API:
+  crbug.com/70102  Yay!  :)'
+truncated: false
+user: null
+...
