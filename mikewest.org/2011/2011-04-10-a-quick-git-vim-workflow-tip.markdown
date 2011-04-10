@@ -28,15 +28,17 @@ quickly as possible.
 
     [alias]
       ...
-      fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | uniq' -
+      fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | uniq | sed -e "s#^#`git rev-parse --show-toplevel`/#"' -
       vim   = ! sh -c 'vim `git fshow $1`' -
       mate  = ! sh -c 'mate `git fshow $1`' -
       edit  = ! sh -c '$EDITOR `git fshow $1`' -
 
 The first alias calls `git show` to get a list of all the files touched by a
-revision or range, filters out empty lines, and deduplicates the list of files.
-Any [valid revision or range][1] will work.  For example, to see a list of
-files over the last few revisions, I could type:
+revision or range, filters out empty lines, and ensures that the paths are
+absolute after deduplicating the list of files. Any
+[valid revision or range][1] will work: `HEAD`, `37ad159`, `master..`, etc.
+
+To see a list of files changed over the last four revisions, I could type:
 
     $ git fshow HEAD~5..
     lib/rocco/layout.rb
@@ -50,7 +52,7 @@ To open those files for editing, I'd use the second alias:
 
     $ git vim HEAD~5..
 
-If I wanted to open the files in TextMate instead (?), I'd use the third:
+If I wanted to open the files in TextMate instead, I'd use the third:
 
     $ git mate HEAD~5..
 
