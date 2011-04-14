@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Wed Apr 13 19:26:32 +0000 2011
+favorited: false
+geo: null
+id: '58249728005120000'
+id_str: '58249728005120000'
+in_reply_to_screen_name: sethladd
+in_reply_to_status_id: 58241445999546368
+in_reply_to_status_id_str: '58241445999546368'
+in_reply_to_user_id: 1118681
+in_reply_to_user_id_str: '1118681'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+  for Mac</a>
+text: '@sethladd, @mahemoff: Yup. The history API is a great example of _progressively
+  enhancing_ a site based on a visitor''s capabilities. :)'
+truncated: false
+user: null
+...
