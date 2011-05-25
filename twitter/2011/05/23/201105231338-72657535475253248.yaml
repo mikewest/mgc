@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Mon May 23 13:38:01 +0000 2011
+favorited: false
+geo: null
+id: '72657535475253248'
+id_str: '72657535475253248'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: web
+text: Finally landed a fix for [https://bugs.webkit.org/show&hellip;8127](https://bugs.webkit.org/show_bug.cgi?id=58127)after
+  a month(ish) of weekend fiddling; patching webkit is a good bit more work than Chromium.
+truncated: false
+user: null
+...
