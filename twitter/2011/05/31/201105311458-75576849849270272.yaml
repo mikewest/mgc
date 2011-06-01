@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Tue May 31 14:58:19 +0000 2011
+favorited: false
+geo: null
+id: '75576849849270272'
+id_str: '75576849849270272'
+in_reply_to_screen_name: jaylett
+in_reply_to_status_id: 75302514244857856
+in_reply_to_status_id_str: '75302514244857856'
+in_reply_to_user_id: 710013
+in_reply_to_user_id_str: '710013'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: '@jaylett: What''s the usecase for cross-page activity in web inspector? Not
+  that it''s a bad idea, I just want to know how you want to use it.'
+truncated: false
+user: null
+...
