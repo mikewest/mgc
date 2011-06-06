@@ -75,3 +75,4 @@ This was the first time I've participated in a podcast of any sort. It was a goo
 [labslist]: https://groups.google.com/forum/#!forum/mozilla-labs
 [ffrelease]: http://blog.mozilla.com/blog/2011/04/13/new-channels-for-firefox-rapid-releases/
 [msrelease]: http://ie.microsoft.com/testdrive/
+[kmoo]: https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe
