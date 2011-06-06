@@ -58,7 +58,7 @@ This was the first time I've participated in a podcast of any sort. It was a goo
 
 [link]: http://technikwuerze.de/podcast/technikwuerze-178-im-hause-google/
 [mrdoob]: http://mrdoob.com/
-[three]: https://github.com/mrdoob/three.js
+[threejs]: https://github.com/mrdoob/three.js
 [cws]: https://chrome.google.com/webstore
 [rome]: http://ro.me/
 [hiring]: http://www.google.de/intl/en/jobs/germanylocations/munich/
