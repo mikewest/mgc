@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Mon Jun 06 15:26:33 +0000 2011
+favorited: false
+geo: null
+id: '77758279165546496'
+id_str: '77758279165546496'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: I have seen the future, and it's setting fifteen breakpoints in GDB to debug
+  a threading problem in a unit test. *sigh*
+truncated: false
+user: null
+...
