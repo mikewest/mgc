@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Mon Jun 06 15:42:13 +0000 2011
+favorited: false
+geo: null
+id: '77762221916168193'
+id_str: '77762221916168193'
+in_reply_to_screen_name: neovatar
+in_reply_to_status_id: 77731669993472000
+in_reply_to_status_id_str: '77731669993472000'
+in_reply_to_user_id: 21020260
+in_reply_to_user_id_str: '21020260'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: '@neovatar: I want to build Chromium at home, and it takes ~1.5 hours on my
+  iMac. ec2 has POWERFUL machines, I''d like to use them. :)'
+truncated: false
+user: null
+...
