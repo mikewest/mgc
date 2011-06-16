@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Thu Jun 16 05:59:38 +0000 2011
+favorited: false
+geo: null
+id: '81239489103663105'
+id_str: '81239489103663105'
+in_reply_to_screen_name: bluesmoon
+in_reply_to_status_id: 81181432587894784
+in_reply_to_status_id_str: '81181432587894784'
+in_reply_to_user_id: 7510552
+in_reply_to_user_id_str: '7510552'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+text: '@bluesmoon @paul_irish: If and when it does start up, you can file a bug directly
+  from chrome://crashes that auto attaches a crash report.'
+truncated: false
+user: null
+...
