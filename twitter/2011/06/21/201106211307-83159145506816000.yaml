@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.67426109
+  - 47.629378019999997
+  type: Point
+created_at: Tue Jun 21 13:07:39 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 47.629378019999997
+  - 11.67426109
+  type: Point
+id: '83159145506816000'
+id_str: '83159145506816000'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.331716999999999
+        - 47.494982
+      - - 11.68018
+        - 47.494982
+      - - 11.68018
+        - 47.709116000000002
+      - - 11.331716999999999
+        - 47.709116000000002
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Lenggries, Bad Tölz-Wolfratshausen
+  id: 473334472f340194
+  name: Lenggries
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/473334472f340194.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/#!/download/iphone" rel="nofollow">Twitter for
+  iPhone</a>
+text: Heading back down... Nice day! [http://yfrog.com/h8gj2zaj](http://yfrog.com/h8gj2zaj)
+truncated: false
+user: null
+...

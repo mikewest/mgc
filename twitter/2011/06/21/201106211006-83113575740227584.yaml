@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.68622255
+  - 47.618445090000002
+  type: Point
+created_at: Tue Jun 21 10:06:35 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 47.618445090000002
+  - 11.68622255
+  type: Point
+id: '83113575740227584'
+id_str: '83113575740227584'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.598003
+        - 47.582337000000003
+      - - 11.854778
+        - 47.582337000000003
+      - - 11.854778
+        - 47.700391000000003
+      - - 11.598003
+        - 47.700391000000003
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Kreuth, Miesbach
+  id: 3b956cec3c48b65c
+  name: Kreuth
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/3b956cec3c48b65c.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/#!/download/iphone" rel="nofollow">Twitter for
+  iPhone</a>
+text: Taking a quick break... Pretty!  [http://yfrog.com/kkydqhj](http://yfrog.com/kkydqhj)
+truncated: false
+user: null
+...
