@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Thu Jun 23 18:40:00 +0000 2011
+favorited: false
+geo: null
+id: '83967558738378752'
+id_str: '83967558738378752'
+in_reply_to_screen_name: intranation
+in_reply_to_status_id: 83965517550989312
+in_reply_to_status_id_str: '83965517550989312'
+in_reply_to_user_id: 79773
+in_reply_to_user_id_str: '79773'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+  for Mac</a>
+text: '@intranation: I think the implementation is all under [http://trac.webkit.org/brow&hellip;kets](http://trac.webkit.org/browser/trunk/Source/WebCore/websockets)'
+truncated: false
+user: null
+...
