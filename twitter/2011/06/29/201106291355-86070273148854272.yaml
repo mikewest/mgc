@@ -1,0 +1,24 @@
+---
+contributors: null
+coordinates: null
+created_at: Wed Jun 29 13:55:26 +0000 2011
+favorited: false
+geo: null
+id: '86070273148854272'
+id_str: '86070273148854272'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text: After 2+ months of fiddling, landing, reverting, and more fiddling, I finally
+  landed [http://trac.webkit.org/chan&hellip;0010](http://trac.webkit.org/changeset/90010)to
+  fix [https://bugs.webkit.org/show&hellip;8127](https://bugs.webkit.org/show_bug.cgi?id=58127)
+  Yay?
+truncated: false
+user: null
+...
