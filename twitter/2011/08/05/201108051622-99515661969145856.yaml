@@ -1,0 +1,49 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 7.7759736100000003
+  - 48.19141441
+  type: Point
+created_at: Fri Aug 05 16:22:37 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 48.19141441
+  - 7.7759736100000003
+  type: Point
+id: '99515661969145856'
+id_str: '99515661969145856'
+in_reply_to_screen_name: municode
+in_reply_to_status_id: 99451248742367232
+in_reply_to_status_id_str: '99451248742367232'
+in_reply_to_user_id: 63893
+in_reply_to_user_id_str: '63893'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 7.7097559999999996
+        - 48.159072999999999
+      - - 7.941681
+        - 48.159072999999999
+      - - 7.941681
+        - 48.228354000000003
+      - - 7.7097559999999996
+        - 48.228354000000003
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Kenzingen, Emmendingen
+  id: 059002d8824f0afa
+  name: Kenzingen
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/059002d8824f0afa.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/#!/download/iphone" rel="nofollow">Twitter for
+  iPhone</a>
+text: '@municode: Me too! Some weekend when the wives are away!'
+truncated: false
+user: null
+...
