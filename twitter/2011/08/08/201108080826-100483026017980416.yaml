@@ -1,0 +1,51 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 7.6982399399999997
+  - 47.96860968
+  type: Point
+created_at: Mon Aug 08 08:26:34 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 47.96860968
+  - 7.6982399399999997
+  type: Point
+id: '100483026017980416'
+id_str: '100483026017980416'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 7.6620758000000002
+        - 47.903610999999998
+      - - 7.9308149999999999
+        - 47.903610999999998
+      - - 7.9308149999999999
+        - 48.070923000000001
+      - - 7.6620758000000002
+        - 48.070923000000001
+    type: Polygon
+  country: Germany
+  country_code: DE
+  full_name: Freiburg im Breisgau, Freiburg im Breisgau
+  id: 297642d53265f8b4
+  name: Freiburg im Breisgau
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/297642d53265f8b4.json
+possibly_sensitive: false
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/#!/download/iphone" rel="nofollow">Twitter for
+  iPhone</a>
+text: Two years ago yesterday, I celebrated here after marrying a wonderful woman.
+  How time flies...  [http://yfrog.com/kj591ldj](http://yfrog.com/kj591ldj)
+truncated: false
+user: null
+...
