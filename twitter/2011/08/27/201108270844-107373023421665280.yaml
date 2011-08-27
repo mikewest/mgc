@@ -1,0 +1,42 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Aug 27 08:44:58 +0000 2011
+favorited: false
+geo: null
+id: '107373023421665280'
+id_str: '107373023421665280'
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 30.089689400000001
+        - 59.776171400000003
+      - - 30.567706699999999
+        - 59.776171400000003
+      - - 30.567706699999999
+        - 60.092099099999999
+      - - 30.089689400000001
+        - 60.092099099999999
+    type: Polygon
+  country: Russland
+  country_code: RU
+  full_name: Sankt Petersburg, Sankt Petersburg
+  id: a76c0cd7d56c4836
+  name: Sankt Petersburg
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/a76c0cd7d56c4836.json
+possibly_sensitive: false
+retweet_count: 1
+retweeted: false
+source: web
+text: 'Slides for my introductory presentation from this weekend''s #gtug11hack hackathon
+  in St. Petersburg and across Russia: [http://mkw.st/20110827/](http://mkw.st/20110827/)'
+truncated: false
+user: null
+...
