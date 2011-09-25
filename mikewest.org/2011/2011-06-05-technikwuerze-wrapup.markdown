@@ -38,9 +38,9 @@ I'd also like to make two corrections. I'm not sure what one would call "errata"
 
 2. I talked about Native Client as something that would trigger a review when uploading an item to the Chrome Web Store. I meant to refer to NPAPI plugins that can execute native code on your computer. If you write a Chrome extension or packaged application that relies on an NPAPI plugin, you'll go through a review process to verify that someone's responsible for the code, as there's no practical limit on what such a plugin can do to a user's computer (and we flag it as such in the store as being able to access "All data on your computer and the websites you visit"). These types of plugins also won't run on ChromeOS, full stop.
 
-  While Native Client is in your head, however, I'll note that it is right now in Chrome behind a flag, and there are indeed projects written using it ([NaClBox][] being the most recent brilliant example that I'm aware of), but it's not something for  the general public at the moment. It's experimental. An amazing piece of technology that's in earnest development, but experimental. The Native Client team gave a talk at I/O (["Beyond JavaScript: Programming the Web with Native Client"][naclio]) that's worth watching if you're interested in the current status of the project.
+    While Native Client is in your head, however, I'll note that it is right now in Chrome behind a flag, and there are indeed projects written using it ([NaClBox][] being the most recent brilliant example that I'm aware of), but it's not something for  the general public at the moment. It's experimental. An amazing piece of technology that's in earnest development, but experimental. The Native Client team gave a talk at I/O (["Beyond JavaScript: Programming the Web with Native Client"][naclio]) that's worth watching if you're interested in the current status of the project.
 
-  I also mentioned casually that Native Client supports not only C/C++ but also Java and maybe Python. Again, I should have referred to NPAPI plugins (which actually _do_ somewhat support Python via projects like [pyplugin][]). Native Client is C/C++ only at the moment. Though there's no theoretical reason the framework _couldn't_ work foremost other languages, there's no compiler, nor do I know of any effort underway to write one.
+    I also mentioned casually that Native Client supports not only C/C++ but also Java and maybe Python. Again, I should have referred to NPAPI plugins (which actually _do_ somewhat support Python via projects like [pyplugin][]). Native Client is C/C++ only at the moment. Though there's no theoretical reason the framework _couldn't_ work foremost other languages, there's no compiler, nor do I know of any effort underway to write one.
 
 ## Updates.
 
@@ -50,13 +50,15 @@ I'd also like to make two corrections. I'm not sure what one would call "errata"
 
 3. With regard to the application metadata format that the Chrome Web Store uses, Mozilla's implementation of a similar idea [is progressing nicely][mozilla], but there's still a gap between the functionality it offers and the model Chrome is running with at the moment. Discussion regarding those differences, and the direction in general, are happening in public on a variety of lists ([mozilla-labs][labslist] for example).
 
+4. Chrome's quick, multi-channel release cycle has been more successful than I thought possible. Firefox [has adopted a similar system][ffrelease], and Microsoft is [already pushing out "platform previews" of IE10][msrelease]. This is just plain good for the web.
+
 ## And that's about it...
 
 This was the first time I've participated in a podcast of any sort. It was a good experience, modulo the gap between recording and publication, and I look forward to talking into a microphone at some point again. Thanks for inviting me onto the show, liebe Technikwürzler. Till next time... :)
 
-[link]: http://TODO
+[link]: http://technikwuerze.de/podcast/technikwuerze-178-im-hause-google/
 [mrdoob]: http://mrdoob.com/
-[three]: https://github.com/mrdoob/three.js
+[threejs]: https://github.com/mrdoob/three.js
 [cws]: https://chrome.google.com/webstore
 [rome]: http://ro.me/
 [hiring]: http://www.google.de/intl/en/jobs/germanylocations/munich/
@@ -71,3 +73,6 @@ This was the first time I've participated in a podcast of any sort. It was a goo
 [webmplugin]: http://tools.google.com/dlpage/webmmf
 [mozilla]: https://developer.mozilla.org/en/OpenWebApps/The_Manifest
 [labslist]: https://groups.google.com/forum/#!forum/mozilla-labs
+[ffrelease]: http://blog.mozilla.com/blog/2011/04/13/new-channels-for-firefox-rapid-releases/
+[msrelease]: http://ie.microsoft.com/testdrive/
+[kmoo]: https://chrome.google.com/webstore/detail/hhnjdplhmcnkiecampfdgfjilccfpfoe
