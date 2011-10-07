@@ -31,7 +31,7 @@ would instruct a browser that supported the draft standard that it shouldn't tou
 
 You will need to ensure that you can actually _serve_ HTTPS responses for every request (on any port) to your host, however, as HTTP simply won't be an option anymore. This is a Good Thing™, even if it might mean a little work for you up front.
 
-Browser support is relatively good: HSTS is supported now in [Firefox 4+][ff], and Chrome[^2]. [Opera appears to be waiting][opera] for [issues open against the draft standard][issues] to be resolved, and for the draft to move to RFC status. Looking at the list, I don't see any significant upcoming changes to the header structure: I'd recommend implementing it for your sites now.
+None of this is new (just new to me), so browser support is already relatively good: HSTS is supported in [Firefox 4+][ff], and Chrome[^2]. [Opera appears to be waiting][opera] for [issues open against the draft standard][issues] to be resolved, and for the draft to move to RFC status. Looking at the list, I don't see any significant upcoming changes to the header structure: I'd recommend implementing it for your sites now.
 
 ## Sound interesting?
 
