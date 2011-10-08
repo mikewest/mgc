@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Oct 08 02:50:20 +0000 2011
+favorited: false
+geo: null
+id: '122504069641277440'
+id_str: '122504069641277440'
+in_reply_to_screen_name: atmos
+in_reply_to_status_id: 122387241615101953
+in_reply_to_status_id_str: '122387241615101953'
+in_reply_to_user_id: 1438261
+in_reply_to_user_id_str: '1438261'
+place: null
+retweet_count: 0
+retweeted: false
+source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+  for Mac</a>
+text: '@atmos @kurrik: Secure cookies are valuable independent of HSTS, as is the
+  HTTP-&gt;HTTPS redirect. HSTS is an extra layer, not a replacement.'
+truncated: false
+user: null
+...
