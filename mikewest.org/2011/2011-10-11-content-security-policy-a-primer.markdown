@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content Security Policy
+title: "Content Security Policy: A Primer"
 tags:
   - http
   - security
@@ -17,13 +17,13 @@ Teaser:
 
 The web's security model is fundamentally broken, and has been since the beginning. Browsers trust the code they receive from a website completely, so each chunk of JavaScript that executes on a page runs with access to the entire origin's data. Cross-site scripting attacks exploit this trust, injecting malicious code into a site in a wide variety of ways. At best, sites are defaced. At worst, user session data is compromised.
 
-It is, of course, possible to completely eliminate this class of attacks by properly escaping every bit of data that makes it onto the site. A brief glance back at the web's history shows that this defense is unlikely to be effective; given the convoluted set of escaping rules in various HTML contexts, differences in cross-browser implementation, and browser bugs (like [UTF-7 support][utf7]), it's simply a tough problem. Even with our solid, modern understanding of the issue, and a variety of secure frameworks, it remains trivial to accidentally create a hole, and one hole is all it takes.
+It is, of course, possible to completely eliminate this class of attacks by properly escaping every bit of data that makes it onto the site. A brief glance back at the web's history shows that this defense is unlikely to be effective; it's simply a tough problem, given the convoluted set of escaping rules in various HTML contexts, differences in cross-browser implementation, and browser bugs (like [UTF-7 support][utf7]). Even with our solid, modern understanding of the issue, and a variety of secure frameworks, it remains trivial to accidentally create a hole, and one hole is all it takes.
 
-Content Security Policy is a relatively new addition to the web platform that promises to mitigate the risk of XSS attacks by giving administrators fine-grained control over the data and code that ought to be allowed to run on their site. The feature boils down to a whitelisting mechanism for images, script, style, and a variety of other resource types. A site declares an acceptable list of origins for each data type it cares about via a straightforward HTTP header, and browsers that support [the draft specification][spec] simply refuse to load resources that aren't listed. A quick example should make this clear.
+Content Security Policy is a relatively new addition to the web platform that promises to mitigate the risk of XSS attacks by giving administrators fine-grained control over the data and code that ought to be allowed to run on their site. The feature boils down to a whitelisting mechanism for images, script, style, and a variety of other resource types. A site declares an acceptable list of origins for each data type it cares about via a straightforward HTTP header, and browsers that support [the draft specification][spec] (currently Firefox 4+ and Chrome 15+) simply refuse to load resources that aren't listed. A quick example should make this clear.
 
 ## mkw.st's Policies
 
-On [mkw.st][mkwst], I'm using one stylesheet, hosted on `mkw.st`, one of Google's web fonts, and a few inlined `data:` images. I'd like to ensure that that remains the case, and that I don't accidentally load script from my friends at `evil.com`.
+On [mkw.st][mkwst], I'm using one stylesheet hosted on `mkw.st`, one of Google's web fonts, and a few inlined `data:` images. I'd like to ensure that that remains the case, and that I don't accidentally load script from my friends at `evil.com`.
 
 I've configured my server to generate the following headers when loading the site:
 
@@ -59,9 +59,9 @@ In order to function properly, Content Security Policy imposes a [few restrictio
 
 1. CSP enforces a strict separation of behavior and semantics by refusing to execute inline script, and an equally strict separation of presentation and semantics by refusing to apply inline styles. This follows directly in line with the general recommendation of the web standards community, and allows CSP to clearly identify the source of each piece of data on a page. This identification is essential, as without it the whitelisting mechanism is ineffective. In addition, banning inline script and style substantially reduces the effect of cross-site scripting attacks that rely on JavaScript or CSS [reflection][]: attackers will be forced to compromise a whitelisted resource, which is a much higher bar.
 
-    It's fairly obvious that this restriction would block execution of code contained within `<script>` blocks, but also note that it prevents event handlers from being written inline (`<a … onclick="JAVASCRIPT">` ought to be rewritten to use `el.addEventListener(…)`). Likewise, `javascript:` URLs won't work.
+    It's fairly obvious that this restriction will block execution of code contained within `<script>` blocks, but also note that it prevents event handlers from being written inline (`<a … onclick="JAVASCRIPT">` ought to be rewritten to use `addEventListener(…)`). Likewise, `javascript:` URLs won't work.
 
-	It's also the case that `data:` URLs are blocked by default, as they can contain arbitrary content that can't be easily verified as being safe, or as really being intentionally written by your server. If you'd like to allow `data:` URLs, you'll have to do so on a type-by-type basis. See above, for example, where I'm explicitly allowing `data:` URLs for image resources, but not for any other resource type.
+    It's also the case that `data:` URLs are blocked by default, as they can contain arbitrary content that can't be easily verified as being safe, or as really being intentionally written by your server. If you'd like to allow `data:` URLs, you'll have to do so on a type-by-type basis. See above, for example, where I'm explicitly allowing `data:` URLs for image resources, but not for any other resource type.
 
 2. Relatedly, raw strings will not be converted to code. This means that `eval` is right out, as are a variety of other `eval`-like mechanisms (`setTimeout` with a string argument, `new Function(…)`, and so on). Since [`eval` is evil][evil], this isn't a particularly onerous restriction, but it does mean that you'll need to parse JSON content without simply executing it, either with something like [json.js][json] or with a built-in JSON object.
 
@@ -70,10 +70,15 @@ In order to function properly, Content Security Policy imposes a [few restrictio
 
 ## Further Reading
 
-The list of resource types that Content Security Policy supports is extensive. This example touched on supports images, fonts, and objects, and [a complete list can be found in the specification][list]. 
+After this introduction to the feature, I hope you're interested enough to want to play around a bit with the headers on your own sites.
 
+* Mozilla's developer network has a [great series of articles][mdn] that go into a bit more depth, and outline features of CSP that I haven't mentioned at all ([violation reporting][reporting], for instance). 
+
+* The list of resource types that Content Security Policy supports is extensive. This example touched on supports images, fonts, and objects, and [a complete list can be found in the specification][list]. In general, the [draft specification][spec] is quite readable, and is the canonical resource for any question you might have.
+
+
+[mdn]: https://developer.mozilla.org/en/Introducing_Content_Security_Policy
 [list]: https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html#directives
-
 [owasp]: https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
 [ff4]: http://blog.mozilla.com/security/2011/03/22/creating-a-safer-web-with-content-security-policy/
 [spec]: https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html
@@ -83,3 +88,4 @@ The list of resource types that Content Security Policy supports is extensive. T
 [utf7]: http://en.wikipedia.org/wiki/UTF-7#security
 [restrictions]: http://people.mozilla.com/~bsterne/content-security-policy/details.html#restrictions
 [reflection]: http://google-gruyere.appspot.com/part2#2__reflected_xss
+[reporting]: https://developer.mozilla.org/en/Security/CSP/Using_CSP_violation_reports
