@@ -8,6 +8,10 @@ tags:
   - xss
 
 Teaser:
+    The web's security model is fundamentally broken, and has been since the
+    beginning. Content Security Policy is an upcoming feature of the web
+    platform that promises to mitigate the risk of XSS attacks, and it's worth
+    starting to play with now.
 
 ---
 > The browser is not a safe programming environment. It is
