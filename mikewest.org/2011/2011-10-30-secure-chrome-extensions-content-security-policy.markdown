@@ -5,9 +5,15 @@ tags:
   - CSP
   - contentsecuritypolicy
   - chrome
+  - chromium
   - extensions
   - security
   - manifest
+  - introduction
+  - tutorial
+  - header
+  - x-content-security-policy
+  - x-webkit-csp
 
 Teaser:
     Based on the Content Security Policy primer I wrote last week, you should
