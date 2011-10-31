@@ -17,7 +17,7 @@ tags:
 ---
 Pagination is a basic building block of the web, appearing practically everywhere content is displayed.  From a UI perspective, a pagination widget generally ends up being presented in a very straightforward manner as a horizontal list of links, framed by "previous" and "next" links to give the user clear calls to action.  Flickr and CNN provide good examples of this general pattern:
 
-![Pagination widgets on Flickr and CNN](http://mikewest.org/static_content/2010-02-pagination-pattern.png)
+![Pagination widgets on Flickr and CNN](/static_content/2010-02-pagination-pattern.png)
 
 Flickr marks this up as a flat series of `a` tags inside a `div`, CNN as a `ul`, containing one `li` for each page.  And those certainly aren't the only options: while doing a bit of research for a project at work, I came across a much wider than expected variety of markup, and no clear "best practice."
 
@@ -105,7 +105,7 @@ reach for it next time you need a pagination widget.
 [labelledby]:   http://www.w3.org/TR/2009/WD-wai-aria-20091215/states_and_properties#aria-labelledby
 [role]: http://www.paciellogroup.com/blog/?p=106
 [offscreen]: http://accessibilitytips.com/2008/03/05/avoiding-visibility-hidden/
-[example]: http://mikewest.org/static_content/2010-02-pagination-pattern.html
+[example]: /static_content/2010-02-pagination-pattern.html
 [NVDA]: http://www.nvda-project.org/
 [Jaws]: http://www.freedomscientific.com/products/fs/jaws-product-page.asp
 [WindowEyes]: http://www.gwmicro.com/Window-Eyes/

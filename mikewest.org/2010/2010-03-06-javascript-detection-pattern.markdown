@@ -41,8 +41,8 @@ __Update to the Update__:   [Martijn van der Ven][martijn] notes, also rightly, 
 
 [performance]:  http://developer.yahoo.com/performance/rules.html#js_bottom
 [twitter]:      http://twitter.com/
-[demo]:         http://mikewest.org/static_content/2010-03-javascript-detection.html
-[twitterdemo]:  http://mikewest.org/static_content/2010-03-javascript-detection-twitter.html
+[demo]:         /static_content/2010-03-javascript-detection.html
+[twitterdemo]:  /static_content/2010-03-javascript-detection-twitter.html
 [tim]:          http://timhuegdon.com/
 [martijn]:      http://vanderven.se/martijn/
 [global]:       http://dev.w3.org/html5/spec/dom.html#global-attributes
