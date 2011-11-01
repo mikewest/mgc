@@ -21,7 +21,6 @@ Since my talk wasn't recorded (I think mine was the _only_ talk not to be record
 [download]: /file_download/12
 
 <iframe
-  sandbox="allow-scripts allow-forms"
   frameborder="0"
   height="506"
   src="http://www.slideshare.net/slideshow/embed_code/194087"
