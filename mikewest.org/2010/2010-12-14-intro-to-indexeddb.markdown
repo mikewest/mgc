@@ -27,32 +27,24 @@ Video
 -----
 
 <iframe
-  title="'Intro to IndexedDB' on YouTube"
   class="youtube-player"
+  height="370"
+  src="https://www.youtube.com/embed/yRo2hVoHWdQ?start=382"
+  title="'Intro to IndexedDB' on YouTube"
   type="text/html"
   width="606"
-  height="370"
-  src="http://www.youtube.com/embed/yRo2hVoHWdQ?start=382"
-  frameborder="0"
-  style="margin:0 auto;"></iframe>
+  frameborder="0"></iframe>
 
 Embedded Slides
 ---------------
 
-<div style="width:606px;margin:0 auto;" id="__ss_6162787">
-  <strong style="display:block;margin:12px 0 4px">
-    <a
-      href="http://www.slideshare.net/mikewest/intro-to-indexeddb-beta"
-      title="Intro to IndexedDB (Beta)"
-    >
-      Intro to IndexedDB (Beta)
-    </a>
-  </strong>
-  <object id="__sse6162787" width="606" height="506">
-    <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=indexeddb-101214120833-phpapp01&rel=0&stripped_title=intro-to-indexeddb-beta&userName=mikewest" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/>
-    <embed name="__sse6162787" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=indexeddb-101214120833-phpapp01&rel=0&stripped_title=intro-to-indexeddb-beta&userName=mikewest" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="606" height="506"></embed>
-  </object>
-</div>
+<iframe
+  frameborder="0"
+  height="506"
+  src="http://www.slideshare.net/slideshow/embed_code/6162787"
+  title="'Intro to IndexedDB' on Slideshare"
+  width="606"
+  scrolling="no"></iframe>
 
 Slide Transcript
 ----------------
