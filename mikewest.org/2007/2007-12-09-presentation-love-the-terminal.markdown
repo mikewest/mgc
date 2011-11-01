@@ -20,13 +20,11 @@ Since my talk wasn't recorded (I think mine was the _only_ talk not to be record
 [slideshare]: http://www.slideshare.net/mikewest/love-the-terminal/ "Mike West's 'Love The Terminal' on Slideshare"
 [download]: /file_download/12
 
-<div style="width:425px;text-align:left;margin:1em auto;" id="__ss_194087">
-    <object style="margin:0px" width="425" height="355">
-        <param
-            name="movie"
-value="http://static.slideshare.net/swf/ssplayer2.swf?doc=love-the-terminal-1196945419439186-3"/>
-<param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/>
-<embed src="http://static.slideshare.net/swf/ssplayer2.swf?doc=love-the-terminal-1196945419439186-3" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed>
-    </object>
-</div>
-    
+<iframe
+  sandbox="allow-scripts allow-forms"
+  frameborder="0"
+  height="506"
+  src="http://www.slideshare.net/slideshow/embed_code/194087"
+  title="'Intro to IndexedDB' on Slideshare"
+  width="606"
+  scrolling="no"></iframe>
