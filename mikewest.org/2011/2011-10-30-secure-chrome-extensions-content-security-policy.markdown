@@ -15,6 +15,10 @@ tags:
   - x-content-security-policy
   - x-webkit-csp
 
+suggestions:
+  - url: /2011/10/content-security-policy-a-primer
+    title: "Content Security Policy: A Primer"
+
 Teaser:
     Based on the Content Security Policy primer I wrote last week, you should
     have a good idea of what CSP can offer a website developer. What might not
