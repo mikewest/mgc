@@ -1,0 +1,22 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Nov 19 15:06:00 +0000 2011
+favorited: false
+geo: null
+id: '137909495228669952'
+id_str: '137909495228669952'
+in_reply_to_screen_name: blumenberg
+in_reply_to_status_id: 137837595777449984
+in_reply_to_status_id_str: '137837595777449984'
+in_reply_to_user_id: 1665241
+in_reply_to_user_id_str: '1665241'
+place: null
+retweet_count: 0
+retweeted: false
+source: web
+text: '@blumenberg: If you''re using `table` for _layout_ you''re certainly at the
+  wrong place. :) Tables for data are perfect!'
+truncated: false
+user: null
+...
