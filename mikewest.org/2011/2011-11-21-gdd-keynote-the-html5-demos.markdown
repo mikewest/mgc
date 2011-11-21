@@ -48,7 +48,7 @@ something to show here as a stopgap before the video's ready!
 [bostock]: http://bost.ocks.org/mike/
 [d3]: http://mbostock.github.com/d3/
 [pres1]: http://mbostock.github.com/d3/talk/20111116/#0
-[demo1img]: /static_content/2011-11-21-d3.jpg
+[demo1img]: /static_content/20111121-d3.jpg
 
 * Next, I pulled out an oldie-but-goodie: [Joe Lambert's][joe] [Flux
   Slider][flux]. It's a quick demonstration of the power of CSS-based
@@ -62,7 +62,7 @@ something to show here as a stopgap before the video's ready!
 [joe]: http://blog.joelambert.co.uk/
 [flux]: http://www.joelambert.co.uk/flux/transgallery.html
 [code]: https://github.com/joelambert/Flux-Slider/tree/master/js/src
-[demo3img]: /static_content/2011-11-21-fluxslider.jpg
+[demo3img]: /static_content/20111121-fluxslider.jpg
 
 * Obviously, no HTML5 demo is complete without WebGL, and no WebGL demo is
   complete without [Mr.doob][mr] and [three.js][three]. I introduced the topic
@@ -73,7 +73,7 @@ something to show here as a stopgap before the video's ready!
 [mr]: http://mrdoob.com/
 [three]: http://mrdoob.github.com/three.js/
 [kinect]: http://mrdoob.com/lab/javascript/webgl/kinect/
-[demo3img]: /static_content/2011-11-21-mrdoob.jpg
+[demo3img]: /static_content/20111121-mrdoob.jpg
 
 * I followed up the introduction with a [beautiful terrain rendering][terrain]
   from [AlteredQualia][altered]. What I liked most about that demo is the fact
@@ -85,18 +85,19 @@ something to show here as a stopgap before the video's ready!
 [terrain]: http://alteredqualia.com/three/examples/webgl_terrain_dynamic.html
 [altered]: http://alteredqualia.com/
 [rome]: http://ro.me/
-[demo4img]: /static_content/2011-11-21-terrain.jpg
+[demo4img]: /static_content/20111121-terrain.jpg
 
 * Finally, I pulled the [HTML5 Wow Visualizer][viz] from [Eric][e] and
   [Arne][a]'s excellent [I/O 2011 presentation][wow]. It's still the best
   WebAudio API demo out there, clearly demonstrating the power of the analyzer
   and showing off things that simply aren't possible with the `audio` tag.
 
+  [![WebAudio Visualizer demo from HTML5, the how and the wow.][demo5img]][viz]
 [viz]: http://www.htmlfivewow.com/demos/audio-visualizer/index.html
 [e]: https://plus.sandbox.google.com/118075919496626375791/
 [a]: http://blog.roomanna.com/
 [wow]: http://www.htmlfivewow.com/
-[demo5img]: /static_content/2011-11-21-webaudio.jpg
+[demo5img]: /static_content/20111121-webaudio.jpg
 
 And that's it. Fiveish quick demos in about five minutes. I enjoyed it! What did
 you think?
