@@ -93,6 +93,7 @@ something to show here as a stopgap before the video's ready!
   and showing off things that simply aren't possible with the `audio` tag.
 
   [![WebAudio Visualizer demo from HTML5, the how and the wow.][demo5img]][viz]
+
 [viz]: http://www.htmlfivewow.com/demos/audio-visualizer/index.html
 [e]: https://plus.sandbox.google.com/118075919496626375791/
 [a]: http://blog.roomanna.com/
