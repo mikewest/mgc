@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GDD Keynote: The HTML5 Demos"
+title: 'GDD Keynote: The HTML5 Demos'
 tags:
   - gdd
   - gddde
@@ -16,6 +16,13 @@ tags:
   - webaudio
   - mikebostock
   - joelambert
+
+Teaser:
+  I had the opportunity to present a few demos during the Chrome section of 
+  Saturday's Google Developer Day in Berlin (which, incidentally, was a blast).
+  I expect a video to go up at some point in the vaguely near future, but, since
+  I got more than a few questions about it, I'm throwing the links up here as a
+  stopgap before the video's released.
 ---
 I had the opportunity to present a few demos during the Chrome section of 
 Saturday's Google Developer Day in Berlin (which, incidentally, was a blast).
