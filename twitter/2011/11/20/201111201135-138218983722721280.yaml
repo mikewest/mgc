@@ -1,0 +1,50 @@
+---
+contributors: null
+coordinates:
+  coordinates:
+  - 11.785443539999999
+  - 48.352318699999998
+  type: Point
+created_at: Sun Nov 20 11:35:48 +0000 2011
+favorited: false
+geo:
+  coordinates:
+  - 48.352318699999998
+  - 11.785443539999999
+  type: Point
+id: '138218983722721280'
+id_str: '138218983722721280'
+in_reply_to_screen_name: mo_gr
+in_reply_to_status_id: 137824170858921984
+in_reply_to_status_id_str: '137824170858921984'
+in_reply_to_user_id: 39332106
+in_reply_to_user_id_str: '39332106'
+place:
+  attributes: {}
+  bounding_box:
+    coordinates:
+    - - - 11.764119000000001
+        - 48.289802000000002
+      - - 11.893297
+        - 48.289802000000002
+      - - 11.893297
+        - 48.385796999999997
+      - - 11.764119000000001
+        - 48.385796999999997
+    type: Polygon
+  country: Deutschland
+  country_code: DE
+  full_name: Oberding, Erding
+  id: ad2f50942562790b
+  name: Oberding
+  place_type: city
+  url: http://api.twitter.com/1/geo/id/ad2f50942562790b.json
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/#!/download/iphone" rel="nofollow">Twitter for
+  iPhone</a>
+text: '@mo_gr: When most of the local engineers are in Munich, it''s tough to avoid
+  a bit of Bavaria. :)'
+truncated: false
+user: null
+...
