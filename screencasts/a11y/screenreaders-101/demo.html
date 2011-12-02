@@ -1,43 +1,76 @@
 <!doctype html>
 <html>
   <head>
-    <title>Hello, ChromeVox!</title>
+    <title>A ChromeVox demonstration</title>
     <style>
       html {
         font: 2em 'Open Sans';
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#F0F0F0), to(#BEBEBE));
+
+        width: 100%;
+        height: 100%;
+      
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        display: -moz-box;
+        -moz-box-orient: horizontal;
+        -moz-box-pack: center;
+        -moz-box-align: center;
+
+        display: box;
+        box-orient: horizontal;
+        box-pack: center;
+        box-align: center;
+      }
+      body {
+        width: 720px;
+        background: #EEE;
+        border: 5px solid #FFF;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+        border-radius: 10px;
+        padding: 0.5em 1em;
+      }
+      h1 {
+        margin: 0;
       }
       form {
-        border: 1px solid #696969;
+        border: 1px solid #BBB;
         padding: 1em;
         margin-top: 1em;
       }
       label {
-        display: block;
+        display: inline-block;
+        margin-bottom: 0.75em;
       }
       input {
         font-size: 1em;
       }
+      #first, #second, #third {
+        position: relative;
+      }
       #first {
-
+        left: -173px;
       }
       #second {
-
+        left: 8px;
       }
       #third {
-
+        left: 181px;
       }
     </style>
   </head>
   <body>
-    <h1>Hello, ChromeVox!</h1>
+    <h1>Hello, World!</h1>
+    <p>I'm <a href="https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn">ChromeVox</a>, <span id="third">the <abbr title="Document Object Model">DOM</abbr></span> <span id="second">is</span> <span id="first">all I know</span>.</p>
 
-    <p><span id="third">the <abbr title="Document Object Model">DOM</abbr></span> <span id="second">is</span> <span id="first">all I know</span>.</p>
-
-    <form>
+    <form action="https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn">
       <label for="name">What is your name?</label>
       <input id="name" type="text">
       <label for="quest">What is your quest?</label>
-      <input id="quest" type="text">
+      <input id="quest" type="password">
       <label for="color">What is your favourite colour?</label>
       <select id="color">
         <option>Blue!</option>
