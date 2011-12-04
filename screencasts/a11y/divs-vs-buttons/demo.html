@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Divs vs. Buttons</title>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <style>
+      html {
+        font: 2em 'Open Sans';
+        background-image: -webkit-radial-gradient(circle, #F0F0F0, #BEBEBE);
+        background-image: -moz-radial-gradient(circle, #F0F0F0, #BEBEBE);
+
+        width: 100%;
+        height: 100%;
+      
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        display: -moz-box;
+        -moz-box-orient: horizontal;
+        -moz-box-pack: center;
+        -moz-box-align: center;
+
+        display: box;
+        box-orient: horizontal;
+        box-pack: center;
+        box-align: center;
+      }
+      body {
+        width: 720px;
+        background: #EEE;
+        border: 5px solid #FFF;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+        border-radius: 10px;
+        padding: 0.5em 1em;
+      }
+      h1 {
+        margin: 0;
+      }
+
+      section {
+        border: 1px solid #BBB;
+        padding: 1em;
+        width: 483px;
+        display: inline-block;
+      }
+
+      section div, section button {
+        background: -webkit-linear-gradient(white, #CCC);
+        background: -moz-linear-gradient(white, #CCC);
+        border-radius: 0px;
+        border: 1px solid black;
+        color: #222 !important;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif !important;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 36px !important;
+        margin: 10px;
+        padding: 10px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+      }
+      section div:hover, section button:hover {
+        background: -webkit-linear-gradient(white, #CDF);
+        background: -moz-linear-gradient(white, #CDF);
+      }
+      section div:focus, section button:focus {
+        outline: solid 10px purple;
+        outline-offset: 5px;
+      }
+
+      output {
+        display: inline-block;
+        border: 1px solid #BBB;
+        line-height: 142px;
+        width: 161px;
+        text-align: center;
+      }
+
+      textarea {
+        font: 1em Inconsolata, Monospace;
+        width: 654px; 
+        height: 150px;
+        padding: 1em;
+        margin-top: 1em;
+      }
+    </style>
+    <script>
+      function LiveUpdater(code, rendering) {
+        this.code_ = document.querySelector(code);
+        this.rendering_ = document.querySelector(rendering);
+        this.output_ = document.querySelector('output');
+        this.timer_ = null;
+
+        this.addListeners_();
+        this.render_();
+      }
+
+      LiveUpdater.prototype = {
+        code_: null,
+        rendering_: null,
+        timer_: null,
+        addListeners_: function () {
+          this.code_.addEventListener('change', this.codeChanged_.bind(this));
+          this.rendering_.addEventListener('keyup', this.clicked_.bind(this));
+          this.rendering_.addEventListener('click', this.clicked_.bind(this));
+        },
+
+        codeChanged_: function () {
+          window.clearTimeout(this.timer_);
+          this.timer_ = window.setTimeout(this.render_.bind(this), 500);
+        },
+
+        clicked_: function (e) {
+          console.log(e);
+          this.output_.innerText = e.target.nodeName;
+          this.output_.className = e.type;
+        },
+
+        render_: function () {
+          this.rendering_.innerHTML = this.code_.value;
+        }
+      };
+
+      document.addEventListener('DOMContentLoaded', function () {
+        window.LU = new LiveUpdater('#code', '#rendering');
+      });
+    </script>
+  </head>
+  <body>
+    <h1><code>div</code> vs. <code>button</code></h1>
+
+    <section id="rendering"></section>
+    <output for="rendering">&nbsp;</output>
+
+    <textarea id="code">
+&lt;button&gt;This is a button.&lt;/button&gt;
+&lt;div&gt;This is a div.&lt;/div&gt;
+    </textarea>
+</html>
