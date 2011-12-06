@@ -3,6 +3,7 @@
   <head>
     <title>Divs vs. Buttons</title>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='./prettify.css' rel='stylesheet'>
     <style>
       html {
         font: 2em 'Open Sans';
@@ -77,16 +78,26 @@
         line-height: 142px;
         width: 161px;
         text-align: center;
+        color: red;
+        font-weight: 700;
+        opacity: 1;
+      }
+      output.fade {
+        -webkit-transition: color 1s ease;
+        color: rgba(0,0,0,0);
       }
 
-      textarea {
+      pre code {
+        background: #FFF;
+        border: 1px solid #CCC;
+        display: block;
         font: 1em Inconsolata, Monospace;
-        width: 654px; 
-        height: 150px;
-        padding: 1em;
         margin-top: 1em;
+        padding: 1em;
+        width: 654px; 
       }
     </style>
+    <script src='./prettify.js'></script>
     <script>
       function LiveUpdater(code, rendering) {
         this.code_ = document.querySelector(code);
@@ -102,30 +113,44 @@
         code_: null,
         rendering_: null,
         timer_: null,
+        previous_: null,
         addListeners_: function () {
-          this.code_.addEventListener('change', this.codeChanged_.bind(this));
-          this.rendering_.addEventListener('keyup', this.clicked_.bind(this));
+          this.code_.addEventListener('keyup', this.codeChanged_.bind(this));
+          this.code_.addEventListener('blur', function () { prettyPrint(); });
           this.rendering_.addEventListener('click', this.clicked_.bind(this));
         },
 
         codeChanged_: function () {
           window.clearTimeout(this.timer_);
-          this.timer_ = window.setTimeout(this.render_.bind(this), 500);
+          this.timer_ = window.setTimeout(this.render_.bind(this), 10);
         },
 
         clicked_: function (e) {
-          console.log(e);
-          this.output_.innerText = e.target.nodeName;
+          if (e.constructor === KeyboardEvent) {
+            console.log("KeyboardEvent: %d", e.keyCode);
+          } else {
+            console.log(e, typeof e);
+          }
+          this.output_.innerText = "Click!";
           this.output_.className = e.type;
+          window.setTimeout((function () {
+            this.output_.classList.add('fade');
+
+          }).bind(this), 500);
         },
 
         render_: function () {
-          this.rendering_.innerHTML = this.code_.value;
+          if (this.previous_ && this.previous_ == this.code_.innerText)
+            return;
+
+          this.rendering_.innerHTML = this.code_.innerText;
+          this.previous_ = this.code_.innerText;
         }
       };
 
       document.addEventListener('DOMContentLoaded', function () {
         window.LU = new LiveUpdater('#code', '#rendering');
+        prettyPrint();
       });
     </script>
   </head>
@@ -135,8 +160,7 @@
     <section id="rendering"></section>
     <output for="rendering">&nbsp;</output>
 
-    <textarea id="code">
-&lt;button&gt;This is a button.&lt;/button&gt;
-&lt;div&gt;This is a div.&lt;/div&gt;
-    </textarea>
+    <pre><code class='prettyprint lang-html' contenteditable='true' id='code'>&lt;div&gt;
+  Click me!
+&lt;/div&gt;</code></pre>
 </html>
