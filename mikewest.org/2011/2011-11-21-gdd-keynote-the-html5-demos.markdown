@@ -34,12 +34,13 @@ something to show here as a stopgap before the video's ready! _**Update**: The
 [keynote video][keynote] is up on YouTube, and embedded below._
 
 
-<iframe width="740"
-        height="406"
-        src="https://www.youtube.com/embed/xQ92UEDPiZQ?rel=0&start=3540"
-        frameborder="0"
-        title="Google Developer Day Berlin, 2011: Keynote"
-        allowfullscreen></iframe>
+<iframe
+  width="606"
+  height="370"
+  src="https://www.youtube.com/embed/xQ92UEDPiZQ?rel=0&start=3540"
+  frameborder="0"
+  title="Google Developer Day Berlin, 2011: Keynote"
+  allowfullscreen="allowfullscreen"></iframe>
 
 
 [keynote]: https://www.youtube.com/watch?v=xQ92UEDPiZQ
