@@ -18,7 +18,7 @@ I've got a demonstration page here, let's reload it and see how it sounds.
 
 Let's move on to the next element and see how that sounds.
 
->> CHROMEVOX: I'm [Beep] ChromeVox Link. Comma. the DOM Document Object Mode is all I know. Period.
+>> CHROMEVOX: I'm [Beep] ChromeVox Link. Comma. the DOM Document Object Model is all I know. Period.
 
 >> MIKE: Interesting. ChromeVox has read something that's actually different from what I see here. Let's hop into the DOM and figure out why that is.
 
