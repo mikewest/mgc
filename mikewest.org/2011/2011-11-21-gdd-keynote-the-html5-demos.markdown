@@ -68,12 +68,12 @@ something to show here as a stopgap before the video's ready! _**Update**: The
   seen it yet, take a look. It's another open-source library, so fiddle with
   [the code][code] as well.
 
-  [![Flux Slider is pretty, play with it!][demo3img]][flux]
+  [![Flux Slider is pretty, play with it!][demo2img]][flux]
 
 [joe]: http://blog.joelambert.co.uk/
 [flux]: http://www.joelambert.co.uk/flux/transgallery.html
 [code]: https://github.com/joelambert/Flux-Slider/tree/master/js/src
-[demo3img]: /static_content/20111121-fluxslider.jpg
+[demo2img]: /static_content/20111121-fluxslider.jpg
 
 * Obviously, no HTML5 demo is complete without WebGL, and no WebGL demo is
   complete without [Mr.doob][mr] and [three.js][three]. I introduced the topic
