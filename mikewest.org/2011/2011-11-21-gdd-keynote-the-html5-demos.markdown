@@ -30,8 +30,17 @@ I expect a video to go up at some point in the vaguely near future, but, since
 I got more than a few questions about it, I'll throw the links up here with a
 bit of background and credit for each. Incidentally, thanks to [Paul
 Kinlan][paul] for taking [some pictures][pics] during the demos. I'm glad I have
-something to show here as a stopgap before the video's ready!
+something to show here as a stopgap before the video's ready! _**Update**: The
+[keynote video][keynote] is up on YouTube, and embedded below._
 
+<iframe width="740"
+        height="406"
+        src="https://www.youtube.com/embed/xQ92UEDPiZQ?rel=0&start=3540"
+        frameborder="0"
+        title="Google Developer Day Berlin, 2011: Keynote"
+        allowfullscreen></iframe>
+
+[keynote]: https://www.youtube.com/watch?v=xQ92UEDPiZQ
 [paul]: https://plus.google.com/116059998563577101552/
 [pics]: https://plus.google.com/116059998563577101552/posts/18W2deUiGkB
 
