@@ -12,11 +12,11 @@ tags:
   - webdev
 
 Teaser:
-  New Year's resolutions come in all shapes and sizes; if you're a web
+  "New Year's resolutions come in all shapes and sizes; if you're a web
   developer stuck for good ideas of things you could do to improve the world
   (or at least the tiny chunk of it that's concerned with web performance and
   security) I'd like to propose two: secure all your websites, and use a
-  cookieless domain for static assets.
+  cookieless domain for static assets."
 ---
 New Year's resolutions come in all shapes and sizes; if you're a web
 developer stuck for good ideas of things you could do to improve the world
