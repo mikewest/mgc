@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Sat Jan 28 20:29:46 +0000 2012
+favorited: false
+geo: null
+id: '163358123376128001'
+id_str: '163358123376128001'
+in_reply_to_screen_name: lmjabreu
+in_reply_to_status_id: 163352704800931841
+in_reply_to_status_id_str: '163352704800931841'
+in_reply_to_user_id: 7857522
+in_reply_to_user_id_str: '7857522'
+place: null
+possibly_sensitive: false
+retweet_count: 0
+retweeted: false
+source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+text: '@lmjabreu @Paul_Kinlan [https://accounts.google.com/Serv&hellip;250A](https://accounts.google.com/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fchromium%2Fissues%2Fentry%3Ftemplate%3DDefect%2520report%2520from%2520user%26comment%3DChrome%2BVersion%2B%2B%2B%2B%2B%2B%2B%253A%2B%253CCopy%2Bfrom%253A%2B%27about%253Aversion%27%253E%250AOS%2BVersion%253A%2B%250AURLs%2B%28if%2Bapplicable%29%2B%253A%250AOther%2Bbrowsers%2Btested%253A%250A%2B%2BAdd%2BOK%2Bor%2BFAIL%2Bafter%2Bother%2Bbrowsers%2Bwhere%2Byou%2Bhave%2Btested%2Bthis%2Bissue%253A%250A%2B%2B%2B%2B%2BSafari%2B5%253A%250A%2B%2BFirefox%2B4.x%253A%250A%2B%2B%2B%2B%2BIE%2B7%252F8%252F9%253A%250A%250AWhat%2Bsteps%2Bwill%2Breproduce%2Bthe%2Bproblem%253F%250A1.%250A2.%250A3.%250A%250AWhat%2Bis%2Bthe%2Bexpected%2Bresult%253F%250A%250A%250AWhat%2Bhappens%2Binstead%253F%250A%250A%250APlease%2Bprovide%2Bany%2Badditional%2Binformation%2Bbelow.%2BAttach%2Ba%2Bscreenshot%2Bif%250Apossible.%250A%250A)if
+  something doesn''t work: the docs should be up to date. Send me the bug ID: mkwst@chromium.org'
+truncated: false
+user: null
+...
