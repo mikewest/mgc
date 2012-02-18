@@ -15,7 +15,7 @@ Teaser:
    The true rationale is incredibly mundane: hopefully this short summary will clear 
    things up."
 ---
-When you start Chrome, it attempts to connect to three random domains like `aghepodlln` or `lkhjasdnpr`. I've seen a [few][1] [theories][2] about why exactly this happens that brush up against the nefarious. The true rationale is incredibly mundane: hopefully this short summary will clear things up.
+When you start Chrome, it attempts to connect to three random domains like `http://aghepodlln/` or `http://lkhjasdnpr/`. I've seen a [few][1] [theories][2] about why exactly this happens that brush up against the nefarious. The true rationale is incredibly mundane: hopefully this short summary will clear things up.
 
 The goal of the requests is to determine if you're currently on a network that intercepts and redirects requests for nonexistent hostnames. For example, it's not at all uncommon for ISP to transparently redirect failed DNS lookups in order to convert requests like `http://text/` into requests for `http://your.helpful.isp/search?q=text`. Leaving aside a discussion of the rightness or wrongness of these "helpful" activities, this behavior causes problems for Chrome. Specifically, it breaks some heuristics the Omnibox uses to determine whether a user means to _search_ for a specific term, or to visit a non-standard domain name.
 
