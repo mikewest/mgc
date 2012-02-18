@@ -27,7 +27,7 @@ As you can see, this feature is completely broken if your ISP intercepts all suc
 
 This information is used in [`AlternateNavURLFetcher`][8] to determine whether or not an infobar should be shown for a specific Omnibox-generated search. If the `HEAD` request returns the same site as the redirect origin Chrome saw at startup, then it's ignored. If it's a different origin, then a helpful infobar might be in order.
 
-So there you have it. Chrome makes three requests to random domains just after startup in order to provide its Omnibox heuristics with enough information to correctly work out a user's intent. These requests are not sending your valuable data anywhere for nefarious purposes, nor are they useful for tracking purposes. The requests happen in order to fix [crbug.com/18942][crbug], and for no other reason.
+So there you have it. Chrome makes three requests to random domains just after startup in order to provide its Omnibox heuristics with enough information to correctly work out a user's intent. These requests are not sending your valuable data anywhere for nefarious purposes, nor are they useful for tracking purposes. The requests happen in order to fix [crbug.com/18942][9], and for no other reason.
 
 [1]: http://stackoverflow.com/questions/7464378/why-is-google-chrome-pinging-mdioussrvd-and-other-random-hosts-that-dont-reso
 
