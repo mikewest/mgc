@@ -1,0 +1,23 @@
+---
+contributors: null
+coordinates: null
+created_at: Thu Feb 23 12:28:23 +0000 2012
+favorited: false
+geo: null
+id: '172659064722042881'
+id_str: '172659064722042881'
+in_reply_to_screen_name: tpdorsey
+in_reply_to_status_id: 172068786768326656
+in_reply_to_status_id_str: '172068786768326656'
+in_reply_to_user_id: 22045237
+in_reply_to_user_id_str: '22045237'
+place: null
+possibly_sensitive: false
+retweet_count: 0
+retweeted: false
+source: web
+text: '@tpdorsey: Would you mind trying to hit [None](https://mikewest.org/)again
+  in IE9? I''ve changed the SSL settings, and it works for me now.'
+truncated: false
+user: null
+...
