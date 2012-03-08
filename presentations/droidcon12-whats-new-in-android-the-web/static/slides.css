@@ -1,0 +1,465 @@
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Quattrocento Roman Regular'), local('QuattrocentoRoman'), url('../fonts/Quattrocento-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'DroidSansMono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url('../fonts/DroidSansMono.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/OpenSans.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSansItalic'), url('../fonts/OpenSansItalic.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSansBold'), url('../fonts/OpenSansBold.ttf') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSansBoldItalic'), url('../fonts/OpenSansBoldItalic.ttf') format('woff');
+}
+
+html {
+  background: -moz-linear-gradient( top, #444, #000 );
+  background: -webkit-linear-gradient( top, #444, #000 );
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+a, a:visited {
+  color: #22C;
+  text-decoration: none;
+}
+
+#moderator {
+  top: 0.5em;
+  color: #CCC;
+  font: bold 1.2em Helvetica,'Droid Sans',Arial,'Sans Serif';
+  left: 0.5em;
+  position: absolute;
+}
+
+#deck {
+  top: 0.5em;
+  color: #CCC;
+  font: bold 1.2em Helvetica,'Droid Sans',Arial,'Sans Serif';
+  right: 0.5em;
+  position: absolute;
+}
+
+article {
+  font-size: 10px;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+  width: 1024px;
+}
+
+article > p, article > ul {
+  display: none;
+}
+
+article > header,
+article > section,
+article > h2,
+article > aside,
+article > figure,
+article > footer {
+  background-size: contain;
+  background: #FFF url(../static/bottom_bar.png) bottom left no-repeat;
+  border-radius: 10px;
+  height: 700px;
+  left: 12px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 34px;
+  width: 1000px;
+
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+    
+  display: none;
+  -moz-box-orient: vertical;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+
+  display: none;
+  box-orient: vertical;
+  box-align: center;
+  box-pack: center;
+  
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+  -webkit-transform: translate(0,0) translateZ(0);
+}
+
+article > [aria-hidden='false'] {
+  opacity: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+article > .previous, article > .next {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+
+article > .previous {
+  -webkit-transform: translate(-1200px,1200px) rotate(-65deg) scale(0.5);
+}
+article > .next {
+  -webkit-transform: translate(1200px,1200px) rotate(65deg) scale(0.5);
+}
+
+article > h2,
+article > aside {
+  font: 8em 'Open Sans'; /* 'Quattrocento'; */
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #FFF;
+  text-align: center;
+}
+  article > h2 a,
+  article > h2 a:visited {
+    color: #FFF;
+  }
+
+section h1,
+section h2,
+section p,
+header h1,
+header h2,
+footer h1,
+footer h2,
+footer p {
+  font-family: 'Open Sans'; /* Quattrocento'; */
+  font-size: 4.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 3.95rem;
+  color: #666;
+}
+
+header address,
+header address a,
+header address a:visited {
+  font: 2rem 'Open Sans';
+  color: #666;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.amp {
+  font-family: 'hoefler text';
+  font-style: italic;
+}
+
+h1 {
+  color: #007DD6
+}
+
+img {
+  vertical-align: middle;
+}
+
+section h2 {
+  margin-top: 0.25em;
+  font-size: 4em;
+}
+
+/* Image Slides */
+figure {
+  -webkit-box-align: center;
+  -webkit-box-orient: horizontal;
+
+  -moz-box-align: center;
+  -moz-box-orient: horizontal;
+
+  box-align: center;
+  box-orient: horizontal;
+}
+
+figure a {
+  text-decoration: none;
+}
+
+aside a:after,
+figure a:after {
+  background: #CCC;
+  border-radius: 10px;
+  border: 1px solid #666;
+  bottom: -1em;
+  color: #000;
+  content: attr(href);
+  font: 2rem 'DroidSansMono';
+  padding: 0.25em 0.5em;
+  position: absolute;
+  right: 1em;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+img.flat {
+  border-radius: 0;
+  box-shadow: none;
+}
+  article > h2 img.flat,
+  article > aside img.flat {
+    border-radius: 10px 10px 0 0;
+  }
+
+.overlay h2 {
+  background: rgba(255, 255, 255, 0.75);
+  bottom: 1em;
+  font-family: 'Open Sans';
+  font-size: 8em;
+  font-weight: 700;
+  left: 0;
+  margin: 0;
+  padding: 0 40px;
+  position: absolute;
+  width: 920px;
+}
+
+.dark.overlay h2 {
+  background: rgba(0,0,0,0.75);
+  color: #EEE;
+}
+
+.overlay .inline {
+  display: inline-block;
+}
+
+section .overlay {
+  position: absolute;
+  top: 29%;
+  left: 18%;
+  width: 65%;
+  padding: 1em 0 1em 3em;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+  background: rgba(255,255,255,0.9);
+}
+section .overlay li {
+  text-align: left;
+  font-size: 4em;
+  list-style: disc outside;
+}
+section .overlay li li {
+  font-size: 1em;
+}
+
+/* Code Slides */
+section > pre {
+  background: #CCC;
+  border: 1px solid #999;
+  border-width: 1px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+section > pre code {
+  font: 3em 'DroidSansMono', monospace;
+}
+
+section p,
+section li,
+section blockquote,
+footer p,
+footer li,
+footer blockquote {
+  font-family: 'Open Sans'; /* 'Quattrocento'; */
+  font-size: 5em;
+  font-weight: 400;
+  margin: 0.25em 1em;
+  text-align: center;
+}
+
+section p img {
+  border-radius: 0;
+  margin-top: 1em;
+}
+
+section p em {
+  font-style: normal;
+  font-weight: 700;
+  color: #007DD6;
+}
+
+p.casestudy {
+  font-size: 2em;
+}
+
+section ul,
+section li,
+footer ul,
+footer li {
+  list-style: none inside;
+  padding: 0;
+}
+
+section code {
+  font: 1em 'DroidSansMono', monospace;
+  font-weight: 400;
+  color: #333;
+}
+
+section blockquote {
+  background: #CCC;
+  position: relative;
+  border-radius: 100px;
+  padding: 1em;
+}
+
+section blockquote q {
+  font-size: 1.2em;
+}
+section blockquote:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  right: 50%;
+  height: 30px;
+  border-right: 60px solid #CCC;
+  background: #CCC;
+  -webkit-border-bottom-right-radius: 80px 50px;
+  -moz-border-radius-bottomright: 80px 50px;
+  border-bottom-right-radius: 80px 50px;
+  -webkit-transform: translate(0, -2px);
+  -moz-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+}
+
+section blockquote:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  right: 50%;
+  width: 60px;
+  height: 30px;
+  background: white;
+  -webkit-border-bottom-right-radius: 40px 50px;
+  -moz-border-radius-bottomright: 40px 50px;
+  border-bottom-right-radius: 40px 50px;
+  -webkit-transform: translate(-30px, -2px);
+  -moz-transform: translate(-30px, -2px);
+  -ms-transform: translate(-30px, -2px);
+  -o-transform: translate(-30px, -2px);
+  transform: translate(-30px, -2px);
+}
+
+section blockquote + * {
+  margin-top: 1em;
+}
+
+.blocklist {
+  margin: 0;
+  padding: 0;
+}
+
+.blocklist li {
+  text-align: left;
+  font-size: 4rem;
+  line-height: 150px;
+}
+
+.build {
+  opacity: 0;
+}
+.to-build {
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out 0.2s;
+  transition: opacity 0.5s ease-in-out 0.2s;
+}
+.built {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease-in-out 0.2s;
+  transition: opacity 0.5s ease-in-out 0.2s;
+}
+
+@media print {
+  html {
+    background: #000;
+  }
+  body {
+    display: block;
+  }
+  [aria-hidden='true'] {
+    opacity: 1;
+  }
+  article {
+    height: auto;
+    width: auto;
+  }
+  article > header, article > section, article > h2, article > aside, article > footer {
+    position: relative;
+    margin-bottom: 5em;
+    page-break-after: always;
+  }
+  article > h2, article > aside {
+    background-color: #444;
+  }
+}
+
+/* Presentation-specific */
+section.code {
+  background: url(../images/code.jpg) top left no-repeat;
+}

@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# 2011-04-15
+
+CACHE:
+appcache.manifest
+favicon.ico
+fonts/DroidSansMono.ttf
+fonts/OFL.txt
+fonts/Quattrocento-Regular.ttf
+images/bottom_bar.png
+images/chrome_logo.png
+images/chromewebstore_logo.png
+images/chromium_architecture.png
+images/HTML5_3D_Effects_512.png
+images/HTML5_Connectivity_512.png
+images/HTML5_Device_Access_512.png
+images/html5_logo.png
+images/HTML5_Multimedia_512.png
+images/HTML5_Offline_Storage_512.png
+images/HTML5_Performance_512.png
+images/HTML5_Semantics_512.png
+images/HTML5_Styling_512.png
+images/spinning_beachball_of_death.gif
+index.html
+static/slide_controller.js
+static/slides.css
+

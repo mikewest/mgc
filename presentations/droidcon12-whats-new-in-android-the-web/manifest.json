@@ -1,0 +1,16 @@
+{
+  "name": "Hackathon - 2011-08-27",
+  "description": "HTML5 Slidedeck for the GTUG Hackathon - 2011-08-27",
+
+  "version": "1.0.0",
+
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "icons": {
+    "16": "128x128.png",
+    "128": "128x128.png"
+  }
+}
