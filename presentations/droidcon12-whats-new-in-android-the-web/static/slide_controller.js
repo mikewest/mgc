@@ -245,6 +245,9 @@ SlideController.prototype = {
     if (b) {
       b.classList.remove('to-build');
       b.classList.add('built');
+      if (!this.slides_[this.current].querySelector('.to-build')) {
+        this.slides_[this.current].classList.add('fully-built');
+      }
       return b;
     }
     return null;
