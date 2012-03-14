@@ -424,6 +424,9 @@ section blockquote + * {
 
 .blocklist li {
   text-align: left;
+  background: url(./logo/chrome.png) 0 10px no-repeat;
+  background-size: 50px 50px;
+  padding-left: 60px;
 }
 
 .build {

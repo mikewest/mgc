@@ -75,7 +75,14 @@
              width="400">
         <span class="build" style="position: absolute;left: 444px; z-index: 10; top: 269px; font-size: 150px; color: #206dda; text-shadow: 0 0 14px rgba(255, 255, 255, 0.5);">♥</span>
       </section>
-
+      <section style="overflow:hidden;">
+        <img src="./static/logo/bugdroid.png"
+             class="flat"
+             alt=""
+             width="700"
+             style="opacity: 0.3; top: 225px; position: absolute;">
+        <h1 style="position:relative;z-index:5;"><a href="http://goo.gl/GdMjs">~300 million devices</a></h1>
+      </section>
       <section style="overflow:hidden;">
         <img src="./static/logo/bugdroid.png"
              class="flat"
@@ -83,10 +90,6 @@
              width="700"
              style="opacity: 0.3; top: 225px; position: absolute;">
         <h1 style="position:relative;z-index:5;"><a href="http://goo.gl/GdMjs">850,000 device<br> activations daily</a></h1>
-        <!--
-        <img src="./images/funnygraph.png" alt="That means we'll be activating one device per person per day in 2023. Ish."
-             class="build" style="position: absolute;z-index: 2;left: 195px;">
-        -->
       </section>
       <section style="overflow:hidden;">
         <img src="./static/logo/bugdroid.png"
@@ -101,14 +104,14 @@
       <section style="overflow:hidden;" id="gateway">
         <style>
           #gateway img.droid {
-            -webkit-transition: all 3s ease; 
-            -moz-transition: all 3s ease; 
+            -webkit-transition: all 5s ease; 
+            -moz-transition: all 5s ease; 
             top: 261px;
             left: 100px;
             position: absolute;
           }
           #gateway[aria-hidden=false] img.droid {
-            top: 125px;
+            top: 100px;
           }
         </style>
         <img src="./static/logo/bugdroid.png"
@@ -137,6 +140,10 @@
       </figure>
 
       <figure>
+        <img src="./images/multiprocess.png" alt="Chrome for Android is not Chrome Light. It brings a powerful, well-tested multiprocess architecture to Android.">
+      </figure>
+
+      <figure>
         <img src="./images/html5test.png" alt="Chrome brings serious HTML5 chops." width="900">
       </figure>
 
@@ -145,17 +152,36 @@
       </figure>
 
       <figure class="overlay dark">
-      <a href="http://goo.gl/RnlTU"><img src="./images/visualtools.jpeg" width="1000" height="700"></a>
-        <h2>Visuals</h2>
+        <a href="http://goo.gl/RnlTU"><img src="./images/visualtools.jpeg" width="1000" height="700"></a>
       </figure>
 
       <section>
+        <h1>Visuals</h1>
         <ul class="blocklist">
           <li><code>position: fixed;</code></li>
           <li>Hardware accelerated canvas</li>
           <li>3D CSS Transforms/Transitions</li>
           <li><code>requestAnimationFrame</code></li>
-          <li>(Early) camera API via<br> <code>&lt;input accept=""&gt;</code></li>
+          <li><code>overflow-scroll: touch</code></li>
+          <li>Flexbox (v1)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Performance</h1>
+        <ul class="blocklist">
+          <li>Web Sockets</li>
+          <li>Web Workers</li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Device APIs</h1>
+        <ul class="blocklist">
+          <li>Geolocation</li>
+          <li>Orientation</li>
+          <li>Early camera API via<br> <code>&lt;input accept=""&gt;</code></li>
+          <li>Android's special URLs (e.g. <code>tel:</code>, <code>geo:</code>)</li>
         </ul>
       </section>
 
@@ -232,6 +258,9 @@ function onInitFs() {
 
       <section>
         <h1>Remote Debugging</h1>
+        <img src="./images/debuggingSetup.png" class="flat" width="900">
+      </section>
+      <section>
         <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/s4zpL4VBbuU?rel=0" frameborder="0" allowfullscreen></iframe>
       </section>
       <section>
@@ -243,6 +272,11 @@ function onInitFs() {
         </ul>
       </section>
 
+      <section class="overlay dark">
+        <img src="./images/build.chromium.png" style="position: absolute; top: 0; left: 0;">
+        <img src="./images/build.android.png" style="position: absolute; top: 0; left: 0;" class="build">
+        <h2>Unforking</h2>
+      </section>
 
       <section>
         <h1>We need your help!</h1>
