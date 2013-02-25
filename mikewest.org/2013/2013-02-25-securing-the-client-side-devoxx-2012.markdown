@@ -60,14 +60,15 @@ the video and slides.
 Video
 -----
 
-<object width="395" height="395">
-  <param name="movie" value="http://www.parleys.com/dist/share/parleysshare.swf"/>
-  <param name="allowFullScreen" value="true"/>
-  <param name="wmode" value="direct"/>
-  <param name="bgcolor" value="#222222"/>
-  <param name="flashVars" value="sv=true&amp;pageId=3521"/>
-  <embed src="http://www.parleys.com/dist/share/parleysshare.swf" type="application/x-shockwave-flash" flashVars="sv=true&amp;pageId=3521" allowfullscreen="true" bgcolor="#222222" width="395" height="395"/>
-</object>
+<iframe
+  src="http://www.parleys.com/dist/share/parleysshare.swf?sv=true&pageId=3521"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"
+  frameborder="0"
+  title="'Securing the Client Side' -- Devoxx 2012: Video"
+  width="606"
+  height="403"></iframe>
 
 Slides
 ------
@@ -77,9 +78,10 @@ Slides
   allowfullscreen="true"
   mozallowfullscreen="true"
   webkitallowfullscreen="true"
-  title="'Securing the Client Side' -- Devoxx 2012"
-  width="740"
-  height="479"></iframe>
+  frameborder="0"
+  title="'Securing the Client Side' -- Devoxx 2012: Slides"
+  width="606"
+  height="403"></iframe>
 
 Transcript
 ----------
