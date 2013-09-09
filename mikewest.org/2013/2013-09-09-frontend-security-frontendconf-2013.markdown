@@ -31,8 +31,8 @@ Video
 -----
 
 <iframe
-  width="740"
-  height="555"
+  width="606"
+  height="455"
   src="https://www.youtube.com/embed/fYjO5pIY1mY?rel=0"
   frameborder="0"
   title="'Frontend Security' - Frontend Conf, Zürich 2013"
@@ -52,8 +52,8 @@ Slides
   webkitallowfullscreen="true"
   frameborder="0"
   title="'Securing the Client Side' -- Devoxx 2012: Slides"
-  width="740"
-  height="403"></iframe>
+  width="606"
+  height="516"></iframe>
 
 The [slides are up on Speaker Deck][slides] (which is awesome), and I actually
 used Speaker Deck to _present_ the slides from someone else's laptop since my
