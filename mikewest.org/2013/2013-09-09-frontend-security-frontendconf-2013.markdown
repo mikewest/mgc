@@ -35,7 +35,7 @@ Video
   height="455"
   src="https://www.youtube.com/embed/fYjO5pIY1mY?rel=0"
   frameborder="0"
-  title="'Frontend Security' - Frontend Conf, Zürich 2013"
+  title="Video: 'Frontend Security' - Frontend Conf, Zürich 2013"
   allowfullscreen="allowfullscreen"></iframe>
 
 The video is 48m long, fully captioned, and [up on YouTube for your viewing
@@ -51,7 +51,7 @@ Slides
   mozallowfullscreen="true"
   webkitallowfullscreen="true"
   frameborder="0"
-  title="'Securing the Client Side' -- Devoxx 2012: Slides"
+  title="Slides: 'Frontend Security' - Frontend Conf, Zürich 2013"
   width="606"
   height="516"></iframe>
 
